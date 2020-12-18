@@ -12,7 +12,7 @@ public class WinDoor : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         LoadNextScene();
     }

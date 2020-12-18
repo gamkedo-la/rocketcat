@@ -5,14 +5,14 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    Rigidbody rb;
+    Rigidbody2D rb;
     [SerializeField] int rocketJumpForce = 10;
     bool clickDetected = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
 
@@ -36,22 +36,22 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey("d") || Input.GetKey("right"))
         {
-            rb.velocity = new Vector3(2, rb.velocity.y, 0);
+            rb.velocity = new Vector2(2, rb.velocity.y);
         }
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
-            rb.velocity = new Vector3(-2, rb.velocity.y, 0);
+            rb.velocity = new Vector2(-2, rb.velocity.y);
         }
         //Regular Jump
         else if (Input.GetKey("space"))
         {
-            rb.velocity = new Vector3(rb.velocity.x, 1, 0);
+            rb.velocity = new Vector2(rb.velocity.x, 1);
         }
         //Rocket Jump
         else if (clickDetected)
         {
             clickDetected = false;
-            rb.velocity = new Vector3(rb.velocity.x, rocketJumpForce, 0);
+            rb.velocity = new Vector2(rb.velocity.x, rocketJumpForce);
             Debug.Log(rb.velocity);
         }
     }
