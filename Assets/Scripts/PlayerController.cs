@@ -6,7 +6,8 @@ public class PlayerController : MonoBehaviour
 {
 
     Rigidbody rb;
-    [SerializeField] int rocketJumpHeight = 10;
+    [SerializeField] int rocketJumpForce = 10;
+    bool clickDetected = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,15 @@ public class PlayerController : MonoBehaviour
     }
 
 
+    private void Update()
+    {
 
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            clickDetected = true;
+        }
+    }
 
     private void PlayerMovement()
     {
@@ -39,9 +48,11 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector3(rb.velocity.x, 1, 0);
         }
         //Rocket Jump
-        else if (Input.GetMouseButtonDown(0))
+        else if (clickDetected)
         {
-            rb.velocity = new Vector3(rb.velocity.x, rocketJumpHeight, 0);
+            clickDetected = false;
+            rb.velocity = new Vector3(rb.velocity.x, rocketJumpForce, 0);
+            Debug.Log(rb.velocity);
         }
     }
 }
