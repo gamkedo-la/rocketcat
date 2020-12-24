@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
         {
             clickDetected = false;
             rb.velocity = new Vector2(rb.velocity.x, rocketJumpForce);
-            Debug.Log(rb.velocity);
+            //Debug.Log(rb.velocity);
         }
     }
 }
