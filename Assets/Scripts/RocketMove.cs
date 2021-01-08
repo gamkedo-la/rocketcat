@@ -26,16 +26,17 @@ public class RocketMove : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         DestroyObjectDelayed();
         {
             Destroy(gameObject, deathDelay);
         }
 
-        if (CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            Destroy(col.gameObject);
+            Destroy(other.gameObject);
+            Debug.Log("Enemy Hit");
         }
 
     }
