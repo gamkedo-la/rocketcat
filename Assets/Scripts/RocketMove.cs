@@ -5,6 +5,9 @@ using UnityEngine;
 public class RocketMove : MonoBehaviour
 {
     Rigidbody2D rb;
+        public int deathDelay = 1;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,4 +19,26 @@ public class RocketMove : MonoBehaviour
     {
         rb.velocity = transform.right * 10.0f;
     }
+
+    void DestroyObjectDelayed()
+    {
+        Destroy(gameObject, deathDelay);
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        DestroyObjectDelayed();
+        {
+            Destroy(gameObject, deathDelay);
+        }
+
+        if (CompareTag("Enemy"))
+        {
+            Destroy(col.gameObject);
+        }
+
+    }
+
+
 }

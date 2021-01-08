@@ -8,6 +8,7 @@ public class RocketStart : MonoBehaviour
     public GameObject rocketPrefab;
     public Transform rocketFrom;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +25,10 @@ public class RocketStart : MonoBehaviour
         {
             GameObject.Instantiate(rocketPrefab, rocketFrom.position, rocketFrom.rotation, null);
         }
+        
+
+
+
     }
+    
 }
