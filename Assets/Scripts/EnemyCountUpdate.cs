@@ -25,8 +25,19 @@ public class EnemyCountUpdate : MonoBehaviour
 
     public void UpdateCounter()
     {
+        Debug.Log("Updating Counter");
         GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
         int countNow = enemyList.Length;
         displayText.text = countNow + "/" + startCount;
+    }
+    public void UpdateCounterNextFrame()
+    {
+        StartCoroutine(WaitFrameForUI());
+    }
+
+    IEnumerator WaitFrameForUI()
+    {
+        yield return new WaitForEndOfFrame();
+        UpdateCounter();
     }
 }

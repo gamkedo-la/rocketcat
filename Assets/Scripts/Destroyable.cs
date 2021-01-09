@@ -8,10 +8,9 @@ public class Destroyable : MonoBehaviour
     {
         Debug.Log("Play Animation, etc");
         Destroy(gameObject);
-        gameObject.tag = ""; //So it won't get counted in UI update
-        EnemyCountUpdate.instance.UpdateCounter();
+        EnemyCountUpdate.instance.UpdateCounterNextFrame();
     }
-
+    
 
 
 }

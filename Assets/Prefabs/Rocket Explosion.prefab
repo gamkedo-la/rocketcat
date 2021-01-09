@@ -4825,3 +4825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 297514c1c7de4cd468d92163ef8c6b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionRadius: 2
+  coRadius: 1
+  timeBeforeDestructionParticlesFinish: 2
+  explosionMultiplier: 500

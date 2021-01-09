@@ -18,7 +18,7 @@ public class Explosion : MonoBehaviour
             Rigidbody2D rb = pushStuff[i].GetComponent<Rigidbody2D>();
             if (rb)
             {
-                rb.AddForce((rb.transform.position - transform.position) * explosionMultiplier);
+                rb.AddForce((rb.transform.position - transform.position).normalized * explosionMultiplier);
             }
         }
         Collider2D[] killStuff = Physics2D.OverlapCircleAll(transform.position, coRadius);
