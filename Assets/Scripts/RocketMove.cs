@@ -5,8 +5,8 @@ using UnityEngine;
 public class RocketMove : MonoBehaviour
 {
     Rigidbody2D rb;
-        public int deathDelay = 1;
-    
+    public int deathDelay = 1;
+    public GameObject explosionPrefab;
     
     // Start is called before the first frame update
     void Start()
@@ -29,9 +29,7 @@ public class RocketMove : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         DestroyObjectDelayed();
-        {
-            Destroy(gameObject, deathDelay);
-        }
+        Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 
         if (other.gameObject.CompareTag("Enemy"))
         {

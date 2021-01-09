@@ -34,25 +34,27 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerMovement()
     {
+        float hSpeed = 0.1f;
+        float jumpSpeed = 1f;
+
+
         if (Input.GetKey("d") || Input.GetKey("right"))
         {
-            rb.velocity = new Vector2(2, rb.velocity.y);
+            rb.velocity += new Vector2(hSpeed, 0.0f);
         }
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
-            rb.velocity = new Vector2(-2, rb.velocity.y);
+            rb.velocity += new Vector2(-hSpeed, 0.0f);
         }
         //Regular Jump
         else if (Input.GetKey("space"))
         {
-            rb.velocity = new Vector2(rb.velocity.x, 1);
+            rb.velocity += new Vector2(0.0f, jumpSpeed);
         }
-        //Rocket Jump
-        else if (clickDetected)
+        //Rocket Fired
+        if (clickDetected)
         {
             clickDetected = false;
-            rb.velocity = new Vector2(rb.velocity.x, rocketJumpForce);
-            //Debug.Log(rb.velocity);
         }
     }
 }

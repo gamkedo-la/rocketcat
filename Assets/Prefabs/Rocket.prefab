@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8623470384260996060}
   - component: {fileID: 8623470384260996034}
   - component: {fileID: 8623470384260996061}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 8623470384340107028}
   - component: {fileID: 8623470384340107034}
   - component: {fileID: 8623470384340107029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 8623470384722821153}
   - component: {fileID: 6033421415054007501}
   - component: {fileID: 3079226394390493571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,6 +231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 041afca0c21b11e48b5d04cac54c65e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathDelay: 1
+  explosionPrefab: {fileID: 6028776025102727169, guid: 48c2af8bf225e124dac27affb5c36c2c,
+    type: 3}
 --- !u!50 &3079226394390493571
 Rigidbody2D:
   serializedVersion: 4
