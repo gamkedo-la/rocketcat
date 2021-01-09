@@ -20,21 +20,17 @@ public class RocketMove : MonoBehaviour
         rb.velocity = transform.right * 10.0f;
     }
 
-    void DestroyObjectDelayed()
-    {
-        Destroy(gameObject, deathDelay);
 
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        DestroyObjectDelayed();
+        Destroy(gameObject);
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
-
-        if (other.gameObject.CompareTag("Enemy"))
+        Destroyable dScript = other.gameObject.GetComponent<Destroyable>();
+        if (dScript)
         {
-            Destroy(other.gameObject);
-            Debug.Log("Enemy Hit");
+            //dScript.DestroySelf(); //Happens from the explosion radius instead 
+            Debug.Log("Direct Hit");
         }
 
     }

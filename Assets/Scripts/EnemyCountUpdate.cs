@@ -1,0 +1,32 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class EnemyCountUpdate : MonoBehaviour
+{
+    public static EnemyCountUpdate instance;
+    int startCount;
+    Text displayText;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
+        startCount = enemyList.Length;
+        displayText = gameObject.GetComponent<Text>();
+        UpdateCounter();
+    }
+
+    public void UpdateCounter()
+    {
+        GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
+        int countNow = enemyList.Length;
+        displayText.text = countNow + "/" + startCount;
+    }
+}
