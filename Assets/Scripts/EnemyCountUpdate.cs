@@ -8,6 +8,8 @@ public class EnemyCountUpdate : MonoBehaviour
     public static EnemyCountUpdate instance;
     int startCount;
     Text displayText;
+    GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
+    public float enemyWinValue = 0f;
 
     private void Awake()
     {
@@ -30,6 +32,8 @@ public class EnemyCountUpdate : MonoBehaviour
         int countNow = enemyList.Length;
         displayText.text = countNow + "/" + startCount;
     }
+ 
+
     public void UpdateCounterNextFrame()
     {
         StartCoroutine(WaitFrameForUI());

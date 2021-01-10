@@ -17,6 +17,6 @@ public class WinDoor : MonoBehaviour
         if (!other.gameObject.CompareTag("Player"))
             return;
 
-        LoadNextScene();
+            LoadNextScene();
     }
 }
