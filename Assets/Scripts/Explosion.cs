@@ -24,6 +24,11 @@ public class Explosion : MonoBehaviour
                 }
                 Vector3 pushFrom = transform.position + Vector3.up * -1.5f;
                 rb.AddForce((rb.transform.position - pushFrom).normalized * explosionMultiplier);
+                PlayerController pc = pushStuff[i].GetComponent<PlayerController>();
+                if(pc)
+                {
+                    pc.BumpedByRocket();
+                }
             }
         }
         Collider2D[] killStuff = Physics2D.OverlapCircleAll(transform.position, coRadius);

@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     [SerializeField] int rocketJumpForce = 10;
     bool isOnGround = false;
+    bool rocketBumped = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +22,16 @@ public class PlayerController : MonoBehaviour
         PlayerMovement();
     }
 
+    public void BumpedByRocket()
+    {
+        rocketBumped = true;
+    }
 
     private void Update()
     {
         float jumpSpeed = 10f;
         int groundMask = ~LayerMask.GetMask("Player", "PlayerShot", "Explosions"); //detect anything but these  
-        isOnGround = Physics2D.OverlapCircleAll(transform.position + Vector3.down, 0.49f, groundMask).Length > 0;
+        isOnGround = Physics2D.OverlapCircleAll(transform.position + Vector3.down * 0.6f, 0.49f, groundMask).Length > 0;
 
         //Keys That Aren't Held 
         if (Input.GetKeyDown("space"))
@@ -34,9 +39,10 @@ public class PlayerController : MonoBehaviour
             if (isOnGround)
             {
                 rb.velocity += new Vector2(0.0f, jumpSpeed);
+                rocketBumped = false;
             }
         }
-        else if (Input.GetKeyUp("space"))
+        else if (Input.GetKeyUp("space") && rocketBumped == false)
         {
             float capVerticalSpeedToFall = 3.5f;
             if (rb.velocity.y > capVerticalSpeedToFall)
