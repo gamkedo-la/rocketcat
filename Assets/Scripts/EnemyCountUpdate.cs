@@ -30,7 +30,7 @@ public class EnemyCountUpdate : MonoBehaviour
         Debug.Log("Updating Counter");
         GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
         int countNow = enemyList.Length;
-        displayText.text = countNow + "/" + startCount;
+        displayText.text = (startCount - countNow) + "/" + startCount;
     }
  
 
