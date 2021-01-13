@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     {
 
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && (!PauseControl.gameIsPaused))
         {
             clickDetected = true;
         }
