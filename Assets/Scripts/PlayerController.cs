@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 {
 
     Rigidbody2D rb;
-    [SerializeField] int rocketJumpForce = 10;
     bool isOnGround = false;
     bool rocketBumped = false;
 
