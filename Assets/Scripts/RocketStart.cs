@@ -20,7 +20,7 @@ public class RocketStart : MonoBehaviour
         //transform.LookAt(testTarget);
         float ang = Mathf.Atan2(testTarget.position.y - transform.position.y, testTarget.position.x - transform.position.x);
         transform.rotation = Quaternion.Euler(0.0f, 0.0f, ang * Mathf.Rad2Deg);
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && (!PauseControl.gameIsPaused))
         {
             GameObject.Instantiate(rocketPrefab, rocketFrom.position, rocketFrom.rotation, null);
             Debug.Log("Rocket Launch");
