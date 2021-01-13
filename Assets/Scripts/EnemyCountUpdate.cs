@@ -7,8 +7,8 @@ public class EnemyCountUpdate : MonoBehaviour
 {
     public static EnemyCountUpdate instance;
     int startCount;
+    int currentCount;
     Text displayText;
-    GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
     public float enemyWinValue = 0f;
 
     private void Awake()
@@ -20,21 +20,28 @@ public class EnemyCountUpdate : MonoBehaviour
     void Start()
     {
         GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
-        startCount = enemyList.Length;
+        currentCount = startCount = enemyList.Length;
         displayText = gameObject.GetComponent<Text>();
-        UpdateCounter();
+        UpdateCounter(false);
     }
 
-    public void UpdateCounter()
+    public bool AllEnemiesAreDefeated()
+    {
+        return currentCount == 0;
+    }
+
+    public void UpdateCounter(bool removedTarget)
     {
         Debug.Log("Updating Counter");
-        GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
-        int countNow = enemyList.Length;
-        displayText.text = (startCount - countNow) + "/" + startCount;
+        if(removedTarget)
+        {
+            currentCount--;
+        }
+        displayText.text = (startCount - currentCount) + "/" + startCount;
     }
  
 
-    public void UpdateCounterNextFrame()
+    public void RemoveFromCounterNextFrame()
     {
         StartCoroutine(WaitFrameForUI());
     }
@@ -42,6 +49,6 @@ public class EnemyCountUpdate : MonoBehaviour
     IEnumerator WaitFrameForUI()
     {
         yield return new WaitForEndOfFrame();
-        UpdateCounter();
+        UpdateCounter(true);
     }
 }

@@ -14,9 +14,9 @@ public class WinDoor : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.gameObject.CompareTag("Player"))
-            return;
-
+        if (other.gameObject.CompareTag("Player") && EnemyCountUpdate.instance.AllEnemiesAreDefeated())
+        {
             LoadNextScene();
+        }
     }
 }
