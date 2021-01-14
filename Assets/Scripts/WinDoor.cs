@@ -12,6 +12,15 @@ public class WinDoor : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
+    public void DoorColorChange()
+    {
+        if (EnemyCountUpdate.instance.AllEnemiesAreDefeated())
+        {
+            var doorColor = gameObject.GetComponent<Renderer>();
+            doorColor.material.SetColor("_Color", Color.green);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player") && EnemyCountUpdate.instance.AllEnemiesAreDefeated())
@@ -19,4 +28,10 @@ public class WinDoor : MonoBehaviour
             LoadNextScene();
         }
     }
+
+    public void Update()
+    {
+        DoorColorChange();
+    }
+
 }
