@@ -204,7 +204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59143e35a75be7345a161a9e7989f9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rocketJumpForce: 10
 --- !u!70 &2851346441125246776
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -292,6 +291,8 @@ MonoBehaviour:
   rocketPrefab: {fileID: 8623470384722821152, guid: efc5ca89b3bb8a74e841a761e58f2989,
     type: 3}
   rocketFrom: {fileID: 2851346440873825493}
+  rocketExplodeSound: {fileID: 8300000, guid: 273c7d91367cb1a47bfb23621653c5eb, type: 3}
+  soundVolume: 0.5
 --- !u!1001 &1013161095958071815
 PrefabInstance:
   m_ObjectHideFlags: 0
