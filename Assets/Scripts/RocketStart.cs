@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RocketStart : MonoBehaviour
 {
@@ -20,20 +21,22 @@ public class RocketStart : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    { 
+        RocketCreated();
+    }
+
+    private void RocketCreated()
     {
         //transform.LookAt(testTarget);
         float ang = Mathf.Atan2(testTarget.position.y - transform.position.y, testTarget.position.x - transform.position.x);
         transform.rotation = Quaternion.Euler(0.0f, 0.0f, ang * Mathf.Rad2Deg);
-        if (Input.GetMouseButtonDown(0) && (!PauseControl.gameIsPaused))
+        if (Input.GetMouseButtonDown(0) && (!PauseControl.gameIsPaused) && (!RocketCountUpdate.instance.RocketAmmoLimit()))
         {
             GameObject.Instantiate(rocketPrefab, rocketFrom.position, rocketFrom.rotation, null);
             Debug.Log("Rocket Launch");
             AudioSource.PlayClipAtPoint(rocketExplodeSound, Camera.main.transform.position, soundVolume);
+            RocketCountUpdate.instance.AddFromCounterNextFrame();
         }
-        
-
-
-
     }
-    
+
 }
