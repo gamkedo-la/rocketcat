@@ -20,12 +20,16 @@ public class RocketCountUpdate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        RocketReset();
+    }
+
+    public void RocketReset()
+    {
         rocketCount = 12;
         displayText = gameObject.GetComponent<Text>();
         displayText.text = rocketCount + "/" + rocketLimit;
         UpdateCounter(false);
     }
-
 
     public void UpdateCounter(bool rocketAmmoAtLimit)
     {
