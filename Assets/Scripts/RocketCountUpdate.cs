@@ -27,7 +27,7 @@ public class RocketCountUpdate : MonoBehaviour
     {
         rocketCount = 12;
         displayText = gameObject.GetComponent<Text>();
-        displayText.text = rocketCount + "/" + rocketLimit;
+        displayText.text = "Rockets " + rocketCount + "/" + rocketLimit;
         UpdateCounter(false);
     }
 
@@ -38,7 +38,7 @@ public class RocketCountUpdate : MonoBehaviour
         {
             rocketCount--;
         }
-        displayText.text = rocketCount + "/" + rocketLimit;
+        displayText.text = "Rockets " + rocketCount + "/" + rocketLimit;
     }
 
     public void AddFromCounterNextFrame()
