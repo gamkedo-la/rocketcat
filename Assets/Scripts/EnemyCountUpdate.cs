@@ -37,7 +37,7 @@ public class EnemyCountUpdate : MonoBehaviour
         {
             currentCount--;
         }
-        displayText.text = "Enemies " + (startCount - currentCount) + "/" + startCount;
+        displayText.text = "Enemies: " + (startCount - currentCount) + "/" + startCount;
     }
  
 

@@ -38,7 +38,7 @@ public class RocketCountUpdate : MonoBehaviour
         {
             rocketCount--;
         }
-        displayText.text = "Rockets " + rocketCount + "/" + rocketLimit;
+        displayText.text = "Rockets: " + rocketCount;
     }
 
     public void AddFromCounterNextFrame()
