@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 2851346442260732604}
   m_Layer: 9
   m_Name: Rocket Launcher
-  m_TagString: Untagged
+  m_TagString: Rocket Launcher
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,6 +272,7 @@ Transform:
   - {fileID: 686167666304413164}
   - {fileID: 2851346440417606492}
   - {fileID: 2851346440873825493}
+  - {fileID: 2699265874602226488}
   m_Father: {fileID: 2851346441125246777}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -287,7 +288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0d2ed7ee8a8e94eb2ce67c8d0f8181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testTarget: {fileID: 0}
+  testTarget: {fileID: 8264494779415060760, guid: 36f0287e325f6f54d85a6aa0f31fda72,
+    type: 3}
   rocketPrefab: {fileID: 8623470384722821152, guid: efc5ca89b3bb8a74e841a761e58f2989,
     type: 3}
   rocketFrom: {fileID: 2851346440873825493}
@@ -360,6 +362,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RocketLauncher
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e55bbb529b13c2c45b3ba24f5abfb656,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e55bbb529b13c2c45b3ba24f5abfb656, type: 3}
 --- !u!4 &686167666304413164 stripped
@@ -367,4 +374,84 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e55bbb529b13c2c45b3ba24f5abfb656,
     type: 3}
   m_PrefabInstance: {fileID: 1013161095958071815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2521735963592529107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2851346442260732605}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_Name
+      value: RocketLauncherAlien
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 148966d85a7f8144aacdd0aa8ec7c4ce, type: 3}
+--- !u!4 &2699265874602226488 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 148966d85a7f8144aacdd0aa8ec7c4ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 2521735963592529107}
   m_PrefabAsset: {fileID: 0}
