@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2829087726964306269}
   - component: {fileID: 2829087726964306271}
   - component: {fileID: 4430055084365399533}
+  - component: {fileID: -7065530665977253642}
   m_Layer: 12
   m_Name: Enemy Flying Mech
   m_TagString: Enemy
@@ -83,6 +84,25 @@ CircleCollider2D:
   m_Offset: {x: 0.14340496, y: 1.1473308}
   serializedVersion: 2
   m_Radius: 2.7356615
+--- !u!95 &-7065530665977253642
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829087726964306267}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: ccf73345c56ff5c438ce96d055c1da55, type: 3}
+  m_Controller: {fileID: 9100000, guid: f27a9b75d1c56214fb0a9035db2d1746, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4020401138027720480
 GameObject:
   m_ObjectHideFlags: 0
