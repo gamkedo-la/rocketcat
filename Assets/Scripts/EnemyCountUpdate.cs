@@ -20,7 +20,6 @@ public class EnemyCountUpdate : MonoBehaviour
     void Start()
     {
         GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
-        EdgeArrows.pointAt = enemyList[0].transform;
         currentCount = startCount = enemyList.Length;
         displayText = gameObject.GetComponent<Text>();
         UpdateCounter(false);
@@ -36,6 +35,11 @@ public class EnemyCountUpdate : MonoBehaviour
         if(removedTarget)
         {
             currentCount--;
+        }
+        if (currentCount == 1)
+        {
+            GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
+            EdgeArrows.pointAt = enemyList[0].transform;
         }
         displayText.text = "Enemies: " + (startCount - currentCount) + "/" + startCount;
     }

@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     bool isOnGround = false;
     bool rocketBumped = false;
-    Vector2 velWhenBumped = Vector2.zero;
+    //Vector2 velWhenBumped = Vector2.zero;
 
     // Start is called before the first frame update
     void Start()
@@ -25,10 +25,10 @@ public class PlayerController : MonoBehaviour
 
     public void BumpedByRocket()
     {
-        if(rocketBumped == false)
+       /* if(rocketBumped == false)
         {
             rb.velocity = velWhenBumped;
-        }
+        }*/
         rocketBumped = true;
     }
 
@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity += new Vector2(0.0f, jumpSpeed);
                 rocketBumped = false;
-                velWhenBumped = Vector2.zero;
+                //velWhenBumped = Vector2.zero;
             }
         }
         else if (Input.GetKeyUp("space") && rocketBumped == false)
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
             float capVerticalSpeedToFall = 3.5f;
             if (rb.velocity.y > capVerticalSpeedToFall)
             {
-                velWhenBumped = rb.velocity;
+                //velWhenBumped = rb.velocity;
                 rb.velocity = new Vector2(rb.velocity.x, capVerticalSpeedToFall);
             }//if rb
         }//else if
