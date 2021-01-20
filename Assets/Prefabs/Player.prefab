@@ -204,6 +204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59143e35a75be7345a161a9e7989f9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rocketLauncher: {fileID: 202118240319485782}
+  alienRocketLauncher: {fileID: 4633620795944315222}
 --- !u!70 &2851346441125246776
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -364,6 +366,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf11ef6ebac9a98468927f1a4523fa82, type: 3}
+--- !u!1 &4633620795944315222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5126574932411612206, guid: bf11ef6ebac9a98468927f1a4523fa82,
+    type: 3}
+  m_PrefabInstance: {fileID: 533866965145441656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5406075733912056812 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5507497800673306260, guid: bf11ef6ebac9a98468927f1a4523fa82,
@@ -444,6 +452,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e55bbb529b13c2c45b3ba24f5abfb656, type: 3}
+--- !u!1 &202118240319485782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e55bbb529b13c2c45b3ba24f5abfb656,
+    type: 3}
+  m_PrefabInstance: {fileID: 1013161095958071815}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &686167666304413164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e55bbb529b13c2c45b3ba24f5abfb656,

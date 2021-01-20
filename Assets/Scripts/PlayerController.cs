@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    public GameObject rocketLauncher;
+    public GameObject alienRocketLauncher;
     Rigidbody2D rb;
     bool isOnGround = false;
     bool rocketBumped = false;
@@ -47,9 +48,15 @@ public class PlayerController : MonoBehaviour
             if (rb.velocity.y > capVerticalSpeedToFall)
             {
                 rb.velocity = new Vector2(rb.velocity.x, capVerticalSpeedToFall);
-            }
+            }//if rb
+        }//else if
+        else if (Input.GetKeyDown(KeyCode.J))
+        {
+            Debug.Log("Weapon Switch");
+            rocketLauncher.SetActive(rocketLauncher.activeSelf == false);
+            alienRocketLauncher.SetActive(rocketLauncher.activeSelf == false);
         }
-    }
+    }// update
 
     private void PlayerMovement()
     {
