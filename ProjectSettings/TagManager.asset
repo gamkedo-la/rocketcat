@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Rocket Launcher
   - Alien Rocket Launcher
+  - CM
   layers:
   - Default
   - TransparentFX
