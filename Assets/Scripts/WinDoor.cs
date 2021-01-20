@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class WinDoor : MonoBehaviour
 {
+    [Header("Sound")]
+    [SerializeField] AudioClip doorOpen;
+    [SerializeField] AudioClip doorClose;
+    [SerializeField] [Range(0, 1)] public float soundVolume = 0.7f;
+
+
 
     public void LoadNextScene()
     {
@@ -25,9 +31,11 @@ public class WinDoor : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && EnemyCountUpdate.instance.AllEnemiesAreDefeated())
         {
+            AudioSource.PlayClipAtPoint(doorOpen, Camera.main.transform.position, soundVolume);
             LoadNextScene();
         }
     }
+
 
     public void Update()
     {
