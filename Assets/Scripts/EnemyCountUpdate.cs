@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class EnemyCountUpdate : MonoBehaviour
 {
     public static EnemyCountUpdate instance;
+    public float enemyWinValue = 0f;
     int startCount;
     int currentCount;
     Text displayText;
-    public float enemyWinValue = 0f;
 
     private void Awake()
     {
@@ -20,6 +20,7 @@ public class EnemyCountUpdate : MonoBehaviour
     void Start()
     {
         GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
+        EdgeArrows.pointAt = enemyList[0].transform;
         currentCount = startCount = enemyList.Length;
         displayText = gameObject.GetComponent<Text>();
         UpdateCounter(false);
