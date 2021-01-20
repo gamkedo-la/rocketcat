@@ -7,6 +7,8 @@ public class EdgeArrows : MonoBehaviour
 {
     public Image up;
     public Image down;
+    public Image left;
+    public Image right;
     public static Transform pointAt = null;
 
     // Start is called before the first frame update
@@ -17,7 +19,7 @@ public class EdgeArrows : MonoBehaviour
 
     void TurnOffAll()
     {
-        up.enabled = down.enabled = false;
+        up.enabled = down.enabled = left.enabled = right.enabled = false;
     }
 
     // Update is called once per frame
@@ -28,7 +30,11 @@ public class EdgeArrows : MonoBehaviour
             TurnOffAll();
             return;
         }
-        up.enabled = Camera.main.transform.position.y < pointAt.position.y;
-        down.enabled = Camera.main.transform.position.y > pointAt.position.y;
+        Vector2 screenPos = Camera.main.WorldToScreenPoint(pointAt.position);
+        down.enabled = screenPos.y < 0;
+        up.enabled = screenPos.y > Screen.height;
+        left.enabled = screenPos.x < 0;
+        right.enabled = screenPos.x > Screen.width;
+
     }
 }
