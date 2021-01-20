@@ -33,7 +33,6 @@ public class RocketStart : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && (!PauseControl.gameIsPaused) && (!RocketCountUpdate.instance.RocketAmmoLimit()))
         {
             GameObject.Instantiate(rocketPrefab, rocketFrom.position, rocketFrom.rotation, null);
-            Debug.Log("Rocket Launch");
             AudioSource.PlayClipAtPoint(rocketExplodeSound, Camera.main.transform.position, soundVolume);
             RocketCountUpdate.instance.AddFromCounterNextFrame();
         }

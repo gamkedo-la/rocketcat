@@ -30,7 +30,6 @@ public class RocketMove : MonoBehaviour
         if (dScript)
         {
             //dScript.DestroySelf(); //Happens from the explosion radius instead 
-            Debug.Log("Direct Hit");
         }
 
     }

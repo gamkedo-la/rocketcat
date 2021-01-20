@@ -33,7 +33,6 @@ public class RocketCountUpdate : MonoBehaviour
 
     public void UpdateCounter(bool rocketAmmoAtLimit)
     {
-        Debug.Log("Fired Rocket");
         if (rocketAmmoAtLimit)
         {
             rocketCount--;

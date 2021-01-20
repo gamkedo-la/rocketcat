@@ -32,7 +32,6 @@ public class EnemyCountUpdate : MonoBehaviour
 
     public void UpdateCounter(bool removedTarget)
     {
-        Debug.Log("Updating Counter");
         if(removedTarget)
         {
             currentCount--;
