@@ -15,7 +15,13 @@ public class LoseCollider : MonoBehaviour
         if (!other.gameObject.CompareTag("Player"))
             return;
 
-        SceneManager.LoadScene("Fail Screen");
+        //used to reload the player back to the start of the current level
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
+
+
+        //use commented out code below (and comment out above code) to make player reload from beginning of game
+        //SceneManager.LoadScene("Fail Screen"); 
     }
 
 
