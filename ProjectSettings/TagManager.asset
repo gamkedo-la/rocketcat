@@ -8,6 +8,7 @@ TagManager:
   - Rocket Launcher
   - Alien Rocket Launcher
   - CM
+  - Pause
   layers:
   - Default
   - TransparentFX
