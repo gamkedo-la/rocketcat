@@ -43,4 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1582c51956a0224eb1628003e37bf1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastcheckpointpos: {x: 0, y: 0}
+  lastcheckpointpos: {x: -6.2, y: 2}
+  currentEnemyCount: 0

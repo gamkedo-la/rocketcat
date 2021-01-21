@@ -6,7 +6,6 @@ public class Destroyable : MonoBehaviour
 {
   public void DestroySelf()
     {
-        Debug.Log("Play Animation, etc");
         Destroy(gameObject);
         EnemyCountUpdate.instance.RemoveFromCounterNextFrame();
     }
