@@ -6,6 +6,7 @@ public class CheckpointMaster : MonoBehaviour
 {
     private static CheckpointMaster instance;
     public Vector2 lastcheckpointpos;
+    public int currentEnemyCount;
 
     private void Awake()
     {

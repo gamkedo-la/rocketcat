@@ -20,6 +20,7 @@ public class Checkpoint : MonoBehaviour
         {
             cm.lastcheckpointpos = transform.position;
             gameObject.GetComponentInChildren<Renderer>().enabled = false;
+            cm.currentEnemyCount = EnemyCountUpdate.instance.EnemyCount();
         }
     }
 

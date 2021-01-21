@@ -10,6 +10,8 @@ public class EnemyCountUpdate : MonoBehaviour
     int startCount;
     int currentCount;
     Text displayText;
+    private CheckpointMaster cm;
+    private int checkpointEnemyCount;
 
     private void Awake()
     {
@@ -30,9 +32,19 @@ public class EnemyCountUpdate : MonoBehaviour
         return currentCount == 0;
     }
 
+    //called by checkpointmaster & checkpoint scripts to reset enemy count to same as before player died
+    public int EnemyCount()
+    {
+        return startCount - currentCount;
+    }
+
+
     public void UpdateCounter(bool removedTarget)
     {
-        if(removedTarget)
+        cm = GameObject.FindGameObjectWithTag("CM").GetComponent<CheckpointMaster>();
+        checkpointEnemyCount = cm.currentEnemyCount;
+
+        if (removedTarget)
         {
             currentCount--;
         }
@@ -41,7 +53,7 @@ public class EnemyCountUpdate : MonoBehaviour
             GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
             EdgeArrows.pointAt = enemyList[0].transform;
         }
-        displayText.text = "Enemies: " + (startCount - currentCount) + "/" + startCount;
+        displayText.text = "Enemies: " + (startCount - currentCount + checkpointEnemyCount) + "/" + startCount;
     }
  
 
