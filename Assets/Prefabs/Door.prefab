@@ -93,8 +93,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d3f0057c326b74c8536c8511d6c29b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorOpen: {fileID: 8300000, guid: 2ca60f6b67437c64ba90fe3c2bc830c9, type: 3}
-  doorClose: {fileID: 8300000, guid: 3fed2826a9c83d9448e6ab56843ec2e4, type: 3}
+  doorOpen: {fileID: 2100000, guid: 49a5af8bb968f6d4bb287540982b9b82, type: 2}
+  doorClose: {fileID: 2100000, guid: e64d98884fd790f4295d87b8136c2f81, type: 2}
+  doorOpened: {fileID: 8300000, guid: 2ca60f6b67437c64ba90fe3c2bc830c9, type: 3}
+  doorClosed: {fileID: 8300000, guid: 3fed2826a9c83d9448e6ab56843ec2e4, type: 3}
   soundVolume: 0.7
 --- !u!61 &5270871733491972801
 BoxCollider2D:

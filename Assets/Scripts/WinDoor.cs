@@ -5,11 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class WinDoor : MonoBehaviour
 {
+    [Header("Material")]
+    [SerializeField] Material doorOpen;
+    [SerializeField] Material doorClose;
+
+
     [Header("Sound")]
-    [SerializeField] AudioClip doorOpen;
-    [SerializeField] AudioClip doorClose;
+    [SerializeField] AudioClip doorOpened;
+    [SerializeField] AudioClip doorClosed;
     [SerializeField] [Range(0, 1)] public float soundVolume = 0.7f;
 
+
+    private void Start()
+    {
+        doorClose = Resources.Load<Material>("doorClose");
+        MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+    }
 
 
     public void LoadNextScene()
@@ -22,8 +33,10 @@ public class WinDoor : MonoBehaviour
     {
         if (EnemyCountUpdate.instance.AllEnemiesAreDefeated())
         {
-            var doorColor = gameObject.GetComponent<Renderer>();
-            doorColor.material.SetColor("_Color", Color.green);
+            GetComponent<MeshRenderer>().material = doorOpen;
+
+            //var doorColor = gameObject.GetComponent<Renderer>();
+            //doorColor.material.SetColor("_Color", Color.green);
         }
     }
 
@@ -31,7 +44,7 @@ public class WinDoor : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && EnemyCountUpdate.instance.AllEnemiesAreDefeated())
         {
-            AudioSource.PlayClipAtPoint(doorOpen, Camera.main.transform.position, soundVolume);
+            AudioSource.PlayClipAtPoint(doorOpened, Camera.main.transform.position, soundVolume);
             LoadNextScene();
         }
     }
