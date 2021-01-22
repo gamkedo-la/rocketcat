@@ -9,6 +9,7 @@ TagManager:
   - Alien Rocket Launcher
   - CM
   - Pause
+  - RocketsLeft
   layers:
   - Default
   - TransparentFX
