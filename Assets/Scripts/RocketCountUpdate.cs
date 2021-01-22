@@ -7,8 +7,8 @@ public class RocketCountUpdate : MonoBehaviour
 {
     public static RocketCountUpdate instance;
 
-    public static int rocketCount = 12;
-    public static int rocketLimit = 0;
+    public int rocketCount = 12;
+    public int rocketLimit = 0;
     public static bool rocketAmmoAtLimit = false;
     Text displayText;
 
@@ -39,7 +39,6 @@ public class RocketCountUpdate : MonoBehaviour
         }
 
         displayText.text = "Rockets: " + rocketCount;
-
     }
 
 
