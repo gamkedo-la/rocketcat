@@ -35,8 +35,8 @@ public class WinDoor : MonoBehaviour
         {
             GetComponent<MeshRenderer>().material = doorOpen;
 
-            //var doorColor = gameObject.GetComponent<Renderer>();
-            //doorColor.material.SetColor("_Color", Color.green);
+            /*var doorColor = gameObject.GetComponent<Renderer>();
+            doorColor.material.SetColor("_Color", Color.green);*/
         }
     }
 
