@@ -34,9 +34,6 @@ public class WinDoor : MonoBehaviour
         if (EnemyCountUpdate.instance.AllEnemiesAreDefeated())
         {
             GetComponent<MeshRenderer>().material = doorOpen;
-
-            /*var doorColor = gameObject.GetComponent<Renderer>();
-            doorColor.material.SetColor("_Color", Color.green);*/
         }
     }
 
