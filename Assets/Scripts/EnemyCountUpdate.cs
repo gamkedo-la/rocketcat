@@ -53,7 +53,7 @@ public class EnemyCountUpdate : MonoBehaviour
             GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
             EdgeArrows.pointAt = enemyList[0].transform;
         }
-        displayText.text = "Enemies: " + (startCount - currentCount + checkpointEnemyCount) + "/" + startCount;
+        displayText.text = (startCount - currentCount + checkpointEnemyCount) + "/" + startCount;
     }
  
 
