@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 853641329564574236}
   - component: {fileID: 853641329564574239}
   - component: {fileID: 853641329564574237}
+  - component: {fileID: 7739416385075000219}
   m_Layer: 12
   m_Name: Enemy Grunt
   m_TagString: Enemy
@@ -78,8 +79,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.038691282, y: 2.0970716}
-  m_Size: {x: 2.2006707, y: 3.9041967}
+  m_Offset: {x: -0.038691282, y: 2}
+  m_Size: {x: 2.2006707, y: 4}
   m_Direction: 0
 --- !u!50 &853641329564574239
 Rigidbody2D:
@@ -114,6 +115,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12a403f7c412d14cac308a88510c1d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7739416385075000219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853641329564574233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd6bd9fe6005464ea7bf891563723fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  animator: {fileID: 4101616429558379075}
 --- !u!1 &1161569984294645784
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,11 +242,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: mech2
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 8aac1bf7e1e967c42b92200778cf31dd,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: de5db01461731cf42bd920ba50421409, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8aac1bf7e1e967c42b92200778cf31dd, type: 3}
 --- !u!4 &7929698466065180729 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8aac1bf7e1e967c42b92200778cf31dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 7602440936860880850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4101616429558379075 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 8aac1bf7e1e967c42b92200778cf31dd,
     type: 3}
   m_PrefabInstance: {fileID: 7602440936860880850}
   m_PrefabAsset: {fileID: 0}
