@@ -291,8 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0d2ed7ee8a8e94eb2ce67c8d0f8181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testTarget: {fileID: 8264494779415060760, guid: 36f0287e325f6f54d85a6aa0f31fda72,
-    type: 3}
+  testTarget: {fileID: 0}
   rocketPrefab: {fileID: 8623470384722821152, guid: efc5ca89b3bb8a74e841a761e58f2989,
     type: 3}
   rocketFrom: {fileID: 2851346440873825493}
@@ -437,6 +436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RocketLauncherAlien
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126574932411612206, guid: bf11ef6ebac9a98468927f1a4523fa82,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5507497800673306260, guid: bf11ef6ebac9a98468927f1a4523fa82,
         type: 3}

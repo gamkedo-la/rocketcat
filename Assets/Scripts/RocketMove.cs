@@ -27,11 +27,6 @@ public class RocketMove : MonoBehaviour
         Destroy(gameObject);
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         Destroyable dScript = other.gameObject.GetComponent<Destroyable>();
-        if (dScript)
-        {
-            //dScript.DestroySelf(); //Happens from the explosion radius instead 
-        }
-
     }
 
 
