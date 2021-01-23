@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x, capVerticalSpeedToFall);
             }//if rb
         }//else if
-        else if (Input.GetKeyDown(KeyCode.J))
+        else if (Input.GetKeyDown("1"))
         {
             Debug.Log("Weapon Switch");
             rocketLauncher.SetActive(rocketLauncher.activeSelf == false);
