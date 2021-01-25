@@ -10,6 +10,7 @@ public class LoseCollider : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             EnemyCountUpdate.instance.UpdateCounter(true);
+            Destroy(other.gameObject);
         }
 
         if (!other.gameObject.CompareTag("Player"))
