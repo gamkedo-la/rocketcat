@@ -11,6 +11,8 @@ public class EnemyGrunt : MonoBehaviour
 
     public Transform player;
     public GameObject projectile;
+    public Transform laserFrom;
+    [SerializeField] GameObject laserSpawnPoint;
 
     private float timeBetweenShots;
     public float startTimeBetweenShots;
@@ -23,6 +25,7 @@ public class EnemyGrunt : MonoBehaviour
     {
        player = GameObject.FindGameObjectWithTag("Player").transform;
         timeBetweenShots = startTimeBetweenShots;
+        Vector3 laserFrom = laserSpawnPoint.transform.position;
     }
 
     // Update is called once per frame
@@ -30,7 +33,7 @@ public class EnemyGrunt : MonoBehaviour
     {
         if (timeBetweenShots <= 0)
         {
-            Instantiate(projectile, transform.position, player.rotation);
+            Instantiate(projectile, laserFrom.position, laserFrom.rotation);
             timeBetweenShots = startTimeBetweenShots;
         }
         else
