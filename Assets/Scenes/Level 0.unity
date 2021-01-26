@@ -417,6 +417,75 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!1001 &1324832985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 923274109363214607, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Grunt Laser Projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051385364967738885, guid: b1ad35750739936468d7d01a7f2bd7a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1ad35750739936468d7d01a7f2bd7a4, type: 3}
 --- !u!1001 &1533160043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -635,10 +704,30 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 853641329564574239, guid: a8d136831f0b48743b4f5423f49944b1,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1161569984294645784, guid: a8d136831f0b48743b4f5423f49944b1,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965936732087490098, guid: a8d136831f0b48743b4f5423f49944b1,
+        type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965936732087490098, guid: a8d136831f0b48743b4f5423f49944b1,
+        type: 3}
+      propertyPath: retreatDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965936732087490098, guid: a8d136831f0b48743b4f5423f49944b1,
+        type: 3}
+      propertyPath: stoppingDistance
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d136831f0b48743b4f5423f49944b1, type: 3}

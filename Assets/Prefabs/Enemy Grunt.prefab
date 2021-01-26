@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 853641329564574239}
   - component: {fileID: 853641329564574237}
   - component: {fileID: 7739416385075000219}
+  - component: {fileID: 4965936732087490098}
   m_Layer: 12
   m_Name: Enemy Grunt
   m_TagString: Enemy
@@ -129,6 +130,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoints: []
   animator: {fileID: 4101616429558379075}
+--- !u!114 &4965936732087490098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853641329564574233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a66d3e2e8ad394a9bb1cb8c521cfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  stoppingDistance: 0
+  retreatDistance: 0
+  player: {fileID: 0}
+  projectile: {fileID: 923274109363214607, guid: b1ad35750739936468d7d01a7f2bd7a4,
+    type: 3}
+  startTimeBetweenShots: 2.01
 --- !u!1 &1161569984294645784
 GameObject:
   m_ObjectHideFlags: 0

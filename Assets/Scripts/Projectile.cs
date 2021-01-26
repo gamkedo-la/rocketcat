@@ -4,19 +4,44 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    [SerializeField] GameObject gruntLaserProjectile;
-    [SerializeField] Transform laserFrom;
-    [SerializeField] float speed = 1f;
+
+    [SerializeField] float speed;
+
+    private Transform player;
+    private Vector2 target;
+
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        target = new Vector2(player.position.x, player.position.y);
+    }
+
 
     void Update()
     {
-        //GameObject.Instantiate(gruntLaserProjectile, laserFrom.position, laserFrom.rotation, null);
-        gruntLaserProjectile.transform.Translate(Vector2.right * speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+
+        if(transform.position.x == target.x && transform.position.y == target.y)
+        {
+            DestroyProjectile();
+        }
     }
 
-    private void OnTriggerEnter2D(Collider2D otherCollider)
+    void DestroyProjectile()
     {
-        var health = otherCollider.GetComponent<Health>();
+        Destroy(gameObject);
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            DestroyProjectile();
+        }
+        var health = other.GetComponent<Health>();
         health.DealDamage();
     }
 

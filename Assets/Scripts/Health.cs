@@ -67,12 +67,17 @@ public class Health : MonoBehaviour
         {
             if (DealDamage())
             {
-                Vector3 pushFrom = transform.position + Vector3.up * -1.5f;
-                rb.AddForce((rb.transform.position - pushFrom).normalized * pushMultiplier);
-                //PlayerController pc = gameObject.GetComponent<PlayerController>();
+                KnockBack();
             }
 
         }
     }
 
+
+    private void KnockBack()
+    {
+        Vector3 pushFrom = transform.position + Vector3.up * -1.5f;
+        rb.AddForce((rb.transform.position - pushFrom).normalized * pushMultiplier);
+        //PlayerController pc = gameObject.GetComponent<PlayerController>();
+    }
 }
