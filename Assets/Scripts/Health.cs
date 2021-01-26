@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
+    List<GameObject> healthIcons;
     Material playerMat;
     [SerializeField] Material playerHurt;
     [SerializeField] int health = 5;
@@ -16,6 +17,21 @@ public class Health : MonoBehaviour
     {
         playerMat = gameObject.GetComponent<Renderer>().material;
         rb = gameObject.GetComponent<Rigidbody2D>();
+        healthIcons = new List<GameObject>();
+        for (int i = 0; i < health; i++)
+        {
+            GameObject icon = GameObject.Find("Health " + (i + 1));
+            healthIcons.Add(icon);
+        }
+        UpdateIcons();
+    }
+
+    private void UpdateIcons()
+    {
+        for (int i = 0; i < healthIcons.Count; i++)
+        {
+            healthIcons[i].SetActive(i < health);
+        }
     }
 
     public bool DealDamage()
@@ -25,6 +41,7 @@ public class Health : MonoBehaviour
             return false;
         }
         health--;
+        UpdateIcons();
         StartCoroutine(DamageFlash());
         if (health <= 0)
         {

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 231884842}
   - component: {fileID: 231884841}
   m_Layer: 5
-  m_Name: Health (2)
+  m_Name: Health 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 1394741190}
   - component: {fileID: 1394741189}
   m_Layer: 5
-  m_Name: Health (3)
+  m_Name: Health 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 1400014638}
   - component: {fileID: 1400014637}
   m_Layer: 5
-  m_Name: Health (4)
+  m_Name: Health 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 1474103808}
   - component: {fileID: 1474103807}
   m_Layer: 5
-  m_Name: Health
+  m_Name: Health 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 1948195505}
   - component: {fileID: 1948195504}
   m_Layer: 5
-  m_Name: Health (1)
+  m_Name: Health 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
