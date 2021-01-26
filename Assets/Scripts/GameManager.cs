@@ -31,4 +31,16 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneToLoad);
     }
 
+    //these two functions below allow a sound to finish playing before executing next line of code
+    IEnumerator WaitForSound()
+    {
+        yield return new WaitForSeconds(1.0f);
+    }
+
+    public void PlaySound()
+    {
+        WaitForSound();
+    }
+
+
 }
