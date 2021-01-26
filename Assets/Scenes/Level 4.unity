@@ -20,9 +20,9 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  m_AmbientEquatorColor: {r: 0.3453631, g: 0.35889995, b: 0.3679245, a: 1}
+  m_AmbientGroundColor: {r: 0.9245283, g: 0.8503916, b: 0.70211816, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
@@ -615,7 +615,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.3
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -2452,7 +2452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1948195503, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.0001831
+      value: -1.0002441
       objectReference: {fileID: 0}
     - target: {fileID: 1948195503, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
       propertyPath: m_AnchoredPosition.y
