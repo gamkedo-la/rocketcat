@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6268203889364389559}
   - component: {fileID: 6268203889364389556}
+  - component: {fileID: 2025872109}
   m_Layer: 0
   m_Name: CheckpointMaster
   m_TagString: CM
@@ -43,5 +44,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1582c51956a0224eb1628003e37bf1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastcheckpointpos: {x: -6.2, y: 2}
+  lastcheckpointpos: {x: -6.2, y: -1}
   currentEnemyCount: 0
+--- !u!114 &2025872109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6268203889364389557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8b205917d6e6442a3e4b2ac7b0ece9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
