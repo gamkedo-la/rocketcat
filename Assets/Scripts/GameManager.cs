@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator WaitForLoad()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.0f);
         SceneManager.LoadScene(sceneToLoad);
     }
 

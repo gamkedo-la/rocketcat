@@ -95,8 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorOpen: {fileID: 2100000, guid: 49a5af8bb968f6d4bb287540982b9b82, type: 2}
   doorClose: {fileID: 2100000, guid: 00335c947f9c9324088e3bb3c50179ce, type: 2}
-  doorOpened: {fileID: 8300000, guid: 2ca60f6b67437c64ba90fe3c2bc830c9, type: 3}
-  doorClosed: {fileID: 8300000, guid: 3fed2826a9c83d9448e6ab56843ec2e4, type: 3}
+  doorOpened: {fileID: 8300000, guid: fbd3c229409b0b84f8f210303ee998a3, type: 3}
   soundVolume: 0.7
 --- !u!61 &5270871733491972801
 BoxCollider2D:

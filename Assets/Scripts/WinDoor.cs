@@ -12,7 +12,6 @@ public class WinDoor : MonoBehaviour
 
     [Header("Sound")]
     [SerializeField] AudioClip doorOpened;
-    [SerializeField] AudioClip doorClosed;
     [SerializeField] [Range(0, 1)] public float soundVolume = 0.7f;
 
 
