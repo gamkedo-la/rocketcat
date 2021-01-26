@@ -10,6 +10,7 @@ public class RocketReloadPowerup : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
             {
             RocketCountUpdate.instance.RocketReset();
+            RocketCountUpdate.instance.UpdateRocketIcons();
             Destroy(gameObject);
             }
     }
