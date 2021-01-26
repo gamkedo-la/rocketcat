@@ -43,15 +43,10 @@ public class WinDoor : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(doorOpened, Camera.main.transform.position, soundVolume);
             Destroy(other.gameObject);
-            StartCoroutine(WaitThenEndStage());
+            GameManager.instance.DelayThenLoadScene(true);
         }
     }
 
-    IEnumerator WaitThenEndStage()
-    {
-        yield return new WaitForSeconds(2.0f);
-        LoadNextScene();
-    }
 
     public void Update()
     {

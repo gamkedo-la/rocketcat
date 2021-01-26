@@ -7,7 +7,6 @@ public class Projectile : MonoBehaviour
     [SerializeField] GameObject gruntLaserProjectile;
     [SerializeField] Transform laserFrom;
     [SerializeField] float speed = 1f;
-    [SerializeField] float damage = 100f;
 
     void Update()
     {
@@ -18,7 +17,7 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D otherCollider)
     {
         var health = otherCollider.GetComponent<Health>();
-        health.DealDamage(damage);
+        health.DealDamage();
     }
 
 }

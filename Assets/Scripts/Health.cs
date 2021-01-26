@@ -5,33 +5,57 @@ using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] Material player;
+    Material playerMat;
     [SerializeField] Material playerHurt;
+    [SerializeField] int health = 5;
+    private float pushMultiplier = 250f;
+    Rigidbody2D rb;
+    bool invulnTime = false;
 
-    [SerializeField] float health = 5f;
-    private float damage = 1f; 
-
-    public void DealDamage(float damage)
+    private void Start()
     {
-        GetComponent<MeshRenderer>().material = playerHurt;
-        health -= damage;
-        GetComponent<MeshRenderer>().material = player;
-        if (health <= 0)
-            Destroy(gameObject);
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(currentSceneIndex);
+        playerMat = gameObject.GetComponent<Renderer>().material;
+        rb = gameObject.GetComponent<Rigidbody2D>();
     }
+
+    public bool DealDamage()
+    {
+        if (invulnTime)
+        {
+            return false;
+        }
+        health--;
+        StartCoroutine(DamageFlash());
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+            GameManager.instance.DelayThenLoadScene(false);
+        }
+        return true;
+    }
+
+    IEnumerator DamageFlash()
+    {
+        invulnTime = true;
+        GetComponent<MeshRenderer>().material = playerHurt;
+        yield return new WaitForSeconds(1.0f);
+        GetComponent<MeshRenderer>().material = playerMat;
+        invulnTime = false;
+    }
+
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))
-            DealDamage(damage);
-    }
+        {
+            if (DealDamage())
+            {
+                Vector3 pushFrom = transform.position + Vector3.up * -1.5f;
+                rb.AddForce((rb.transform.position - pushFrom).normalized * pushMultiplier);
+                //PlayerController pc = gameObject.GetComponent<PlayerController>();
+            }
 
-    private void Update()
-    {
-        
+        }
     }
-
 
 }
