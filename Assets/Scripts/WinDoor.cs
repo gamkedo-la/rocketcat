@@ -42,10 +42,16 @@ public class WinDoor : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && EnemyCountUpdate.instance.AllEnemiesAreDefeated())
         {
             AudioSource.PlayClipAtPoint(doorOpened, Camera.main.transform.position, soundVolume);
-            LoadNextScene();
+            Destroy(other.gameObject);
+            StartCoroutine(WaitThenEndStage());
         }
     }
 
+    IEnumerator WaitThenEndStage()
+    {
+        yield return new WaitForSeconds(2.0f);
+        LoadNextScene();
+    }
 
     public void Update()
     {
