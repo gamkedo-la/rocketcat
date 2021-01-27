@@ -39,10 +39,9 @@ public class Projectile : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Health.instance.DealDamage();
             DestroyProjectile();
         }
-        var health = other.GetComponent<Health>();
-        health.DealDamage();
     }
 
 }

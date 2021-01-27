@@ -23,13 +23,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167284276472418340}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -1.04, y: 2.96, z: -1.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 853641329564574238}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &853641329564574233
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
   player: {fileID: 0}
   projectile: {fileID: 923274109363214607, guid: b1ad35750739936468d7d01a7f2bd7a4,
     type: 3}
-  laserFrom: {fileID: 0}
+  laserFrom: {fileID: 8282613919467302087}
   laserSpawnPoint: {fileID: 167284276472418340}
   startTimeBetweenShots: 2.01
 --- !u!1001 &7602440936860880850

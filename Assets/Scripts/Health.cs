@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
+    public static Health instance;
+
     List<GameObject> healthIcons;
     Material playerMat;
     [SerializeField] Material playerHurt;
@@ -15,6 +17,7 @@ public class Health : MonoBehaviour
 
     private void Start()
     {
+        instance = this;
         playerMat = gameObject.GetComponent<Renderer>().material;
         rb = gameObject.GetComponent<Rigidbody2D>();
         healthIcons = new List<GameObject>();
