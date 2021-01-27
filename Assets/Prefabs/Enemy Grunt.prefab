@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 6
+  m_Constraints: 4
 --- !u!114 &853641329564574237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +150,10 @@ MonoBehaviour:
     type: 3}
   laserFrom: {fileID: 8282613919467302087}
   laserSpawnPoint: {fileID: 167284276472418340}
-  startTimeBetweenShots: 2.01
+  shotCounter: 0
+  minTimeBetweenShots: 2
+  maxTimeBetweenShots: 3.5
+  startTimeBetweenShots: 4
 --- !u!1001 &7602440936860880850
 PrefabInstance:
   m_ObjectHideFlags: 0

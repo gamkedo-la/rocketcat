@@ -14,6 +14,9 @@ public class EnemyGrunt : MonoBehaviour
     public Transform laserFrom;
     [SerializeField] GameObject laserSpawnPoint;
 
+    [SerializeField] float minTimeBetweenShots = 2f;
+    [SerializeField] float maxTimeBetweenShots = 3.5f;
+
     private float timeBetweenShots;
     public float startTimeBetweenShots;
 
@@ -34,7 +37,7 @@ public class EnemyGrunt : MonoBehaviour
         if (timeBetweenShots <= 0)
         {
             Instantiate(projectile, laserFrom.position, laserFrom.rotation);
-            timeBetweenShots = startTimeBetweenShots;
+            timeBetweenShots = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
         }
         else
         {
