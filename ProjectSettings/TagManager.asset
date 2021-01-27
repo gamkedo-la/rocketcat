@@ -10,6 +10,7 @@ TagManager:
   - CM
   - Pause
   - RocketsLeft
+  - Obstacle
   layers:
   - Default
   - TransparentFX
