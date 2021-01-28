@@ -5,10 +5,6 @@ using UnityEngine;
 public class EnemyGrunt : MonoBehaviour
 {
 
-    public float speed;
-    public float stoppingDistance;
-    public float retreatDistance;
-
     public Transform player;
     public GameObject projectile;
     public Transform laserFrom;
@@ -19,7 +15,6 @@ public class EnemyGrunt : MonoBehaviour
 
     private float timeBetweenShots;
     public float startTimeBetweenShots;
-
 
 
 
@@ -47,30 +42,5 @@ public class EnemyGrunt : MonoBehaviour
 
 
 
-
-
-
-
-
-
-
-    /* Below Function not currently in use
-    private void FollowPlayer()
-    {
-        //if too far away from player, enemy will advance toward player
-        if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-        }
-        //in the sweet spot not too close or far from the player, enemy stays put 
-        else if (Vector2.Distance(transform.position, player.position) < stoppingDistance && Vector2.Distance(transform.position, player.position) > retreatDistance)
-        {
-            transform.position = this.transform.position;
-        }
-        else if (Vector2.Distance(transform.position, player.position) < retreatDistance)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
-        }
-    }*/
 
 }

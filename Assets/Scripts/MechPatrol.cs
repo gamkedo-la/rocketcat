@@ -8,55 +8,72 @@ public class MechPatrol : MonoBehaviour
     public Animator animator;
 
     public float speed;
-    private float waitTime;
-    public float startWaitTime;
+    public float distance = 2f;
+    public bool mustPatrol;
+    private bool movingLeft = true;
 
-    public Transform[] moveSpots;
-    private int randomSpot;
+    public Rigidbody2D rb;
+    public Transform groundDetection;
+    public LayerMask obstacleLayer;
+    public LayerMask enemyLayer;
+    public Collider2D bodyCollider;
 
     void Start()
     {
-        waitTime = startWaitTime;
-        randomSpot = Random.Range(0, moveSpots.Length);
+        mustPatrol = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
-
-        if(Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
+        if(mustPatrol)
         {
-            if(waitTime <= 0)
-            {
-                randomSpot = Random.Range(0, moveSpots.Length);
-            }
-            else
-            {
-                waitTime -= Time.deltaTime;
-            }
+            Patrol(); 
         }
 
-        var waypointReached = true;
+        /*var waypointReached = true;
         if (waypoints.Length == 0 || waypointReached)
         {
             animator.SetTrigger("WaypointReached");
-        }
+        }*/
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+
+
+
+    void Patrol()
+    { 
+        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, distance);
+
+        if (bodyCollider.IsTouchingLayers(obstacleLayer) || bodyCollider.IsTouchingLayers(enemyLayer))
+        {
+            Flip();
+        }
+
+        if (groundInfo.collider == false)
+        {
+            if(movingLeft == true)
+            {
+                transform.eulerAngles = new Vector3(0, -180, 0);
+                movingLeft = false;
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                movingLeft = true;
+            }
+        }
+
+    }
+
+
+
+    //not currently in use- used transform.eulerAngles above instead 
+    void Flip()
     {
-        if(other.gameObject.CompareTag("Obstacle"))
-        {
-            gameObject.transform.Rotate(0, 180, 0);
-        }
-        else
-        {
-            return;
-        }
+        transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+        speed *= -1;
     }
-
-
-
 
 }
