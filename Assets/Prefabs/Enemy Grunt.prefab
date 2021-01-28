@@ -196,9 +196,9 @@ MonoBehaviour:
   startTimeBetweenShots: 4
   audioSource: {fileID: 0}
   audioClipArray:
-  - {fileID: 8300000, guid: 05200dd63db56b3438eba2617fd32c5c, type: 3}
-  - {fileID: 8300000, guid: 30b2918c632c7a04dba80f98658b0dea, type: 3}
-  - {fileID: 8300000, guid: 178c792bb0f281c47844b7f783475554, type: 3}
+  - {fileID: 8300000, guid: 95c55293e548bb34d8fa41085cd318c4, type: 3}
+  - {fileID: 8300000, guid: 5f2fcdccf1b9a5441b623588e8047c44, type: 3}
+  - {fileID: 8300000, guid: 1c646f41cf1e6c8458cc25ec11f9ad7f, type: 3}
   fireSoundVol: 1
 --- !u!82 &2086938761
 AudioSource:
