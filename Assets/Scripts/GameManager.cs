@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using NUnit.Framework;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,10 +9,22 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     int sceneToLoad;
 
+    //bool used for muting/unmuting the game
+    private bool isMuted = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
+    }
+
+
+    void Update()
+    {
+        //if the player presses the M key, the ToggleMute function will run (used for muting/unmuting)
+        if(Input.GetKeyDown(KeyCode.M))
+        ToggleMute();
     }
 
 
@@ -40,6 +53,17 @@ public class GameManager : MonoBehaviour
     public void PlaySound()
     {
         WaitForSound();
+    }
+
+
+
+  
+    //Will flip the current bool value for isMuted and then will pause or unpause the audiolistener based on the isMuted value
+    public void ToggleMute()
+    {
+        isMuted = !isMuted;
+
+        AudioListener.pause = isMuted;
     }
 
 
