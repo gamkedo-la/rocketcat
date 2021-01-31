@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4046517489530620038}
   - component: {fileID: 4046517489530620039}
   - component: {fileID: 4046517489530620056}
-  - component: {fileID: 4046517489530620057}
+  - component: {fileID: 1956822144}
+  - component: {fileID: 530676851613059490}
   m_Layer: 0
   m_Name: CircleCheckPoint
   m_TagString: Untagged
@@ -80,16 +81,31 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &4046517489530620057
-SphereCollider:
+--- !u!114 &1956822144
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4046517489530620058}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72448b1d0dbf794da7eabf57a8c5d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &530676851613059490
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4046517489530620058}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
