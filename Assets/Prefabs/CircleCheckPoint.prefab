@@ -93,6 +93,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72448b1d0dbf794da7eabf57a8c5d10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpointSound: {fileID: 8300000, guid: e39d8d2f6749168448a8e1d6f9ac16b2, type: 3}
+  soundVolume: 0.7
 --- !u!58 &530676851613059490
 CircleCollider2D:
   m_ObjectHideFlags: 0

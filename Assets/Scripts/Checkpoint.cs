@@ -6,6 +6,10 @@ public class Checkpoint : MonoBehaviour
 {
     private CheckpointMaster cm;
 
+    [Header("Sound")]
+    [SerializeField] AudioClip checkpointSound;
+    [SerializeField] [Range(0, 1)] public float soundVolume = 0.7f;
+
     private void Start()
     {
         cm = GameObject.FindGameObjectWithTag("CM").GetComponent<CheckpointMaster>();
@@ -21,9 +25,10 @@ public class Checkpoint : MonoBehaviour
             cm.lastcheckpointpos = transform.position;
             gameObject.GetComponentInChildren<Renderer>().enabled = false;
             cm.currentEnemyCount = EnemyCountUpdate.instance.EnemyCount();
+            AudioSource.PlayClipAtPoint(checkpointSound, Camera.main.transform.position, soundVolume);
+            GameManager.instance.PlaySound();
         }
     }
-
 
 
 }
