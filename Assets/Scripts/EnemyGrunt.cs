@@ -46,16 +46,19 @@ public class EnemyGrunt : MonoBehaviour
 
     public void Fire()
     {
-        if (timeBetweenShots <= 0)
+        if (Vector3.Distance(transform.position, player.position) < 20.0f)
         {
-            Instantiate(projectile, laserFrom.position, laserFrom.rotation);
-            timeBetweenShots = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
-            audioSource.clip = audioClipArray[Random.Range(0, audioClipArray.Length)];
-            audioSource.PlayOneShot(audioSource.clip, fireSoundVol);
-        }
-        else
-        {
-            timeBetweenShots -= Time.deltaTime;
+            if (timeBetweenShots <= 0)
+            {
+                Instantiate(projectile, laserFrom.position, laserFrom.rotation);
+                timeBetweenShots = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+                audioSource.clip = audioClipArray[Random.Range(0, audioClipArray.Length)];
+                audioSource.PlayOneShot(audioSource.clip, fireSoundVol);
+            }
+            else
+            {
+                timeBetweenShots -= Time.deltaTime;
+            }
         }
     }
 }
