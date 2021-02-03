@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instance;
     public GameObject rocketLauncher;
     public GameObject alienRocketLauncher;
     Rigidbody2D rb;
     bool isOnGround = false;
     bool rocketBumped = false;
     //Vector2 velWhenBumped = Vector2.zero;
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
 
     // Start is called before the first frame update
     void Start()

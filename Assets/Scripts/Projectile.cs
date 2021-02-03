@@ -7,7 +7,6 @@ public class Projectile : MonoBehaviour
 
     [SerializeField] float speed;
 
-    private static Transform player;
     private Vector2 target;
 
     // change this if player's height is modified (used to have projectiles shoot at chest level)
@@ -15,11 +14,7 @@ public class Projectile : MonoBehaviour
 
     private void Start()
     {
-        if (player == null)
-        {
-            player = GameObject.FindGameObjectWithTag("Player").transform;
-        }
-        target = new Vector2(player.position.x, (player.position.y + offsetHeight));
+        target = new Vector2(PlayerController.instance.transform.position.x, (PlayerController.instance.transform.position.y + offsetHeight));
         transform.LookAt(target);
     }
 

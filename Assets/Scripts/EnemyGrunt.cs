@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyGrunt : MonoBehaviour
 {
     [Header("Fire Projectile")]
-    public static Transform player;
     public GameObject projectile;
     public Transform laserFrom;
     [SerializeField] GameObject laserSpawnPoint;
@@ -29,10 +28,6 @@ public class EnemyGrunt : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (player == null)
-        {
-            player = GameObject.FindGameObjectWithTag("Player").transform;
-        }
         timeBetweenShots = startTimeBetweenShots;
         Vector3 laserFrom = laserSpawnPoint.transform.position;
     }
@@ -46,7 +41,7 @@ public class EnemyGrunt : MonoBehaviour
 
     public void Fire()
     {
-        if (Vector3.Distance(transform.position, player.position) < 20.0f)
+        if (Vector3.Distance(transform.position, PlayerController.instance.transform.position) < 20.0f)
         {
             if (timeBetweenShots <= 0)
             {
