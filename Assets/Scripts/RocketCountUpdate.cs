@@ -55,7 +55,7 @@ public class RocketCountUpdate : MonoBehaviour
             UpdateRocketIcons();
         }
 
-        displayText.text = "Rockets: " + rocketCount;
+        displayText.text = rocketCount.ToString() ;
     }
 
 
