@@ -41,6 +41,10 @@ public class EnemyGrunt : MonoBehaviour
 
     public void Fire()
     {
+        if(PlayerController.instance == null)
+        {
+            return;
+        }
         if (Vector3.Distance(transform.position, PlayerController.instance.transform.position) < 20.0f)
         {
             if (timeBetweenShots <= 0)
