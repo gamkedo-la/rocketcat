@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerPos : MonoBehaviour
 {
     private CheckpointMaster cm;
+    private Health healthScript;
+    private RocketCountUpdate rocketScript;
     
 
     // Start is called before the first frame update
@@ -12,6 +14,8 @@ public class PlayerPos : MonoBehaviour
     {
         cm = GameObject.FindGameObjectWithTag("CM").GetComponent<CheckpointMaster>();
         transform.position = cm.lastcheckpointpos;
+        Health.instance.ResetHealth();
+        RocketCountUpdate.instance.RocketReset();
     }
 
 

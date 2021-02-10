@@ -77,6 +77,12 @@ public class Health : MonoBehaviour
     }
 
 
+    public void ResetHealth()
+    {
+        health = 5;
+        UpdateIcons();
+    }
+
     private void KnockBack()
     {
         Vector3 pushFrom = transform.position + Vector3.up * -1.5f;
