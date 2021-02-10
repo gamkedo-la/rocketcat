@@ -121,4 +121,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   percPhaseShift: 0
   flipWait: 2
-  flipSpeed: 100
+  flipSpeed: 200
