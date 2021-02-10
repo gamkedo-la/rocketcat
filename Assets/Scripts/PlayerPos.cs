@@ -5,9 +5,10 @@ using UnityEngine;
 public class PlayerPos : MonoBehaviour
 {
     private CheckpointMaster cm;
+    
 
     // Start is called before the first frame update
-    void Start()
+    public void ResetPlayer()
     {
         cm = GameObject.FindGameObjectWithTag("CM").GetComponent<CheckpointMaster>();
         transform.position = cm.lastcheckpointpos;
