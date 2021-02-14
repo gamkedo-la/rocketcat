@@ -7,6 +7,8 @@ public class Cheats : MonoBehaviour
 {   
     [SerializeField]
     private Health playerHealth;
+    [SerializeField]
+    private RocketCountUpdate rocketCountUpdate;
 
     void Update()
     {        
@@ -33,6 +35,10 @@ public class Cheats : MonoBehaviour
             {
                 Debug.Log("Toggled invincible off!");
             }
+        }
+        if (Input.GetKeyUp(KeyCode.C))
+        {
+            rocketCountUpdate.RocketReset();
         }
     }
 }
