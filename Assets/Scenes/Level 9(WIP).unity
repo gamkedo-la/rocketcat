@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1248,6 +1248,18 @@ PrefabInstance:
       objectReference: {fileID: 604033472}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfe8a4892f5e0ab40a7a634e3b22386c, type: 3}
+--- !u!114 &2851346441705455764 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1683522029, guid: bfe8a4892f5e0ab40a7a634e3b22386c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2851346441705455763}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68266137477c2c4eb1bda1064026571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2930204715908501043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1329,6 +1341,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheatInput
       objectReference: {fileID: 0}
+    - target: {fileID: 3034682233126492531, guid: 2ec0f082bc06a244eaab9b9e43ce6b3b,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 2851346441705455764}
     - target: {fileID: 3034682233126492540, guid: 2ec0f082bc06a244eaab9b9e43ce6b3b,
         type: 3}
       propertyPath: m_RootOrder

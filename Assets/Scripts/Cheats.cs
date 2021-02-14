@@ -4,22 +4,35 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Cheats : MonoBehaviour
-{
+{   
+    [SerializeField]
+    private Health playerHealth;
 
- void Update()
-    {
+    void Update()
+    {        
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
         }
 
-         if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            if (playerHealth.ToggleInvincible())
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                Debug.Log("Toggled invincible on!");
             }
-         if (Input.GetKeyDown(KeyCode.I))
+            else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+                Debug.Log("Toggled invincible off!");
             }
+        }
     }
 }

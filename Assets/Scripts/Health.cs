@@ -89,4 +89,10 @@ public class Health : MonoBehaviour
         rb.AddForce((rb.transform.position - pushFrom).normalized * pushMultiplier);
         //PlayerController pc = gameObject.GetComponent<PlayerController>();
     }
+
+    public bool ToggleInvincible()
+    {        
+        invulnTime = !invulnTime;
+        return invulnTime;
+    }
 }
