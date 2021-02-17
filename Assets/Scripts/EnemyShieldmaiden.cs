@@ -7,6 +7,7 @@ public class EnemyShieldmaiden : MonoBehaviour
     public Transform shield;
     private Vector3 relativeShieldPos;
     private bool flipped = false;
+    public float shieldFlipTime = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class EnemyShieldmaiden : MonoBehaviour
     {
         while(true)
         {
-            yield return new WaitForSeconds(2.0f);
+            yield return new WaitForSeconds(shieldFlipTime);
             flipped = !flipped;
             shield.position = transform.position + relativeShieldPos * (flipped ? -1.0f : 1.0f);
         }
