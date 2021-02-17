@@ -24,9 +24,9 @@ public class RocketMove : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log("Rocket Move on collision");
         Destroy(gameObject);
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
-        Destroyable dScript = other.gameObject.GetComponent<Destroyable>();
     }
 
 
