@@ -12,6 +12,7 @@ public class RocketMove : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        StartCoroutine(WaitThenEnableHitPlayer());
     }
 
     public void FixedUpdate()
@@ -30,16 +31,28 @@ public class RocketMove : MonoBehaviour
     {
         Debug.Log("Rocket Move on collision " + other.gameObject.name);
         RocketDeflect rdScript = other.gameObject.GetComponent<RocketDeflect>();
+        Health healthForPlayer = other.gameObject.GetComponent<Health>();
+
         if (rdScript)
         {
             rdScript.DeflectShot(this);
         }
         else
         {
+            if (healthForPlayer)
+            {
+                healthForPlayer.DealDamage();
+            }
             Destroy(gameObject);
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         }
     }
 
+    IEnumerator WaitThenEnableHitPlayer()
+    {
+        yield return new WaitForSeconds(0.2f);
+        gameObject.layer = 0;
+        Debug.Log("layer reached");
+    }
 
 }
