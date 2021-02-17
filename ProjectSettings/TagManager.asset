@@ -12,6 +12,7 @@ TagManager:
   - RocketsLeft
   - Obstacle
   - Ground
+  - Rocket
   layers:
   - Default
   - TransparentFX

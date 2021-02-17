@@ -9,6 +9,7 @@ public class EnemyShieldmaiden : MonoBehaviour
     private bool flipped = false;
     public float shieldFlipTime = 1f;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class EnemyShieldmaiden : MonoBehaviour
         StartCoroutine(ShieldFlip());
     }
 
-    
+
     IEnumerator ShieldFlip()
     {
         while(true)
@@ -26,6 +27,5 @@ public class EnemyShieldmaiden : MonoBehaviour
             shield.position = transform.position + relativeShieldPos * (flipped ? -1.0f : 1.0f);
         }
     }
-
 
 }
