@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class FractalCollectible : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [Header("Sound")]
+    [SerializeField] AudioClip fractalCollectibleSound;
+    [SerializeField] [Range(0, 1)] public float soundVolume = 0.7f;
+
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.gameObject.CompareTag("Player"))
+        {
+            FractalCountUpdate.instance.UpdateFractalCount();
+            AudioSource.PlayClipAtPoint(fractalCollectibleSound, Camera.main.transform.position, soundVolume);
+            GameManager.instance.PlaySound();
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

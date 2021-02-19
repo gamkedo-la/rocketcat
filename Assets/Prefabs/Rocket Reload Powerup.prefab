@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4ff80335b7b1d2459b6d15f6f69c0a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rocketReloadPowerupSound: {fileID: 8300000, guid: b08d31a7dd8a1a045bf715cbf77be88b,
+  rocketReloadPowerupSound: {fileID: 8300000, guid: 6ca6c896af0aa294e8abdb602d95138d,
     type: 3}
   soundVolume: 0.7
 --- !u!61 &5745750356892768962
