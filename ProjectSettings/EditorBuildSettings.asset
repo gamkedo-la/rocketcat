@@ -18,11 +18,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2 (Putting it Together I).unity
     guid: 8b909505e43b06642bb34cac69f0983b
   - enabled: 1
-    path: Assets/Scenes/Level 4 (Rocket Slide).unity
-    guid: 76fd607975eea644db7b90daf7651ea4
-  - enabled: 1
     path: Assets/Scenes/Level 3 (FlyMech Introduction).unity
     guid: f389cfc781fac024fbc9075088e44d5d
+  - enabled: 1
+    path: Assets/Scenes/Level 4 (Rocket Slide).unity
+    guid: 76fd607975eea644db7b90daf7651ea4
   - enabled: 1
     path: Assets/Scenes/Level 5 (Rocket Jumping 101).unity
     guid: 34b0fa06216bb5a469b77b9d40a1b5ab
@@ -30,17 +30,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 6 (Putting it Together II).unity
     guid: 1f31b5a8bbac91642af1b38b4111ffca
   - enabled: 1
-    path: Assets/Scenes/Level 7 (A Long Way).unity
-    guid: e25254b80663fa04cb3add7ec7bbc319
-  - enabled: 1
     path: Assets/Scenes/Level 8 (Enemies Can Phase- Warper Introduction).unity
     guid: 3d3143378ea54984d817614f26e9b8f4
+  - enabled: 1
+    path: Assets/Scenes/Level 9 (Danger Element Introduction).unity
+    guid: 0baee3d9a4abbf848afc909eb56857b6
+  - enabled: 1
+    path: Assets/Scenes/Level 10 (Moving & Flipping Platform Introduction).unity
+    guid: 0c403adc1e5f23749a898ae8ff1b5ee7
+  - enabled: 1
+    path: Assets/Scenes/Level 12 (Now You're Thinking In Platforms).unity
+    guid: 49649d8ed9ebd3f4d83f99b01cffdc9b
   - enabled: 1
     path: Assets/Scenes/Level 11 (Shooting Gallery).unity
     guid: 27450c94b09120c458ba911c5c73ab42
   - enabled: 1
     path: Assets/Scenes/Level 15 (Up in the Air).unity
     guid: 18d9fcff9d7bde5468e31be8d83f9121
+  - enabled: 1
+    path: Assets/Scenes/Level 16 (Shieldmaidens).unity
+    guid: f1e7dbf03592e9a439524a76475927ce
   - enabled: 1
     path: Assets/Scenes/Win Screen.unity
     guid: 149d56c18b77aa645af0d02ffd6e2a0e
