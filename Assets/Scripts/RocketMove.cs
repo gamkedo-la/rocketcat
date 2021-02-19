@@ -7,6 +7,7 @@ public class RocketMove : MonoBehaviour
     Rigidbody2D rb;
     public int deathDelay = 1;
     public GameObject explosionPrefab;
+    public float waitTilRocketLive = 1.0f;
     
     // Start is called before the first frame update
     void Start()
@@ -50,7 +51,7 @@ public class RocketMove : MonoBehaviour
 
     IEnumerator WaitThenEnableHitPlayer()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(waitTilRocketLive);
         gameObject.layer = 0;
         Debug.Log("layer reached");
     }
