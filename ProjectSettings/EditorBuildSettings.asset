@@ -52,6 +52,9 @@ EditorBuildSettings:
     guid: f1e7dbf03592e9a439524a76475927ce
   - enabled: 1
     path: Assets/Scenes/Win Screen.unity
+    guid: 34eb75a122464cd4f803bb0c48a84655
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
     guid: 149d56c18b77aa645af0d02ffd6e2a0e
   - enabled: 1
     path: Assets/Scenes/Fail Screen.unity
