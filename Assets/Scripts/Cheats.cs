@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Cheats : MonoBehaviour
 {   
-    [SerializeField]
-    private Health playerHealth;
-    [SerializeField]
-    private RocketCountUpdate rocketCountUpdate;
+    [SerializeField] private Health playerHealth;    
+    [SerializeField] private PlayerController playerController;
+    [SerializeField] private RocketCountUpdate rocketCountUpdate;
 
     void Update()
     {        
@@ -24,6 +23,19 @@ public class Cheats : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
+        if (Input.GetKeyUp(KeyCode.G)) 
+        {
+            if (playerController.Rb.gravityScale > 0) 
+            {
+                Debug.Log("Toggled gravity off! Use WASD keys to move freely across the space!");
+                playerController.Rb.gravityScale = 0;
+            }
+            else
+            {
+                Debug.Log("Toggled gravity on! Can no longer freely move up or down!");
+                playerController.Rb.gravityScale = 1;
+            }
         }
         if (Input.GetKeyUp(KeyCode.E))
         {

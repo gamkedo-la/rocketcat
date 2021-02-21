@@ -7,7 +7,15 @@ public class PlayerController : MonoBehaviour
     public static PlayerController instance;
     public GameObject rocketLauncher;
     public GameObject alienRocketLauncher;
-    Rigidbody2D rb;
+   
+    private Rigidbody2D rb;
+    public Rigidbody2D Rb
+    {
+        get {
+            return rb;
+        }
+    } 
+
     bool isOnGround = false;
     bool rocketBumped = false;
     //Vector2 velWhenBumped = Vector2.zero;
@@ -18,13 +26,11 @@ public class PlayerController : MonoBehaviour
         instance = this;
     }
 
-
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
 
     private void FixedUpdate()
     {
@@ -76,6 +82,7 @@ public class PlayerController : MonoBehaviour
     private void PlayerMovement()
     {
         float hSpeed = 0.1f;
+        float vSpeed = 0.1f;
 
         if (Input.GetKey("d") || Input.GetKey("right"))
         {
@@ -84,6 +91,18 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
             rb.velocity += new Vector2(-hSpeed, 0.0f);
+        }
+
+        if (rb.gravityScale == 0) 
+        {
+            if (Input.GetKey("w") || Input.GetKey("up"))
+            {
+                rb.velocity += new Vector2(0.0f, vSpeed);
+            }
+            else if (Input.GetKey("s") || Input.GetKey("down"))
+            {
+                rb.velocity += new Vector2(0.0f, -vSpeed);
+            }
         }
     }
 }

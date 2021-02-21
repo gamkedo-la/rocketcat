@@ -2026,6 +2026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 2851346441705455764}
+  playerController: {fileID: 2851346441705455765}
   rocketCountUpdate: {fileID: 6572692992333466894}
 --- !u!4 &951548202
 Transform:
@@ -4844,6 +4845,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f68266137477c2c4eb1bda1064026571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2851346441705455765 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2851346441125246783, guid: bfe8a4892f5e0ab40a7a634e3b22386c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2851346441705455763}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59143e35a75be7345a161a9e7989f9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &3311884237681667334

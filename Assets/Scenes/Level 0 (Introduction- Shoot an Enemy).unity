@@ -880,6 +880,18 @@ PrefabInstance:
       objectReference: {fileID: 604033472}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfe8a4892f5e0ab40a7a634e3b22386c, type: 3}
+--- !u!114 &2851346441705455764 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2851346441125246783, guid: bfe8a4892f5e0ab40a7a634e3b22386c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2851346441705455763}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59143e35a75be7345a161a9e7989f9f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3034682234132430820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -897,6 +909,11 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1617024175}
+    - target: {fileID: 3034682233126492531, guid: 2ec0f082bc06a244eaab9b9e43ce6b3b,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 2851346441705455764}
     - target: {fileID: 3034682233126492531, guid: 2ec0f082bc06a244eaab9b9e43ce6b3b,
         type: 3}
       propertyPath: rocketCountUpdate
