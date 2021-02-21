@@ -39,6 +39,7 @@ public class Cheats : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.C))
         {
             rocketCountUpdate.RocketReset();
+            Debug.Log("Reset number of rockets left!");
         }
     }
 }
