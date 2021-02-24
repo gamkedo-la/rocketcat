@@ -7,21 +7,13 @@ public class FractalCountUpdate : MonoBehaviour
 {
     public static FractalCountUpdate instance;
 
-    public int fractalCount;
+    public static int fractalCount;
     Text displayText;
 
 
     private void Awake()
     {
-        if (instance == null)
-        {
             instance = this;
-            DontDestroyOnLoad(instance);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 
     private void Start()
