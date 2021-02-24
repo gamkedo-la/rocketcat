@@ -4865,7 +4865,7 @@ PrefabInstance:
     - target: {fileID: 8686843476079775052, guid: cc8a50611cf105e44886d8080c639f7f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.3
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8686843476079775052, guid: cc8a50611cf105e44886d8080c639f7f,
         type: 3}
@@ -4901,6 +4901,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686843476079775053, guid: cc8a50611cf105e44886d8080c639f7f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9487807
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686843476079775053, guid: cc8a50611cf105e44886d8080c639f7f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.9487807
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686843476079775053, guid: cc8a50611cf105e44886d8080c639f7f,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686843476079775053, guid: cc8a50611cf105e44886d8080c639f7f,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 83.89249
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686843476079775053, guid: cc8a50611cf105e44886d8080c639f7f,
+        type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 62.863014
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc8a50611cf105e44886d8080c639f7f, type: 3}

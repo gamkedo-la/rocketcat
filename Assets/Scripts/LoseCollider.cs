@@ -7,6 +7,7 @@ public class LoseCollider : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Were here");
         if (other.gameObject.CompareTag("Enemy"))
         {
             EnemyCountUpdate.instance.UpdateCounter(true);
@@ -17,12 +18,12 @@ public class LoseCollider : MonoBehaviour
             return;
 
         //used to reload the player back to the start of the current level
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex);
+        //int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        //SceneManager.LoadScene(currentSceneIndex);
 
         //code for last checkpoint for player
-        //PlayerPos ppScript = PlayerController.instance.GetComponent<PlayerPos>();
-        //ppScript.ResetPlayer();
+        PlayerPos ppScript = PlayerController.instance.GetComponent<PlayerPos>();
+        ppScript.ResetPlayer();
 
         //use commented out code below (and comment out above code) to make player reload from beginning of game
         //SceneManager.LoadScene("Fail Screen"); 
