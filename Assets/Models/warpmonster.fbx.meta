@@ -1,11 +1,20 @@
 fileFormatVersion: 2
-guid: dbc61ed0f5c85c24fa3b501ac148acd9
+guid: 2833b863773998c4bbb31af434b07579
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: -623603649343465320
-    second: Scene
+      74: -251351218608039746
+    second: Armature|attack
+  - first:
+      74: -8099015068520809152
+    second: Armature|lookingaroundd
+  - first:
+      74: -7287218189198759680
+    second: Armature|patrol
+  - first:
+      74: 155323657473332376
+    second: Armature|victory
   externalObjects: {}
   materials:
     materialImportMode: 1
