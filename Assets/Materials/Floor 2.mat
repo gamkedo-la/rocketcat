@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Platform Metal
+  m_Name: Floor 2
   m_Shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
-  m_ShaderKeywords: _GLOSSINESS_FROM_BASE_ALPHA _NORMALMAP _SPECULAR_COLOR
+  m_ShaderKeywords: _GLOSSINESS_FROM_BASE_ALPHA _SPECULAR_COLOR
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,11 +21,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 70af20871947f7048bf663a7cf8752ae, type: 3}
-        m_Scale: {x: -2.2, y: 0.37}
+        m_Texture: {fileID: 2800000, guid: c8dd7e2f98ffe2044b6be962f09275da, type: 3}
+        m_Scale: {x: 3.02, y: -1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: dcd6327485531e5499d1e40bce6200bf, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -45,8 +45,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 70af20871947f7048bf663a7cf8752ae, type: 3}
-        m_Scale: {x: -2.2, y: 0.37}
+        m_Texture: {fileID: 2800000, guid: c8dd7e2f98ffe2044b6be962f09275da, type: 3}
+        m_Scale: {x: 3.02, y: -1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -93,11 +93,11 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
-    - _Color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
+    - _BaseColor: {r: 1, g: 0.67058825, b: 0.2509804, a: 0}
+    - _Color: {r: 1, g: 0.67058825, b: 0.2509804, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
---- !u!114 &5284893439877299224
+--- !u!114 &616443614538371129
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
