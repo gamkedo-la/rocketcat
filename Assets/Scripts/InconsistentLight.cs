@@ -25,7 +25,7 @@ public class InconsistentLight : MonoBehaviour
             myLight.intensity = darkIntensity;
             yield return new WaitForSeconds(Random.Range(3f, 5f));
             myLight.intensity = lightIntensity;
-            yield return new WaitForSeconds(Random.Range(0.1f, 1.5f));
+            yield return new WaitForSeconds(Random.Range(0.5f, 2f));
         }
     }
 
