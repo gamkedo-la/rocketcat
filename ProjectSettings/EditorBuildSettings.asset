@@ -39,11 +39,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 10 (Moving & Flipping Platform Introduction).unity
     guid: 0c403adc1e5f23749a898ae8ff1b5ee7
   - enabled: 1
-    path: Assets/Scenes/Level 12 (Now You're Thinking In Platforms).unity
-    guid: 49649d8ed9ebd3f4d83f99b01cffdc9b
-  - enabled: 1
     path: Assets/Scenes/Level 11 (Shooting Gallery).unity
     guid: 27450c94b09120c458ba911c5c73ab42
+  - enabled: 1
+    path: Assets/Scenes/Level 12 (Now You're Thinking in Platforms).unity
+    guid: c29f85c1326c1d84783ba4132531887e
+  - enabled: 1
+    path: Assets/Scenes/Level 13 (Flicker).unity
+    guid: c31eb9255cc69b04aa2d1dc204589965
   - enabled: 1
     path: Assets/Scenes/Level 15 (Up in the Air).unity
     guid: 18d9fcff9d7bde5468e31be8d83f9121
