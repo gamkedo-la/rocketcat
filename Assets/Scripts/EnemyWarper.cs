@@ -13,7 +13,7 @@ public class EnemyWarper : MonoBehaviour
 
     [Header("Sounds")]
     public AudioSource audioSource;
-    [SerializeField] [Range(0, 1)] float alertSoundVol = 0.25f;
+    [SerializeField] [Range(0, 1)] float alertSoundVol = 0.15f;
 
 
 
