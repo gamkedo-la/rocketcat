@@ -13,7 +13,7 @@ public class EnemyWarper : MonoBehaviour
 
     [Header("Sounds")]
     public AudioSource audioSource;
-    [SerializeField] [Range(0, 1)] float alertSoundVol = 0.15f;
+    [SerializeField] [Range(0, 1)] float alertSoundVol = 0.05f;
 
 
 
@@ -60,7 +60,8 @@ public class EnemyWarper : MonoBehaviour
         }
         if (Vector3.Distance(transform.position, PlayerController.instance.transform.position) < 20.0f)
         {
-                audioSource.PlayOneShot(audioSource.clip, alertSoundVol);
+            alertSoundVol = 0.65f;
+            audioSource.PlayOneShot(audioSource.clip, alertSoundVol);
         }
     }
 
