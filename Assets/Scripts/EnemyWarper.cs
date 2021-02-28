@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class EnemyWarper : MonoBehaviour
 {
+    [Header ("Warp")]
     private float teleportDist = 6.0f;
     private float teleportDistRand = 2.5f; //+ or - so twice this distance
     private float meleeDist = 2.0f;
     private float verticalRand = 3.0f; //+ or - so twice this distance
     private float visionRange = 40.0f;
+
+    [Header("Sounds")]
+    public AudioSource audioSource;
+    [SerializeField] [Range(0, 1)] float alertSoundVol = 0.25f;
+
+
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     IEnumerator TeleportWithDelay()
     {
@@ -40,19 +52,31 @@ public class EnemyWarper : MonoBehaviour
         }
     }
 
+    public void Alert()
+    {
+        if (PlayerController.instance == null)
+        {
+            return;
+        }
+        if (Vector3.Distance(transform.position, PlayerController.instance.transform.position) < 20.0f)
+        {
+                audioSource.PlayOneShot(audioSource.clip, alertSoundVol);
+        }
+    }
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(TeleportWithDelay());
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void Update()
     {
-        
+        Alert();
     }
-
-
 
 
 }
