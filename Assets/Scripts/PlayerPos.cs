@@ -12,6 +12,8 @@ public class PlayerPos : MonoBehaviour
     // Start is called before the first frame update
     public void ResetPlayer()
     {
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        rb.velocity = Vector2.zero;
         cm = GameObject.FindGameObjectWithTag("CM").GetComponent<CheckpointMaster>();
         transform.position = cm.lastcheckpointpos;
         Health.instance.ResetHealth();
