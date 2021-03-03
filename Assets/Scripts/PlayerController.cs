@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
 
     bool isOnGround = false;
     bool rocketBumped = false;
+    bool debugFakeSpacebar = false;
+    bool debugFakeSpacebarRelease = false; 
     //Vector2 velWhenBumped = Vector2.zero;
     
 
@@ -53,7 +55,7 @@ public class PlayerController : MonoBehaviour
         isOnGround = Physics2D.OverlapCircleAll(transform.position + Vector3.down * 0.6f, 0.49f, groundMask).Length > 0;
 
         //Keys That Aren't Held 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") || debugFakeSpacebar)
         {
             if (isOnGround)
             {
@@ -62,14 +64,15 @@ public class PlayerController : MonoBehaviour
                 //velWhenBumped = Vector2.zero;
             }
         }
-        else if (Input.GetKeyUp("space") && rocketBumped == false)
+        else if ((Input.GetKeyUp("space") || debugFakeSpacebarRelease)  && rocketBumped == false)
         {
-            float capVerticalSpeedToFall = 3.5f;
+            debugFakeSpacebarRelease = false;
+            /*float capVerticalSpeedToFall = 10f;
             if (rb.velocity.y > capVerticalSpeedToFall)
             {
                 //velWhenBumped = rb.velocity;
                 rb.velocity = new Vector2(rb.velocity.x, capVerticalSpeedToFall);
-            }//if rb
+            }//if rb*/
         }//else if
         else if (Input.GetKeyDown("1"))
         {
@@ -77,7 +80,23 @@ public class PlayerController : MonoBehaviour
             rocketLauncher.SetActive(rocketLauncher.activeSelf == false);
             alienRocketLauncher.SetActive(rocketLauncher.activeSelf == false);
         }
+        /*else if (Input.GetKeyDown(KeyCode.Q))
+        {
+            StartCoroutine(TestRocketBug());
+        }*/
     }// update
+
+    IEnumerator TestRocketBug()
+    {
+        debugFakeSpacebar = true;
+        yield return new WaitForSeconds(0.1f);
+        RocketStart.debugFireDown = true;
+        yield return new WaitForSeconds(0.1f);
+        debugFakeSpacebar = false;
+        debugFakeSpacebarRelease = true;
+    }
+
+
 
     private void PlayerMovement()
     {
