@@ -9,6 +9,7 @@ public class Checkpoint : MonoBehaviour
     [Header("Sound")]
     [SerializeField] AudioClip checkpointSound;
     [SerializeField] [Range(0, 1)] public float soundVolume = 0.7f;
+    private bool used = false;
 
     private void Start()
     {
@@ -20,8 +21,13 @@ public class Checkpoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if(used)
+        {
+            return;
+        }
         if(other.CompareTag("Player"))
         {
+            used = true;
             cm.lastcheckpointpos = transform.position;
             Debug.Log("Checkpoint updated");
             gameObject.GetComponentInChildren<Renderer>().enabled = false;
