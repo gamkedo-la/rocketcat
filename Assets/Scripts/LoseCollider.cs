@@ -7,7 +7,6 @@ public class LoseCollider : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Were here");
         if (other.gameObject.CompareTag("Enemy"))
         {
             EnemyCountUpdate.instance.UpdateCounter(true);

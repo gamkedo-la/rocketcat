@@ -30,7 +30,6 @@ public class RocketMove : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("Rocket Move on collision " + other.gameObject.name);
         RocketDeflect rdScript = other.gameObject.GetComponent<RocketDeflect>();
         Health healthForPlayer = other.gameObject.GetComponent<Health>();
 
@@ -53,7 +52,6 @@ public class RocketMove : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTilRocketLive);
         gameObject.layer = 0;
-        Debug.Log("layer reached");
     }
 
 }
