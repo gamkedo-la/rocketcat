@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 2603240829627618859}
-  alertSoundVol: 1
+  alertSoundVol: 0.25
 --- !u!60 &8124836869839060869
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -134,7 +134,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a5a19f68526be5346bb12aedea7ed5cc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0

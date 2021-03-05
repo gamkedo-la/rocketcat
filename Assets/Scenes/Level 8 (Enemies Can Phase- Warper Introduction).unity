@@ -261,6 +261,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 77987018}
     m_Modifications:
+    - target: {fileID: 679109960872012198, guid: 7df687196e8c5ec4aa69a23fe289ffef,
+        type: 3}
+      propertyPath: alertSoundVol
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 944710034968576033, guid: 7df687196e8c5ec4aa69a23fe289ffef,
         type: 3}
       propertyPath: m_Name
@@ -1242,6 +1247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy Warper (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603240829627618859, guid: 7df687196e8c5ec4aa69a23fe289ffef,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 6487796810157992755, guid: 7df687196e8c5ec4aa69a23fe289ffef,
         type: 3}
