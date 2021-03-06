@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     int sceneToLoad;
+    public Animator transition;
 
     //bool used for muting/unmuting the game
     private bool isMuted = false;
@@ -40,6 +41,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator WaitForLoad()
     {
+        transition.SetTrigger("Start");
         yield return new WaitForSeconds(1.0f);
         SceneManager.LoadScene(sceneToLoad);
     }
