@@ -8,10 +8,12 @@ public class Cheats : MonoBehaviour
     [SerializeField] private Health playerHealth;    
     [SerializeField] private PlayerController playerController;
     [SerializeField] private RocketCountUpdate rocketCountUpdate;
+    [SerializeField] private Transform teleportTo;
 
     void Update()
     {        
         if (Input.GetKeyDown(KeyCode.R))
+            //not a cheat, player controlled, should be in player controller 
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
         }
@@ -24,6 +26,22 @@ public class Cheats : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            EnemyCountUpdate.instance.KillAllEnemies();
+        }
+        if(Input.GetKeyDown(KeyCode.T))
+        {
+            if(teleportTo != null)
+            {
+                PlayerController.instance.transform.position = teleportTo.position;
+            }
+            else
+            {
+                Debug.Log("Tried to teleport to, but no teleport defined");
+            }
+        }
+
         if (Input.GetKeyUp(KeyCode.G)) 
         {
             if (playerController.Rb.gravityScale > 0) 

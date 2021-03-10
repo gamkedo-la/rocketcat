@@ -51,11 +51,26 @@ public class EnemyCountUpdate : MonoBehaviour
         if (currentCount == 1)
         {
             GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
-            EdgeArrows.pointAt = enemyList[0].transform;
+            if (enemyList.Length > 0)
+            {
+                EdgeArrows.pointAt = enemyList[0].transform;
+            }
         }
         displayText.text = (startCount - currentCount) + "/" + startCount;
     }
  
+    public void KillAllEnemies()
+    {
+        GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
+        for(int i = 0; i < enemyList.Length; i++)
+        {
+            Destroyable dScript = enemyList[i].GetComponent<Destroyable>();
+            if(dScript != null)
+            {
+                dScript.DestroySelf();
+            }
+        }
+    }
 
     public void RemoveFromCounterNextFrame()
     {

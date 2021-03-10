@@ -406,6 +406,7 @@ MonoBehaviour:
   playerHealth: {fileID: 2851346441705455764}
   playerController: {fileID: 2851346441705455765}
   rocketCountUpdate: {fileID: 6572692992333466894}
+  teleportTo: {fileID: 1515791429}
 --- !u!4 &456392550
 Transform:
   m_ObjectHideFlags: 0
@@ -511,11 +512,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8104402729615501425, guid: 19c3242c019cbed429e1ffd813bd5436,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: cfedb1abd50c9c643a4456ae92ba8076, type: 3}
     - target: {fileID: 8104402729615501430, guid: 19c3242c019cbed429e1ffd813bd5436,
         type: 3}
       propertyPath: m_RootOrder
@@ -576,8 +572,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: MusicPlayer
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4649332069632888938, guid: 19c3242c019cbed429e1ffd813bd5436, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19c3242c019cbed429e1ffd813bd5436, type: 3}
 --- !u!1001 &483796471
 PrefabInstance:
@@ -1577,6 +1572,36 @@ Transform:
   - {fileID: 2037968087}
   m_Father: {fileID: 0}
   m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1515791428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1515791429}
+  m_Layer: 0
+  m_Name: TeleportCheat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1515791429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515791428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.3, y: 109.29, z: 4.6894684}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1558221904
 PrefabInstance:

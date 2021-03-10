@@ -467,7 +467,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!23 &232699445
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -697,10 +697,6 @@ PrefabInstance:
     - target: {fileID: 440822514, guid: 249641afedfa4ce4abe694020fb52f03, type: 3}
       propertyPath: isVertical
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 440822515, guid: 249641afedfa4ce4abe694020fb52f03, type: 3}
-      propertyPath: m_Constraints
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 993668913423541113, guid: 249641afedfa4ce4abe694020fb52f03,
         type: 3}
@@ -2405,7 +2401,7 @@ PrefabInstance:
     - target: {fileID: 4732911175582319503, guid: c0c5bafd8a9f65145a9650c22ef7f0d4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25
+      value: -35
       objectReference: {fileID: 0}
     - target: {fileID: 4732911175582319503, guid: c0c5bafd8a9f65145a9650c22ef7f0d4,
         type: 3}
