@@ -15,7 +15,20 @@ public class MusicPlayer : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            AudioSource newSource = GetComponent<AudioSource>();
+            AudioSource oldSource = instance.GetComponent<AudioSource>();
+            if (newSource.clip == oldSource.clip)
+            {
+                Destroy(gameObject);
+                Debug.Log("Continuing same song, removing new music player");
+            }
+            else
+            {
+                Destroy(instance.gameObject);
+                instance = this;
+                DontDestroyOnLoad(instance);
+                Debug.Log("Changing song, switching to new music player");
+            }
         }
     }
 
