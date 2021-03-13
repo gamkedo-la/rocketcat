@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 679109960872012198}
   - component: {fileID: 8124836869839060869}
   - component: {fileID: 2603240829627618859}
+  - component: {fileID: 5801997168252738916}
   m_Layer: 12
   m_Name: Enemy Warper
   m_TagString: Enemy
@@ -218,14 +219,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &7976948978888528292
+--- !u!95 &5801997168252738916
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8640833084568045369}
+  m_GameObject: {fileID: 944710034968576033}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
@@ -321,12 +322,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2833b863773998c4bbb31af434b07579, type: 3}
---- !u!1 &8640833084568045369 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2833b863773998c4bbb31af434b07579,
-    type: 3}
-  m_PrefabInstance: {fileID: 8875203129395788392}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8980660636043140483 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2833b863773998c4bbb31af434b07579,
