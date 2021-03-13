@@ -3285,6 +3285,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy Warper (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5801997168252738916, guid: 7df687196e8c5ec4aa69a23fe289ffef,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 563c92401d70c96479c7a9f0f977b4dc, type: 2}
     - target: {fileID: 6487796810157992755, guid: 7df687196e8c5ec4aa69a23fe289ffef,
         type: 3}
       propertyPath: m_RootOrder

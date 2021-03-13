@@ -16,11 +16,24 @@ public class EnemyWarper : MonoBehaviour
     [SerializeField] [Range(0, 1)] float alertSoundVol = 0.05f;
 
 
+    [Header("Animations")]
+    Animator animator;
+
 
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
     }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        StartCoroutine(TeleportWithDelay());
+        animator = GetComponent<Animator>();
+        animator.SetBool("isPlayerDead", false);
+    }
+
+
 
     IEnumerator TeleportWithDelay()
     {
@@ -56,6 +69,7 @@ public class EnemyWarper : MonoBehaviour
     {
         if (PlayerController.instance == null)
         {
+            animator.SetBool("isPlayerDead", true);
             return;
         }
         if (Vector3.Distance(transform.position, PlayerController.instance.transform.position) < 20.0f)
@@ -63,20 +77,40 @@ public class EnemyWarper : MonoBehaviour
             alertSoundVol = 0.65f;
             audioSource.PlayOneShot(audioSource.clip, alertSoundVol);
         }
+        else
+        {
+            StartCoroutine(TeleportWithDelay());
+            animator.SetBool("isLooking", false);
+        }
     }
 
 
 
-    // Start is called before the first frame update
-    void Start()
+
+    public void Attack()
     {
-        StartCoroutine(TeleportWithDelay());
+        if (PlayerController.instance == null)
+        {
+            animator.SetBool("isPlayerDead", true);
+            return;
+        }
+        if (Vector3.Distance(transform.position, PlayerController.instance.transform.position) < 5.0f)
+        {
+            //play attack sound
+            animator.SetBool("isAttacking", true);
+        }
+        else
+        {
+            animator.SetBool("isAttacking", false);
+        }
     }
+
 
 
     private void Update()
     {
         Alert();
+        Attack();
     }
 
 
