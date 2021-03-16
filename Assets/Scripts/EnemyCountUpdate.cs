@@ -38,6 +38,11 @@ public class EnemyCountUpdate : MonoBehaviour
         return startCount - currentCount;
     }
 
+    public void EnemyIncrease()
+        {
+        startCount++;
+        }
+
 
     public void UpdateCounter(bool removedTarget)
     {

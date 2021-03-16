@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2 (Putting it Together I).unity
     guid: 8b909505e43b06642bb34cac69f0983b
   - enabled: 1
-    path: Assets/Scenes/Level 3 (FlyMech Introduction).unity
+    path: Assets/Scenes/Level 3 (There's Too Many of Them!).unity
     guid: f389cfc781fac024fbc9075088e44d5d
   - enabled: 1
     path: Assets/Scenes/Level 4 (Rocket Slide).unity
