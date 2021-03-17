@@ -55,6 +55,15 @@ public class Cheats : MonoBehaviour
                 playerController.Rb.gravityScale = 1;
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.L))
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                playerHealth.DealDamage(true);
+            }
+        }
+
         if (Input.GetKeyUp(KeyCode.E))
         {
             if (playerHealth.ToggleInvincible())

@@ -37,9 +37,9 @@ public class Health : MonoBehaviour
         }
     }
 
-    public bool DealDamage()
+    public bool DealDamage(bool invulOverride = false)
     {
-        if (invulnTime)
+        if (invulnTime && invulOverride == false)
         {
             return false;
         }
