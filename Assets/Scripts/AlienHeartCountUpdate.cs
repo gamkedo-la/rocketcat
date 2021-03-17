@@ -7,12 +7,14 @@ public class AlienHeartCountUpdate : MonoBehaviour
 {
     public static AlienHeartCountUpdate instance;
 
+    public static int enteredLevelWith = 0;
     public static int alienHeartCount;
     Text displayText;
 
 
     private void Awake()
     {
+        alienHeartCount = enteredLevelWith;
         instance = this;
     }
 

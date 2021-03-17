@@ -7,12 +7,14 @@ public class FractalCountUpdate : MonoBehaviour
 {
     public static FractalCountUpdate instance;
 
+    public static int enteredLevelWith = 0;
     public static int fractalCount;
     Text displayText;
 
 
     private void Awake()
     {
+        fractalCount = enteredLevelWith;
             instance = this;
     }
 

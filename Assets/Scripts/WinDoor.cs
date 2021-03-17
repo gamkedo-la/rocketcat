@@ -40,6 +40,8 @@ public class WinDoor : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && EnemyCountUpdate.instance.AllEnemiesAreDefeated())
         {
+            FractalCountUpdate.enteredLevelWith = FractalCountUpdate.fractalCount;
+            AlienHeartCountUpdate.enteredLevelWith = AlienHeartCountUpdate.alienHeartCount;
             AudioSource.PlayClipAtPoint(doorOpened, Camera.main.transform.position, soundVolume);
             Destroy(other.gameObject);
             GameManager.instance.DelayThenLoadScene(true);
