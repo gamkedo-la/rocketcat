@@ -41,8 +41,12 @@ public class EnemyCountUpdate : MonoBehaviour
     public void EnemyIncrease()
         {
         startCount++;
+        currentCount++;
+        UpdateCounter(false);
         }
 
+
+ 
 
     public void UpdateCounter(bool removedTarget)
     {

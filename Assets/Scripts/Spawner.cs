@@ -8,14 +8,15 @@ public class Spawner : MonoBehaviour
     public GameObject prefabToSpawn;
     public float minSpawnDelay = 2f;
     public float maxSpawnDelay = 3.5f;
-
-
+    private int spawnLimitPerSpawner = 2;
+    private List<GameObject> spawnList; 
 
 
 
     // Start is called before the first frame update
     void Start()
     {
+        spawnList = new List<GameObject>();
         StartCoroutine(SpawnRepeatedly());
     }
 
@@ -23,16 +24,22 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
+            spawnList.RemoveAll(x => !x);
             yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
-            GameObject newGO = GameObject.Instantiate(prefabToSpawn);
-            if (newSpawn != null)
+            if (spawnList.Count < spawnLimitPerSpawner)
             {
-                newGO.transform.SetParent(newSpawn);
-                EnemyCountUpdate.instance.EnemyIncrease();
-            }
-            else
-            {
-                Debug.Log("Please set contained spawn");
+                GameObject newGO = GameObject.Instantiate(prefabToSpawn);
+                if (newSpawn != null)
+                {
+                    spawnList.Add(newGO);
+                    newGO.transform.SetParent(newSpawn);
+                    newGO.transform.position = newSpawn.transform.position;
+                    EnemyCountUpdate.instance.EnemyIncrease();
+                }
+                else
+                {
+                    Debug.Log("Please set contained spawn");
+                }
             }
         }
     }
