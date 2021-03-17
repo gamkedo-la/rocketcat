@@ -10,6 +10,7 @@ public class EnemyWarper : MonoBehaviour
     private float meleeDist = 2.0f;
     private float verticalRand = 3.0f; //+ or - so twice this distance
     private float visionRange = 40.0f;
+    private Vector3 scaleFacingRight;
 
     [Header("Sounds")]
     public AudioSource audioSource;
@@ -28,6 +29,8 @@ public class EnemyWarper : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        scaleFacingRight = Vector3.one;
+        scaleFacingRight.x = -1.0f;
         StartCoroutine(TeleportWithDelay());
         animator = GetComponent<Animator>();
         animator.SetBool("isPlayerDead", false);
@@ -59,6 +62,14 @@ public class EnemyWarper : MonoBehaviour
                 if (Physics2D.OverlapCircle(destToTest, 1.0f) == false)
                 {
                     transform.position = destToTest;
+                    if(transform.position.x > PlayerController.instance.transform.position.x)
+                    {
+                        transform.localScale = Vector3.one;
+                    }
+                    else
+                    {
+                        transform.localScale = scaleFacingRight;
+                    }
                 }
             }
 
@@ -79,7 +90,6 @@ public class EnemyWarper : MonoBehaviour
         }
         else
         {
-            StartCoroutine(TeleportWithDelay());
             animator.SetBool("isLooking", false);
         }
     }
