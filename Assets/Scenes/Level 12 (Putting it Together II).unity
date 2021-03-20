@@ -2787,6 +2787,7 @@ MonoBehaviour:
   playerHealth: {fileID: 2851346441705455766}
   playerController: {fileID: 2851346441705455767}
   rocketCountUpdate: {fileID: 6572692992333466894}
+  teleportTo: {fileID: 0}
 --- !u!4 &924166162
 Transform:
   m_ObjectHideFlags: 0
@@ -7445,6 +7446,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952355183954392412, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
+      propertyPath: m_text
+      value: Putting It Together II
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952355183954392412, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6572692990884511216, guid: 01b95fc90e89dab4095d4d75cb58d70e,
         type: 3}
