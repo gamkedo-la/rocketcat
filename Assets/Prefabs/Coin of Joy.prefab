@@ -5010,8 +5010,8 @@ GameObject:
   m_Component:
   - component: {fileID: 701125087183863738}
   - component: {fileID: 701125087183863741}
-  - component: {fileID: 177326552914954341}
   - component: {fileID: 6189059985103546589}
+  - component: {fileID: 535928737859606858}
   m_Layer: 0
   m_Name: Coin of Joy
   m_TagString: Untagged
@@ -5051,21 +5051,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spinSpeeds: {x: 100, y: 45, z: 33.333}
---- !u!114 &177326552914954341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701125087183863740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c70369f7a6a72d429b7a44752363a85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fractalCollectibleSound: {fileID: 8300000, guid: b08d31a7dd8a1a045bf715cbf77be88b,
-    type: 3}
-  soundVolume: 0.7
 --- !u!60 &6189059985103546589
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5096,6 +5081,21 @@ PolygonCollider2D:
       - {x: -0.4965765, y: -0.2959683}
       - {x: 0.50797784, y: -0.30166876}
       - {x: 0.27269197, y: 0.16650361}
+--- !u!114 &535928737859606858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701125087183863740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0a33c19af19fa478baed8703202e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fractalCollectibleSound: {fileID: 8300000, guid: b08d31a7dd8a1a045bf715cbf77be88b,
+    type: 3}
+  soundVolume: 0.7
 --- !u!1 &701125087378426497
 GameObject:
   m_ObjectHideFlags: 0
