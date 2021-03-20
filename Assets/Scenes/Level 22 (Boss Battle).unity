@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossHurt: {fileID: 2100000, guid: 4e8e51dca45b2654c88f540018f1b911, type: 2}
-  health: 10
+  health: 50
 --- !u!1001 &233181733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2835,6 +2835,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
+    - target: {fileID: 6835032204998469955, guid: 5edfb897c9e167c4291b08513928ddc2,
+        type: 3}
+      propertyPath: maxReloadSpawnDelay
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6835032204998469955, guid: 5edfb897c9e167c4291b08513928ddc2,
+        type: 3}
+      propertyPath: minReloadSpawnDelay
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6835032206314299745, guid: 5edfb897c9e167c4291b08513928ddc2,
         type: 3}
       propertyPath: m_RootOrder

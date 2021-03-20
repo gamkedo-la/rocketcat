@@ -28,6 +28,7 @@ public class HealthBossPug : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            EnemyCountUpdate.instance.RemoveFromCounterNextFrame();
         }
         return true;
     }
