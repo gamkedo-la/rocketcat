@@ -8,17 +8,20 @@ public class Health : MonoBehaviour
     public static Health instance;
 
     List<GameObject> healthIcons;
-    Material playerMat;
-    [SerializeField] Material playerHurt;
-    [SerializeField] int health = 5;
+    private int health = 5;
     private float pushMultiplier = 250f;
     Rigidbody2D rb;
-    bool invulnTime = false;
+
+    /*Material playerMat;
+    public GameObject rocketCatModel;
+    [SerializeField] Material playerHurt;
+     */
 
     private void Start()
     {
         instance = this;
-        playerMat = gameObject.GetComponent<Renderer>().material;
+        //playerMat = gameObject.GetComponent<Renderer>().material;
+
         rb = gameObject.GetComponent<Rigidbody2D>();
         healthIcons = new List<GameObject>();
         for (int i = 0; i < health; i++)
@@ -39,13 +42,13 @@ public class Health : MonoBehaviour
 
     public bool DealDamage(bool invulOverride = false)
     {
-        if (invulnTime && invulOverride == false)
+        if (PlayerDamageFlash.instance.invulnTime && invulOverride == false)
         {
             return false;
         }
         health--;
         UpdateIcons();
-        StartCoroutine(DamageFlash());
+        PlayerDamageFlash.instance.DamageFlash();
         if (health <= 0)
         {
             Destroy(gameObject);
@@ -54,14 +57,15 @@ public class Health : MonoBehaviour
         return true;
     }
 
-    IEnumerator DamageFlash()
+
+    /*IEnumerator DamageFlash()
     {
         invulnTime = true;
         GetComponent<MeshRenderer>().material = playerHurt;
         yield return new WaitForSeconds(1.0f);
         GetComponent<MeshRenderer>().material = playerMat;
         invulnTime = false;
-    }
+    }*/
 
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -91,8 +95,8 @@ public class Health : MonoBehaviour
     }
 
     public bool ToggleInvincible()
-    {        
-        invulnTime = !invulnTime;
-        return invulnTime;
+    {
+        PlayerDamageFlash.instance.invulnTime = !PlayerDamageFlash.instance.invulnTime;
+        return PlayerDamageFlash.instance.invulnTime;
     }
 }
