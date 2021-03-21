@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 3 (There's Too Many of Them!).unity
     guid: f389cfc781fac024fbc9075088e44d5d
   - enabled: 1
-    path: Assets/Scenes/Level 4 (Rocket Slide).unity
+    path: Assets/Scenes/Level 4 (The Elevator).unity
     guid: 76fd607975eea644db7b90daf7651ea4
   - enabled: 1
     path: Assets/Scenes/Level 5 (Rocket Jumping 101).unity
