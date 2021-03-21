@@ -20,14 +20,12 @@ public class MusicPlayer : MonoBehaviour
             if (newSource.clip == oldSource.clip)
             {
                 Destroy(gameObject);
-                Debug.Log("Continuing same song, removing new music player");
             }
             else
             {
                 Destroy(instance.gameObject);
                 instance = this;
                 DontDestroyOnLoad(instance);
-                Debug.Log("Changing song, switching to new music player");
             }
         }
     }
