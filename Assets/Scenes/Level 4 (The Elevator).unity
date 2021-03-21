@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -9799,6 +9799,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fc064b0a00b9654789414688011e12d, type: 3}
+--- !u!1001 &1293979289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 281
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620038, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046517489530620058, guid: 1b16da1b13e8380469731e3e7cf36d3d,
+        type: 3}
+      propertyPath: m_Name
+      value: CircleCheckPoint (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b16da1b13e8380469731e3e7cf36d3d, type: 3}
 --- !u!4 &1296935507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 701125087183863738, guid: e454f515972f93e43ab38f0a6d645d87,
@@ -11066,12 +11135,12 @@ PrefabInstance:
     - target: {fileID: 3864487052061896498, guid: 82e87c5fdda6b8f4eab6055e0e4a2592,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 94.273056
+      value: 93.40752
       objectReference: {fileID: 0}
     - target: {fileID: 3864487052061896498, guid: 82e87c5fdda6b8f4eab6055e0e4a2592,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -59.6
+      value: -58.9
       objectReference: {fileID: 0}
     - target: {fileID: 3864487052061896498, guid: 82e87c5fdda6b8f4eab6055e0e4a2592,
         type: 3}
@@ -13793,7 +13862,7 @@ PrefabInstance:
     - target: {fileID: 2829087726964306268, guid: 975978923f06ed444a3df4c01dbce2c8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.9
+      value: -26.96
       objectReference: {fileID: 0}
     - target: {fileID: 2829087726964306268, guid: 975978923f06ed444a3df4c01dbce2c8,
         type: 3}
