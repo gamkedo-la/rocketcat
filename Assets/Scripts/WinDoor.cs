@@ -32,7 +32,7 @@ public class WinDoor : MonoBehaviour
     {
         if (EnemyCountUpdate.instance.AllEnemiesAreDefeated())
         {
-            GetComponent<MeshRenderer>().material = doorOpen;
+            WinDoorOpenLights.instance.DoorOpenGreenLight();
         }
     }
 

@@ -52,7 +52,8 @@ MonoBehaviour:
   maxForce: 1000
   minReloadSpawnDelay: 3
   maxReloadSpawnDelay: 7
-  reloadCrateToSpawn: {fileID: 0}
+  reloadCrateToSpawn: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+    type: 3}
 --- !u!1 &6835032206314299749
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,6 +68,7 @@ GameObject:
   - component: {fileID: 6835032206314299758}
   - component: {fileID: 6835032206314299746}
   - component: {fileID: 4772271156268327111}
+  - component: {fileID: 232699444}
   m_Layer: 12
   m_Name: Boss
   m_TagString: Enemy
@@ -186,6 +188,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7422b40cc3701da4ebd7691627817241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &232699444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6835032206314299749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04612c353e4d8164ba6890f72772c8b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossHurt: {fileID: 2100000, guid: 4e8e51dca45b2654c88f540018f1b911, type: 2}
+  health: 50
+--- !u!114 &62340198024295041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7833465895400593806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5cf7ed46afb5e4592d5ec48add3c0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossHurt: {fileID: 0}
+  timeSpentFlashing: 0.5
 --- !u!1001 &4114849565696472969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -613,6 +643,12 @@ PrefabInstance:
 --- !u!4 &5669545939420798243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8625699637886282410, guid: 40103e30819348640b36118a02b62226,
+    type: 3}
+  m_PrefabInstance: {fileID: 4114849565696472969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7833465895400593806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6173571262166560263, guid: 40103e30819348640b36118a02b62226,
     type: 3}
   m_PrefabInstance: {fileID: 4114849565696472969}
   m_PrefabAsset: {fileID: 0}

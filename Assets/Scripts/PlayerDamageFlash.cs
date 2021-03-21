@@ -9,7 +9,7 @@ public class PlayerDamageFlash : MonoBehaviour
     Material playerMat;
     public GameObject rocketCatModel;
     [SerializeField] Material playerHurt;
-    public float timeSpentFlashing = 0.5f;
+    private float timeSpentFlashing = 0.5f;
     public bool invulnTime = false;
 
     // Start is called before the first frame update

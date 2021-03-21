@@ -24,7 +24,7 @@ public class HealthBossPug : MonoBehaviour
     public bool DealDamage(bool invulOverride = false)
     {
         health--;
-        StartCoroutine(DamageFlash());
+        EnemyBossDamageFlash.instance.DamageFlash();
         if (health <= 0)
         {
             Destroy(gameObject);
@@ -33,12 +33,6 @@ public class HealthBossPug : MonoBehaviour
         return true;
     }
 
-    IEnumerator DamageFlash()
-    {
-        GetComponent<MeshRenderer>().material = bossHurt;
-        yield return new WaitForSeconds(1.0f);
-        GetComponent<MeshRenderer>().material = bossMat;
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
