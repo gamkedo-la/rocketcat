@@ -22,13 +22,14 @@ public class RocketCountUpdate : MonoBehaviour
     void Start()
     {
         RocketReset();
-        rocketIcons = new List<GameObject>();
+       //Below code used when we had 12 rockets that disappeared as fired. 
+        /*rocketIcons = new List<GameObject>();
         for (int i = 0; i < rocketCount; i++)
         {
             GameObject icon = GameObject.Find("Rocket " + (i + 1));
             rocketIcons.Add(icon);
         }
-        UpdateRocketIcons();
+        UpdateRocketIcons();*/
     }
 
     public void RocketReset()
@@ -39,20 +40,20 @@ public class RocketCountUpdate : MonoBehaviour
         UpdateCounter(false);
     }
 
-    public void UpdateRocketIcons()
+    /*public void UpdateRocketIcons()
     {
         for (int i = 0; i < rocketIcons.Count; i++)
         {
             rocketIcons[i].SetActive(i < rocketCount);
         }
-    }
+    }*/
 
     public void UpdateCounter(bool rocketAmmoAtLimit)
     {
         if (rocketAmmoAtLimit)
         {
             rocketCount--;
-            UpdateRocketIcons();
+            //UpdateRocketIcons();
         }
 
         displayText.text = rocketCount.ToString() ;

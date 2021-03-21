@@ -13,7 +13,7 @@ public class RocketReloadPowerup : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
             {
             RocketCountUpdate.instance.RocketReset();
-            RocketCountUpdate.instance.UpdateRocketIcons();
+            //RocketCountUpdate.instance.UpdateRocketIcons();
             AudioSource.PlayClipAtPoint(rocketReloadPowerupSound, Camera.main.transform.position, soundVolume);
             GameManager.instance.PlaySound();
             Destroy(gameObject);
