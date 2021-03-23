@@ -27,11 +27,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 6 (Putting it Together II).unity
     guid: 1f31b5a8bbac91642af1b38b4111ffca
   - enabled: 1
-    path: Assets/Scenes/Level 7 (Now You're Thinking in Platforms).unity
-    guid: d0a678ebe33307b458327ccf30d7f6b5
-  - enabled: 1
-    path: Assets/Scenes/Level 8 (The Space Mill).unity
+    path: Assets/Scenes/Level 7 (The Space Mill).unity
     guid: 0baee3d9a4abbf848afc909eb56857b6
+  - enabled: 1
+    path: Assets/Scenes/Level 8 (Now You're Thinking in Platforms).unity
+    guid: d0a678ebe33307b458327ccf30d7f6b5
   - enabled: 1
     path: Assets/Scenes/Level 9 (Let's Do the Time Warp Again).unity
     guid: 0c403adc1e5f23749a898ae8ff1b5ee7
