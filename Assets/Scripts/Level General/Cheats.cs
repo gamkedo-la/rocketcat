@@ -10,8 +10,28 @@ public class Cheats : MonoBehaviour
     [SerializeField] private RocketCountUpdate rocketCountUpdate;
     [SerializeField] private Transform teleportTo;
 
+    private bool cheatsEnabled = false;
+
+    private void Start()
+    {
+        Debug.Log("Cheats enabled: " + cheatsEnabled);
+        Debug.Log("Backslash key to toggle cheats");
+    }
+
     void Update()
-    {        
+    {
+        if (Input.GetKeyDown(KeyCode.Backslash))
+        {
+            cheatsEnabled = !cheatsEnabled;
+            Debug.Log("Cheats enabled: " + cheatsEnabled);
+        }
+
+        if (cheatsEnabled == false)
+        {
+            return;
+        }   
+
+
         if (Input.GetKeyDown(KeyCode.R))
             //not a cheat, player controlled, should be in player controller 
         {
