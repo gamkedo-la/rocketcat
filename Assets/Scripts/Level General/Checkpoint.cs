@@ -30,6 +30,7 @@ public class Checkpoint : MonoBehaviour
             used = true;
             cm.lastcheckpointpos = transform.position;
             Debug.Log("Checkpoint updated");
+            Health.instance.ResetHealth();
             gameObject.GetComponentInChildren<Renderer>().enabled = false;
             cm.currentEnemyCount = EnemyCountUpdate.instance.EnemyCount();
             AudioSource.PlayClipAtPoint(checkpointSound, Camera.main.transform.position, soundVolume);

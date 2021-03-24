@@ -31,13 +31,6 @@ public class Cheats : MonoBehaviour
             return;
         }   
 
-
-        if (Input.GetKeyDown(KeyCode.R))
-            //not a cheat, player controlled, should be in player controller 
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
-        }
-
         if (Input.GetKeyDown(KeyCode.O))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

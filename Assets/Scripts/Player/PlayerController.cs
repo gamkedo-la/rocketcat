@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -55,6 +56,12 @@ public class PlayerController : MonoBehaviour
         isOnGround = Physics2D.OverlapCircleAll(transform.position + Vector3.down * 0.6f, 0.49f, groundMask).Length > 0;
 
         //Keys That Aren't Held 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+        }
+
+
         if (Input.GetKeyDown("space") || debugFakeSpacebar)
         {
             if (isOnGround)
@@ -80,6 +87,7 @@ public class PlayerController : MonoBehaviour
             rocketLauncher.SetActive(rocketLauncher.activeSelf == false);
             alienRocketLauncher.SetActive(rocketLauncher.activeSelf == false);
         }
+
         /*else if (Input.GetKeyDown(KeyCode.Q))
         {
             StartCoroutine(TestRocketBug());
