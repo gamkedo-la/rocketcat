@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 1394201471}
   - component: {fileID: 1394201470}
   - component: {fileID: 1394201475}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: ShieldMain
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 2707705945916364655}
   m_Layer: 12
   m_Name: Enemy Shieldmaiden
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
