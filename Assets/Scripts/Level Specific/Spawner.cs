@@ -8,7 +8,7 @@ public class Spawner : MonoBehaviour
     public GameObject prefabToSpawn;
     public float minSpawnDelay = 2f;
     public float maxSpawnDelay = 3.5f;
-    private int spawnLimitPerSpawner = 2;
+    private int spawnLimitPerSpawner = 5;
     private List<GameObject> spawnList; 
 
 

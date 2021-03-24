@@ -9782,7 +9782,7 @@ Transform:
   m_GameObject: {fileID: 850925253183407892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 850925252192475832}
   - {fileID: 850925251554007797}
@@ -9820,7 +9820,6 @@ MonoBehaviour:
   fractalCollectibleSound: {fileID: 8300000, guid: b08d31a7dd8a1a045bf715cbf77be88b,
     type: 3}
   soundVolume: 0.7
-  fractalCount: 0
 --- !u!60 &6311241603351777397
 PolygonCollider2D:
   m_ObjectHideFlags: 0
