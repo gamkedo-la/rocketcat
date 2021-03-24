@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -182,8 +182,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4879050353645104538}
-  - {fileID: 5270871732094872475}
   - {fileID: 1617576386}
+  - {fileID: 5270871732094872475}
   - {fileID: 3311884237681667335}
   - {fileID: 951548202}
   m_Father: {fileID: 0}
@@ -3899,7 +3899,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 50906868}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1641746869
 PrefabInstance:
@@ -5906,8 +5906,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5625102933452571898, guid: 01b95fc90e89dab4095d4d75cb58d70e,
         type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5625102933452571898, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5625102933452571898, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5625102933452571898, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -160
+      value: 252
       objectReference: {fileID: 0}
     - target: {fileID: 6572692990884511216, guid: 01b95fc90e89dab4095d4d75cb58d70e,
         type: 3}
