@@ -27,10 +27,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 6 (Putting it Together II).unity
     guid: 1f31b5a8bbac91642af1b38b4111ffca
   - enabled: 1
-    path: Assets/Scenes/Level 7 (The Space Mill).unity
+    path: Assets/Scenes/Level 8 (The Space Mill).unity
     guid: 0baee3d9a4abbf848afc909eb56857b6
   - enabled: 1
-    path: Assets/Scenes/Level 8 (Now You're Thinking in Platforms).unity
+    path: Assets/Scenes/Level 7 (Now You're Thinking in Platforms).unity
     guid: d0a678ebe33307b458327ccf30d7f6b5
   - enabled: 1
     path: Assets/Scenes/Level 9 (Let's Do the Time Warp Again).unity
@@ -45,11 +45,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 12 (Putting it Together II).unity
     guid: 35e143b4a97d704449cddeb5be24bd6b
   - enabled: 1
-    path: Assets/Scenes/Level 13 (Flicker).unity
-    guid: c31eb9255cc69b04aa2d1dc204589965
-  - enabled: 1
-    path: Assets/Scenes/Level 15 (Denial and Reward).unity
-    guid: 18d9fcff9d7bde5468e31be8d83f9121
+    path: Assets/Scenes/Level 22 (Boss Battle).unity
+    guid: f294b82332288f84fb2bd4a4e370cf2c
   - enabled: 1
     path: Assets/Scenes/Win Screen.unity
     guid: 34eb75a122464cd4f803bb0c48a84655
