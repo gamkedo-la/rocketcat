@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 7058797814515776366}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.296558, y: 7.584434, z: -2.2845016}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 6, z: 2}
   m_Children:
   - {fileID: 7058797815342318511}
   - {fileID: 7058797815278197658}
@@ -48,6 +48,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: {fileID: 7058797815278197658}
   end: {fileID: 7058797815296951146}
+  smasher: {fileID: 7058797815342318511}
+  rate: 5
+  period: 0.5
 --- !u!1 &7058797815278197659
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,7 +105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7058797815296951147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7058797814515776360}
@@ -120,6 +123,7 @@ GameObject:
   - component: {fileID: 7058797815342318504}
   - component: {fileID: 7058797815342318505}
   - component: {fileID: 7058797815342318510}
+  - component: {fileID: 3693836617458793937}
   m_Layer: 0
   m_Name: Crusher
   m_TagString: Untagged
@@ -214,3 +218,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3693836617458793937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7058797815342318508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511cfaa4341eabe4e843afdbad750713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
