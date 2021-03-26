@@ -11,7 +11,6 @@ public class KillOnTouch : MonoBehaviour
         {
             Destroy(other.gameObject);
             GameManager.instance.DelayThenLoadScene(false);
-
         }
     }
 }

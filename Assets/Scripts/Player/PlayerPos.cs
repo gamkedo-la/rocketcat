@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class PlayerPos : MonoBehaviour
 {
+    public static PlayerPos instance;
     private CheckpointMaster cm;
     private Health healthScript;
     private RocketCountUpdate rocketScript;
-    
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
 
     // Start is called before the first frame update
     public void ResetPlayer()
