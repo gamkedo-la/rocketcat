@@ -9,8 +9,8 @@ public class KillOnTouch : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(other.gameObject);
-            GameManager.instance.DelayThenLoadScene(false);
+            PlayerPos ppScript = PlayerController.instance.GetComponent<PlayerPos>();
+            ppScript.ResetPlayer();
         }
     }
 }
