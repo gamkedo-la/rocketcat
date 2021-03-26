@@ -20,6 +20,11 @@ public class EnemyWarper : MonoBehaviour
     [Header("Animations")]
     Animator animator;
 
+    [Header("Effects")]
+    public GameObject warpDepartPrefab;
+    public GameObject warpArrivePrefab;
+
+
 
     private void Awake()
     {
@@ -61,7 +66,12 @@ public class EnemyWarper : MonoBehaviour
                 }
                 if (Physics2D.OverlapCircle(destToTest, 1.0f) == false)
                 {
+                    if (warpDepartPrefab) Instantiate(warpDepartPrefab, new Vector3(transform.position.x,transform.position.y+2,transform.position.z), Quaternion.identity);
+
                     transform.position = destToTest;
+
+                    if (warpArrivePrefab) Instantiate(warpArrivePrefab, new Vector3(transform.position.x,transform.position.y+2,transform.position.z), Quaternion.identity);
+
                     if(transform.position.x > PlayerController.instance.transform.position.x)
                     {
                         transform.localScale = Vector3.one;

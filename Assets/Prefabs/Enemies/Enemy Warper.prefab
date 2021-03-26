@@ -85,6 +85,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 2603240829627618859}
   alertSoundVol: 0.25
+  warpDepartPrefab: {fileID: 1230075907116734547, guid: 005388a174bfa7742b3119443c88679d,
+    type: 3}
+  warpArrivePrefab: {fileID: 1230075907116734547, guid: 005388a174bfa7742b3119443c88679d,
+    type: 3}
 --- !u!60 &8124836869839060869
 PolygonCollider2D:
   m_ObjectHideFlags: 0
