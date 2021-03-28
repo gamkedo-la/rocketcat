@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 352931646759956416}
   - component: {fileID: 2814405008386984008}
   - component: {fileID: 6285083482717815121}
+  - component: {fileID: -1034441288074903993}
   m_Layer: 11
   m_Name: Sawblade
   m_TagString: Obstacle
@@ -147,6 +148,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &-1034441288074903993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353167373940365084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f455b0883c9d50f42a6616584d0cb09e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesRotate: 0
+  rotateCounterClockwise: 0
+  rotateSpeed: 200
 --- !u!1001 &2076843546524942707
 PrefabInstance:
   m_ObjectHideFlags: 0
