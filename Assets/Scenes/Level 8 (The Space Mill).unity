@@ -636,6 +636,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -706,7 +716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (56)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!1001 &32780113
 PrefabInstance:
@@ -1025,6 +1038,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -1100,7 +1123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (67)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &53140353 stripped
 Transform:
@@ -1488,6 +1514,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -1563,7 +1599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &71568435 stripped
 Transform:
@@ -1578,6 +1617,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -1653,7 +1702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (35)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &73126525 stripped
 Transform:
@@ -1884,6 +1936,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -1959,7 +2021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (19)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &98936441 stripped
 Transform:
@@ -1974,6 +2039,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -2044,7 +2119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &109378876 stripped
 Transform:
@@ -2468,6 +2546,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -2543,7 +2631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (88)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &123875118 stripped
 Transform:
@@ -2564,6 +2655,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -2639,7 +2740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (95)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &128766749 stripped
 Transform:
@@ -3201,6 +3305,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -3271,7 +3385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (18)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &153220217 stripped
 Transform:
@@ -3622,6 +3739,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -3697,7 +3824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (58)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &198175447 stripped
 Transform:
@@ -4182,6 +4312,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -4252,7 +4392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (77)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &215058827 stripped
 Transform:
@@ -4267,6 +4410,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -4342,7 +4495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (55)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &215195255 stripped
 Transform:
@@ -4522,6 +4678,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -4597,7 +4763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (93)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &231680301 stripped
 Transform:
@@ -5145,6 +5314,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -5220,7 +5399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &272060572 stripped
 Transform:
@@ -5902,6 +6084,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -5977,7 +6169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (111)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &307576673 stripped
 Transform:
@@ -6079,6 +6274,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -6154,7 +6359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (80)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &331216749 stripped
 Transform:
@@ -6676,6 +6884,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -6751,7 +6969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (85)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &354571195 stripped
 Transform:
@@ -7166,6 +7387,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -7241,7 +7472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (26)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &364266706 stripped
 Transform:
@@ -7262,6 +7496,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -7337,7 +7581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (62)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &374259137 stripped
 Transform:
@@ -8367,6 +8614,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -8442,7 +8699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (38)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &451781541 stripped
 Transform:
@@ -8457,6 +8717,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -8532,7 +8802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (33)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &454761580 stripped
 Transform:
@@ -8547,6 +8820,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -8622,7 +8905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (37)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &458826090 stripped
 Transform:
@@ -8736,6 +9022,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -8811,7 +9107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (16)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &461232034 stripped
 Transform:
@@ -8826,6 +9125,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -8901,7 +9210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (66)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &465669122 stripped
 Transform:
@@ -8916,6 +9228,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -8991,7 +9313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (92)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &466951552 stripped
 Transform:
@@ -9235,6 +9560,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -9310,7 +9645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (99)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &474864709 stripped
 Transform:
@@ -9570,6 +9908,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -9645,7 +9993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (43)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &499912056 stripped
 Transform:
@@ -9879,6 +10230,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -9954,7 +10315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &506276680 stripped
 Transform:
@@ -10314,6 +10678,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -10389,7 +10763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (46)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &534585339 stripped
 Transform:
@@ -11339,6 +11716,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -11409,7 +11796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (45)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &604344574 stripped
 Transform:
@@ -12262,6 +12652,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -12332,7 +12732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (32)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &644643196 stripped
 Transform:
@@ -12353,6 +12756,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -12428,7 +12841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (97)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &649685523 stripped
 Transform:
@@ -12443,6 +12859,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -12518,7 +12944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (78)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &651566347 stripped
 Transform:
@@ -12617,6 +13046,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -12692,7 +13131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (90)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &662153766 stripped
 Transform:
@@ -12707,6 +13149,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -12782,7 +13234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (28)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &673711427 stripped
 Transform:
@@ -14569,6 +15024,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -14644,7 +15109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (49)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &795550873 stripped
 Transform:
@@ -14659,6 +15127,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -14734,7 +15212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (63)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &807002575 stripped
 Transform:
@@ -15081,6 +15562,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -15156,7 +15647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (74)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &819995614 stripped
 Transform:
@@ -15420,6 +15914,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -15490,7 +15994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &826591772 stripped
 Transform:
@@ -15505,6 +16012,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -15580,7 +16097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (17)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &827205686 stripped
 Transform:
@@ -15820,6 +16340,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -15890,7 +16420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (50)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!1001 &841856065
 PrefabInstance:
@@ -16244,6 +16777,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -16319,7 +16862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &861536359 stripped
 Transform:
@@ -16478,6 +17024,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -16553,7 +17109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (23)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &868357610 stripped
 Transform:
@@ -16568,6 +17127,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -16643,7 +17212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (70)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &869128222 stripped
 Transform:
@@ -17311,6 +17883,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -17381,7 +17963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (84)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &915265577 stripped
 Transform:
@@ -17396,6 +17981,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -17471,7 +18066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!1001 &919179539
 PrefabInstance:
@@ -17480,6 +18078,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -17555,7 +18163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (57)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &919179540 stripped
 Transform:
@@ -17761,6 +18372,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -17836,7 +18457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (36)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &941959227 stripped
 Transform:
@@ -17986,6 +18610,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -18061,7 +18695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (81)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &969075722 stripped
 Transform:
@@ -18957,6 +19594,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -19032,7 +19679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1022097068 stripped
 Transform:
@@ -19420,6 +20070,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -19495,7 +20155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (96)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1073432922 stripped
 Transform:
@@ -19828,6 +20491,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -19903,7 +20576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (89)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1087621189 stripped
 Transform:
@@ -21051,6 +21727,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -21126,7 +21812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (42)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1160663106 stripped
 Transform:
@@ -21508,6 +22197,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -21583,7 +22282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (82)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1171499736 stripped
 Transform:
@@ -21901,6 +22603,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -21976,7 +22688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (15)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1187467333 stripped
 Transform:
@@ -22336,6 +23051,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -22411,7 +23136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (65)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1207590007 stripped
 Transform:
@@ -22512,6 +23240,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -22587,7 +23325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (86)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1209686703 stripped
 Transform:
@@ -22602,6 +23343,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -22677,7 +23428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (34)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1212574305 stripped
 Transform:
@@ -22692,6 +23446,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -22767,7 +23531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (100)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1216413355 stripped
 Transform:
@@ -23262,6 +24029,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -23337,7 +24114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (87)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1241262448 stripped
 Transform:
@@ -23522,6 +24302,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -23597,7 +24387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (76)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1248884979 stripped
 Transform:
@@ -23840,6 +24633,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -23915,7 +24718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (60)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1263461451 stripped
 Transform:
@@ -24544,6 +25350,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -24619,7 +25435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (53)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1291186814 stripped
 Transform:
@@ -25039,6 +25858,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -25114,7 +25943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (91)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1312638713 stripped
 Transform:
@@ -25129,6 +25961,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -25204,7 +26046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (113)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1319500129 stripped
 Transform:
@@ -25543,6 +26388,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -25618,7 +26473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (109)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1347827085 stripped
 Transform:
@@ -25633,6 +26491,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -25708,7 +26576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (22)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1351015870 stripped
 Transform:
@@ -26330,6 +27201,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -26405,7 +27286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (94)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1387121644 stripped
 Transform:
@@ -27008,6 +27892,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -27083,7 +27977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (21)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1444216711 stripped
 Transform:
@@ -27268,6 +28165,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -27343,7 +28250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (54)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1449590311 stripped
 Transform:
@@ -27474,6 +28384,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -27549,7 +28469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (20)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1468615248 stripped
 Transform:
@@ -27904,6 +28827,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -27974,7 +28907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (73)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1479561492 stripped
 Transform:
@@ -28467,6 +29403,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -28542,7 +29488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1506271121 stripped
 Transform:
@@ -28866,6 +29815,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -28936,7 +29895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (72)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1514919964 stripped
 Transform:
@@ -28951,6 +29913,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -29021,7 +29993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (25)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1516969694 stripped
 Transform:
@@ -29345,6 +30320,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -29420,7 +30405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1546098387 stripped
 Transform:
@@ -30181,6 +31169,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -30256,7 +31254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (40)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1599096413 stripped
 Transform:
@@ -31213,6 +32214,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -31283,7 +32294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (71)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1636773628 stripped
 Transform:
@@ -31340,6 +32354,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -31415,7 +32439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (24)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1652447278 stripped
 Transform:
@@ -31766,6 +32793,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -31841,7 +32878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (30)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1667470843 stripped
 Transform:
@@ -31862,6 +32902,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -31932,7 +32982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (105)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1670827162 stripped
 Transform:
@@ -32278,6 +33331,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -32353,7 +33416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (61)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1689852139 stripped
 Transform:
@@ -32563,6 +33629,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -32638,7 +33714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (48)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1733990585 stripped
 Transform:
@@ -33540,6 +34619,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -33615,7 +34704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!1001 &1804118238
 PrefabInstance:
@@ -34158,6 +35250,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -34228,7 +35330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (52)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1820522650 stripped
 Transform:
@@ -34737,6 +35842,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -34812,7 +35927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!1001 &1852031757
 PrefabInstance:
@@ -35634,6 +36752,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -35709,7 +36837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (83)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1882657667 stripped
 Transform:
@@ -35730,6 +36861,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -35805,7 +36946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (59)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1890884136 stripped
 Transform:
@@ -35820,6 +36964,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -35895,7 +37049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (79)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1897151495 stripped
 Transform:
@@ -35984,6 +37141,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -36059,7 +37226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (44)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1903102455 stripped
 Transform:
@@ -36480,6 +37650,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -36555,7 +37735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (39)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1926664174 stripped
 Transform:
@@ -37055,6 +38238,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -37130,7 +38323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (104)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1960541043 stripped
 Transform:
@@ -37224,6 +38420,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -37299,7 +38505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!1001 &1968634982
 PrefabInstance:
@@ -37623,6 +38832,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -37698,7 +38917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (98)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1982458732 stripped
 Transform:
@@ -38022,6 +39244,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -38097,7 +39329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (27)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &1996234651 stripped
 Transform:
@@ -38159,6 +39394,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -38234,7 +39479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (47)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &2006367266 stripped
 Transform:
@@ -39483,6 +40731,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -39558,7 +40816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (68)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &2066918096 stripped
 Transform:
@@ -39729,6 +40990,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -39804,7 +41075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (64)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &2081296067 stripped
 Transform:
@@ -39968,6 +41242,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -40043,7 +41327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (51)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &2089577902 stripped
 Transform:
@@ -40127,6 +41414,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -40202,7 +41499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (29)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &2098143305 stripped
 Transform:
@@ -40477,6 +41777,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -40552,7 +41862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (106)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &2122961067 stripped
 Transform:
@@ -40567,6 +41880,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276751256}
     m_Modifications:
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: doesRotate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1034441288074903993, guid: 1ccb47b9a588fc14990dbfd256d50924,
+        type: 3}
+      propertyPath: rotateSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1353167373940365080, guid: 1ccb47b9a588fc14990dbfd256d50924,
         type: 3}
       propertyPath: m_RootOrder
@@ -40642,7 +41965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sawblade (75)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2814405008386984008, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 6285083482717815121, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
+    - {fileID: 352931646759956416, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb47b9a588fc14990dbfd256d50924, type: 3}
 --- !u!4 &2129917081 stripped
 Transform:
