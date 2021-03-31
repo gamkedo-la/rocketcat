@@ -104,6 +104,10 @@ public class PlayerController : MonoBehaviour
         debugFakeSpacebarRelease = true;
     }
 
+    private void LateUpdate()
+    {
+        transform.rotation = Quaternion.identity;
+    }
 
 
     private void PlayerMovement()
