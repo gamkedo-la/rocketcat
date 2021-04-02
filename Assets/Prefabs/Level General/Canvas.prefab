@@ -195,8 +195,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 31.6, y: -449.9}
-  m_SizeDelta: {x: 724.8331, y: 206.90393}
+  m_AnchoredPosition: {x: 31.6, y: -520.9}
+  m_SizeDelta: {x: 724.8331, y: 348.8105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1173071289
 CanvasRenderer:
@@ -238,7 +238,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Game Paused '
+  m_Text: "Game Paused \nPress P to resume or\nEscape for Main Menu "
 --- !u!114 &1173071290
 MonoBehaviour:
   m_ObjectHideFlags: 0

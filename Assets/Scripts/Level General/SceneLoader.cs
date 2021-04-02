@@ -19,8 +19,14 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadCredits()
         {
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene("Credits Menu");
         }
+
+    public void LoadOptions()
+    {
+        SceneManager.LoadScene("Options Menu");
+    }
+
 
     public void QuitGame()
     {

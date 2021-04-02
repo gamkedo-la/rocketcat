@@ -17097,6 +17097,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackgroundTinter
       objectReference: {fileID: 0}
+    - target: {fileID: 1472105436762753693, guid: 25416209dd3b9404d82dceb5edd186dd,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.09019608
+      objectReference: {fileID: 0}
     - target: {fileID: 1472105436762753694, guid: 25416209dd3b9404d82dceb5edd186dd,
         type: 3}
       propertyPath: m_RootOrder

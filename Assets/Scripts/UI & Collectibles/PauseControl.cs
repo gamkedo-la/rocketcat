@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PauseControl : MonoBehaviour
 {
@@ -19,10 +20,19 @@ public class PauseControl : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LoadStartMenu();
+        }
+
         if (Input.GetKeyDown(KeyCode.P))
         {
             gameIsPaused = !gameIsPaused;
             PauseGame();
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                LoadStartMenu();
+            }
         }
     }
 
@@ -40,4 +50,11 @@ public class PauseControl : MonoBehaviour
             gameObject.GetComponent<Text>().enabled = false;
         }
     }
+
+
+    public void LoadStartMenu()
+    {
+        SceneManager.LoadScene("Start Menu");
+    }
+
 }
