@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
+    public static Spawner instance; 
+
     public Transform newSpawn;
     public GameObject prefabToSpawn;
     public float minSpawnDelay = 2f;

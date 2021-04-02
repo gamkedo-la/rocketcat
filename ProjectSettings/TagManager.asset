@@ -13,6 +13,7 @@ TagManager:
   - Obstacle
   - Ground
   - Rocket
+  - Spawner
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,15 @@ public class Destroyable : MonoBehaviour
 
   public void DestroySelf()
     {
-        Destroy(gameObject);
+        if (gameObject.CompareTag("Spawner"))
+        {
+            Destroy(Spawner.instance.prefabToSpawn);
+            Destroy(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         if (destroyParentAlso)
         {
             Destroy(transform.parent.gameObject);
