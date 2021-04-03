@@ -43,3 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd22f30c635605458908490ed9ac69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: {fileID: 0}
+  playerController: {fileID: 0}
+  rocketCountUpdate: {fileID: 0}
+  teleportTo: {fileID: 0}

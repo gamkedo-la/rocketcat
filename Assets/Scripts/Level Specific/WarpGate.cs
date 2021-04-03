@@ -41,7 +41,7 @@ public class WarpGate : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && lockOutTimer <= 0.0f)
         {
-            destination.lockOutTimer = 0.5f;
+            destination.lockOutTimer = 1.0f;
             other.gameObject.transform.position = destination.transform.position;
         }
     }
