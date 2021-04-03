@@ -4,13 +4,28 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Cheats : MonoBehaviour
-{   
+{
+    private static Cheats instance;
+
     [SerializeField] private Health playerHealth;    
     [SerializeField] private PlayerController playerController;
     [SerializeField] private RocketCountUpdate rocketCountUpdate;
     [SerializeField] private Transform teleportTo;
 
     private bool cheatsEnabled = false;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(instance);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
