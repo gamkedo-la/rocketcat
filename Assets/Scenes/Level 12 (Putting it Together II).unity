@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2974,7 +2974,7 @@ PrefabInstance:
     - target: {fileID: 1472105436762753694, guid: 25416209dd3b9404d82dceb5edd186dd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 6.06
       objectReference: {fileID: 0}
     - target: {fileID: 1472105436762753694, guid: 25416209dd3b9404d82dceb5edd186dd,
         type: 3}
@@ -16259,3 +16259,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f0287e325f6f54d85a6aa0f31fda72, type: 3}
+--- !u!1001 &8285619749262231306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8285619749590963233, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_Name
+      value: Health Powerup
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285619749590963239, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0f9b6b1f91b3dd47af912681cdd490b, type: 3}
