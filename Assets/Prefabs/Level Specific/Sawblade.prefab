@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1353167373940365080}
   - component: {fileID: 1353167373940365082}
   - component: {fileID: 352931646759956416}
-  - component: {fileID: 2814405008386984008}
   - component: {fileID: 6285083482717815121}
   - component: {fileID: -1034441288074903993}
+  - component: {fileID: 7836966045065849201}
   m_Layer: 11
   m_Name: Sawblade
   m_TagString: Obstacle
@@ -87,46 +87,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7ddfbb969044042831e604dff106ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!60 &2814405008386984008
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353167373940365084}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 4.154436, y: 0.388466}
-      - {x: 5.691185, y: 9.482948}
-      - {x: 10.091391, y: 48.054443}
-      - {x: 41.845306, y: 903.0723}
-      - {x: -90.52172, y: 1926.1179}
-      - {x: -309.70023, y: 1876.4421}
-      - {x: -73.2271, y: 230.69621}
-      - {x: -8.2540045, y: 12.031266}
-      - {x: -4.051956, y: 0.24728125}
-      - {x: -1.9586158, y: -4.448382}
-      - {x: -0.8039322, y: -6.002398}
-      - {x: 0.121204376, y: -6.48482}
-      - {x: 0.9574162, y: -6.3535795}
-      - {x: 1.7078209, y: -5.812659}
-      - {x: 2.6866693, y: -3.9454355}
 --- !u!50 &6285083482717815121
 Rigidbody2D:
   serializedVersion: 4
@@ -161,8 +121,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doesRotate: 0
-  rotateCounterClockwise: 0
   rotateSpeed: 200
+--- !u!58 &7836966045065849201
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353167373940365084}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1122896.1}
+  serializedVersion: 2
+  m_Radius: 3.8882382
 --- !u!1001 &2076843546524942707
 PrefabInstance:
   m_ObjectHideFlags: 0
