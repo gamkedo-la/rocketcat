@@ -27,6 +27,10 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Options Menu");
     }
 
+    public void LoadTooltips()
+    {
+        SceneManager.LoadScene("Tooltip Scene");
+    }
 
     public void QuitGame()
     {
