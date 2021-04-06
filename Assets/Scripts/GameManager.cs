@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        
+        PauseMenu.gamePaused = false;
     }
 
     // Start is called before the first frame update
