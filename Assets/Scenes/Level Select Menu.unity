@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1707,6 +1707,7 @@ GameObject:
   - component: {fileID: 420807113}
   - component: {fileID: 420807112}
   - component: {fileID: 420807111}
+  - component: {fileID: 420807115}
   m_Layer: 5
   m_Name: Level 3
   m_TagString: Untagged
@@ -1828,7 +1829,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
+        m_MethodName: LoadLevelSelected
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1875,6 +1876,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420807109}
   m_CullTransparentMesh: 0
+--- !u!114 &420807115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420807109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5165d0e59b368a14e9fc813667ed842b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSelectNum: 3
 --- !u!1 &454551950
 GameObject:
   m_ObjectHideFlags: 0
@@ -2770,7 +2784,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
+        m_MethodName: LoadLevelSelected
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2829,6 +2843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5165d0e59b368a14e9fc813667ed842b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelSelectNum: 1
 --- !u!1 &733618893
 GameObject:
   m_ObjectHideFlags: 0
@@ -6737,6 +6752,7 @@ GameObject:
   - component: {fileID: 1570769100}
   - component: {fileID: 1570769099}
   - component: {fileID: 1570769098}
+  - component: {fileID: 1570769102}
   m_Layer: 5
   m_Name: Level 2
   m_TagString: Untagged
@@ -6858,7 +6874,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
+        m_MethodName: LoadLevelSelected
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6905,6 +6921,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570769096}
   m_CullTransparentMesh: 0
+--- !u!114 &1570769102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570769096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5165d0e59b368a14e9fc813667ed842b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSelectNum: 2
 --- !u!1 &1572488174
 GameObject:
   m_ObjectHideFlags: 0

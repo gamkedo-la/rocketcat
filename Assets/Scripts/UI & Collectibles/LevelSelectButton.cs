@@ -6,7 +6,7 @@ public class LevelSelectButton : MonoBehaviour
 {
     public static LevelSelectButton instance;
 
-   public int levelSelectNum = 1;
+   public int levelSelectNum;
 
 
     // Start is called before the first frame update

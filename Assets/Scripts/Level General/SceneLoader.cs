@@ -34,14 +34,18 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Tooltip Scene");
     }
 
+    public void LoadLevelMenu()
+    {
+        SceneManager.LoadScene("Level Select Menu");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
     }
 
-    public void LoadLevelSelect()
+    public void LoadLevelSelected()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(numOfScenesBeforeLevelsStart + LevelSelectButton.instance.levelSelectNum);
     }
 
