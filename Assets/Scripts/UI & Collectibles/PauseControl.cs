@@ -31,6 +31,8 @@ public class PauseControl : MonoBehaviour
             PauseGame();
             if (Input.GetKeyDown(KeyCode.Escape))
             {
+                gameIsPaused = !gameIsPaused;
+                PauseGame();
                 LoadStartMenu();
             }
         }
