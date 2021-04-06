@@ -42,6 +42,7 @@ public class WinDoor : MonoBehaviour
         {
             FractalCountUpdate.enteredLevelWith = FractalCountUpdate.fractalCount;
             AlienHeartCountUpdate.enteredLevelWith = AlienHeartCountUpdate.alienHeartCount;
+            FractalCoinCountUpdate.enteredLevelWith = FractalCoinCountUpdate.fractalCoinCount;
             AudioSource.PlayClipAtPoint(doorOpened, Camera.main.transform.position, soundVolume);
             Destroy(other.gameObject);
             GameManager.instance.DelayThenLoadScene(true);
