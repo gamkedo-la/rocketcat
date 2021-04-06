@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 13.2, y: -177}
+  m_AnchoredPosition: {x: 63, y: -188}
   m_SizeDelta: {x: 307.6514, y: 122.471436}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6995703
@@ -25185,8 +25185,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4593642657942753382, guid: 01b95fc90e89dab4095d4d75cb58d70e,
         type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000002861
+      objectReference: {fileID: 0}
+    - target: {fileID: 4593642657942753382, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -474
+      value: -505.59
       objectReference: {fileID: 0}
     - target: {fileID: 4811823191333566525, guid: 01b95fc90e89dab4095d4d75cb58d70e,
         type: 3}
@@ -25197,6 +25202,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: The Descent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952355183954392412, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952355183954392412, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4952355183954392412, guid: 01b95fc90e89dab4095d4d75cb58d70e,
         type: 3}
