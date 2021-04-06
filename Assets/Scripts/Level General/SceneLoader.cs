@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    
+
+    private int numOfScenesBeforeLevelsStart = 3;
+
     public void LoadNextScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -36,4 +38,11 @@ public class SceneLoader : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void LoadLevelSelect()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(numOfScenesBeforeLevelsStart + LevelSelectButton.instance.levelSelectNum);
+    }
+
 }

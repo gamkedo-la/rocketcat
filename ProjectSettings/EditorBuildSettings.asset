@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tooltip Scene.unity
     guid: edb471e3bafa53c468ddae2588ff5416
   - enabled: 1
+    path: Assets/Scenes/Story Scene.unity
+    guid: 09305547252bdc8499d0fd5589f3a137
+  - enabled: 1
     path: Assets/Scenes/Level 0 (Escape!).unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
