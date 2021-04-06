@@ -54,6 +54,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 13 (The Descent).unity
     guid: 18d9fcff9d7bde5468e31be8d83f9121
   - enabled: 1
+    path: Assets/Scenes/Level 14 (Flicker).unity
+    guid: c31eb9255cc69b04aa2d1dc204589965
+  - enabled: 1
     path: Assets/Scenes/Level 22 (Boss Battle).unity
     guid: f294b82332288f84fb2bd4a4e370cf2c
   - enabled: 1
