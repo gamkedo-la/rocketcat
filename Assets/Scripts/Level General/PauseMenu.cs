@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
 
+    public static PauseMenu instance;
+
     public static bool gamePaused = false;
 
     public GameObject pauseMenuUI;
@@ -13,7 +15,10 @@ public class PauseMenu : MonoBehaviour
     public GameObject optionsMenuUI;
 
 
-
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Update is called once per frame
     void Update()
@@ -45,10 +50,6 @@ public class PauseMenu : MonoBehaviour
         gamePaused = true;
     }
 
-    public void LoadOptions()
-    {
-        SceneManager.LoadScene("Options Menu");
-    }
 
     public void QuitGame()
     {

@@ -46,7 +46,7 @@ public class RocketStart : MonoBehaviour
     private void RocketCreatedCheck()
     {
 
-        if (Input.GetMouseButtonDown(0) && (!PauseControl.gameIsPaused) && (!RocketCountUpdate.instance.RocketAmmoLimit()))
+        if (Input.GetMouseButtonDown(0) && (!PauseMenu.gamePaused) && (!RocketCountUpdate.instance.RocketAmmoLimit()))
         {
             FireRocket();
         }
