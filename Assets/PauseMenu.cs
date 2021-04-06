@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+
     public static bool gamePaused = false;
 
     public GameObject pauseMenuUI;
+    public GameObject cheatMenuUI;
+    public GameObject optionsMenuUI;
+
+
+
 
     // Update is called once per frame
     void Update()
@@ -46,7 +52,34 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        gamePaused = false;
         SceneManager.LoadScene("Start Menu");
     }
+
+
+    public void CheatsMenu()
+    {
+        cheatMenuUI.SetActive(true);
+        pauseMenuUI.SetActive(false);
+    }
+
+    public void CheatsMenuBack()
+    {
+        pauseMenuUI.SetActive(true);
+        cheatMenuUI.SetActive(false);
+    }
+
+    public void OptionsMenu()
+    {
+        optionsMenuUI.SetActive(true);
+        pauseMenuUI.SetActive(false);
+    }
+
+    public void OptionsMenuBack()
+    {
+        pauseMenuUI.SetActive(true);
+        optionsMenuUI.SetActive(false);
+    }
+
 
 }
