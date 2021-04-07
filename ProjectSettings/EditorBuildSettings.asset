@@ -66,6 +66,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 22 (Boss Battle).unity
     guid: f294b82332288f84fb2bd4a4e370cf2c
   - enabled: 1
+    path: Assets/Scenes/Level 23 (Almost Home).unity
+    guid: d76c3e5ea1da9b343aa61be2e5981861
+  - enabled: 1
+    path: Assets/Scenes/Level 24 (Boss Battle Finale).unity
+    guid: 95a01638495aadf48a580b6abc1dee74
+  - enabled: 1
     path: Assets/Scenes/Win Screen.unity
     guid: 34eb75a122464cd4f803bb0c48a84655
   - enabled: 1
