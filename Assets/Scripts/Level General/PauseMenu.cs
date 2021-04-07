@@ -53,7 +53,10 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        gamePaused = false;
+        if (gamePaused)
+        {
+            Resume();
+        }
         SceneManager.LoadScene("Start Menu");
     }
 
