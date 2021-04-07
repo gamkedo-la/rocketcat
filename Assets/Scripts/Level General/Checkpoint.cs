@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    private CheckpointMaster cm;
+
 
     [Header("Sound")]
     [SerializeField] AudioClip checkpointSound;
@@ -13,7 +13,6 @@ public class Checkpoint : MonoBehaviour
 
     private void Start()
     {
-        cm = GameObject.FindGameObjectWithTag("CM").GetComponent<CheckpointMaster>();
         gameObject.GetComponentInChildren<Renderer>().enabled = true;
     }
 
@@ -28,11 +27,11 @@ public class Checkpoint : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             used = true;
-            cm.lastcheckpointpos = transform.position;
+            CheckpointMaster.instance.lastcheckpointpos = transform.position;
             Debug.Log("Checkpoint updated");
             Health.instance.ResetHealth();
             gameObject.GetComponentInChildren<Renderer>().enabled = false;
-            cm.currentEnemyCount = EnemyCountUpdate.instance.EnemyCount();
+            CheckpointMaster.instance.currentEnemyCount = EnemyCountUpdate.instance.EnemyCount();
             AudioSource.PlayClipAtPoint(checkpointSound, Camera.main.transform.position, soundVolume);
             GameManager.instance.PlaySound();
         }
