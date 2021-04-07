@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
 
-    private int numOfScenesBeforeLevelsStart = 3;
+    private int numOfScenesBeforeLevelsStart = 4;
 
     public void LoadNextScene()
     {
@@ -47,6 +47,39 @@ public class SceneLoader : MonoBehaviour
     public void LoadLevelSelected()
     {
         SceneManager.LoadScene(numOfScenesBeforeLevelsStart + LevelSelectButton.instance.levelSelectNum);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public void LoadLevelOne()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void LoadLevelTwo()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void LoadLevelThree()
+    {
+        SceneManager.LoadScene(6);
     }
 
 }
