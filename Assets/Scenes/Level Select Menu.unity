@@ -255,8 +255,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -652,7 +652,6 @@ GameObject:
   - component: {fileID: 144268167}
   - component: {fileID: 144268166}
   - component: {fileID: 144268165}
-  - component: {fileID: 144268169}
   m_Layer: 5
   m_Name: Level 5
   m_TagString: Untagged
@@ -775,7 +774,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 700712479}
         m_MethodName: LoadLevelSelected
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -821,19 +820,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144268163}
   m_CullTransparentMesh: 0
---- !u!114 &144268169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144268163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5165d0e59b368a14e9fc813667ed842b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSelectNum: 5
 --- !u!1 &199398750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1462,8 +1448,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1790,7 +1776,6 @@ GameObject:
   - component: {fileID: 420807113}
   - component: {fileID: 420807112}
   - component: {fileID: 420807111}
-  - component: {fileID: 420807115}
   m_Layer: 5
   m_Name: Level 3
   m_TagString: Untagged
@@ -1913,11 +1898,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 700712479}
         m_MethodName: LoadLevelSelected
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1959,19 +1944,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420807109}
   m_CullTransparentMesh: 0
---- !u!114 &420807115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420807109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5165d0e59b368a14e9fc813667ed842b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSelectNum: 3
 --- !u!1001 &428638172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2443,8 +2415,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2814,7 +2786,6 @@ GameObject:
   - component: {fileID: 717373627}
   - component: {fileID: 717373626}
   - component: {fileID: 717373625}
-  - component: {fileID: 717373629}
   m_Layer: 5
   m_Name: Level 1
   m_TagString: Untagged
@@ -2937,11 +2908,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 700712479}
         m_MethodName: LoadLevelSelected
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2983,19 +2954,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717373623}
   m_CullTransparentMesh: 0
---- !u!114 &717373629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717373623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5165d0e59b368a14e9fc813667ed842b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSelectNum: 1
 --- !u!1 &733618893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3266,8 +3224,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3447,8 +3405,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3628,8 +3586,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3943,8 +3901,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4258,8 +4216,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4439,8 +4397,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4694,8 +4652,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5001,8 +4959,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5182,8 +5140,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5363,8 +5321,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6710,8 +6668,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6904,7 +6862,6 @@ GameObject:
   - component: {fileID: 1570769100}
   - component: {fileID: 1570769099}
   - component: {fileID: 1570769098}
-  - component: {fileID: 1570769102}
   m_Layer: 5
   m_Name: Level 2
   m_TagString: Untagged
@@ -7027,11 +6984,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 700712479}
         m_MethodName: LoadLevelSelected
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7073,19 +7030,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570769096}
   m_CullTransparentMesh: 0
---- !u!114 &1570769102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570769096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5165d0e59b368a14e9fc813667ed842b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSelectNum: 2
 --- !u!1 &1572488174
 GameObject:
   m_ObjectHideFlags: 0
@@ -7220,8 +7164,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7803,8 +7747,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8131,7 +8075,6 @@ GameObject:
   - component: {fileID: 1818420033}
   - component: {fileID: 1818420032}
   - component: {fileID: 1818420031}
-  - component: {fileID: 1818420035}
   m_Layer: 5
   m_Name: Level 6
   m_TagString: Untagged
@@ -8254,7 +8197,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 700712479}
         m_MethodName: LoadLevelSelected
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8300,19 +8243,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818420029}
   m_CullTransparentMesh: 0
---- !u!114 &1818420035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818420029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5165d0e59b368a14e9fc813667ed842b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSelectNum: 6
 --- !u!1 &1926731526
 GameObject:
   m_ObjectHideFlags: 0
@@ -8447,8 +8377,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8762,8 +8692,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700712479}
-        m_MethodName: LoadStartScene
-        m_Mode: 1
+        m_MethodName: LoadLevelSelected
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8822,7 +8752,6 @@ GameObject:
   - component: {fileID: 2141238453}
   - component: {fileID: 2141238452}
   - component: {fileID: 2141238451}
-  - component: {fileID: 2141238455}
   m_Layer: 5
   m_Name: Level 4
   m_TagString: Untagged
@@ -8945,11 +8874,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 700712479}
         m_MethodName: LoadLevelSelected
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8991,16 +8920,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141238449}
   m_CullTransparentMesh: 0
---- !u!114 &2141238455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141238449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5165d0e59b368a14e9fc813667ed842b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSelectNum: 4

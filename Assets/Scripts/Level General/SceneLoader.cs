@@ -44,9 +44,9 @@ public class SceneLoader : MonoBehaviour
         Application.Quit();
     }
 
-    public void LoadLevelSelected()
+    public void LoadLevelSelected(int levelNum)
     {
-        SceneManager.LoadScene(numOfScenesBeforeLevelsStart + LevelSelectButton.instance.levelSelectNum);
+        SceneManager.LoadScene(numOfScenesBeforeLevelsStart + levelNum);
     }
 
 

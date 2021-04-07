@@ -8,15 +8,15 @@ public class Destroyable : MonoBehaviour
 
   public void DestroySelf()
     {
-        if (gameObject.CompareTag("Spawner"))
+        Destroyable[] spawnlingsToDestroy = GetComponentsInChildren<Destroyable>();
+        for(int i = 0; i < spawnlingsToDestroy.Length; i++)
         {
-            Destroy(Spawner.instance.prefabToSpawn);
-            Destroy(gameObject);
+            if (spawnlingsToDestroy[i] != this)
+            {
+                spawnlingsToDestroy[i].DestroySelf();
+            }
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
         if (destroyParentAlso)
         {
             Destroy(transform.parent.gameObject);
