@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -136,12 +136,12 @@ PrefabInstance:
     - target: {fileID: 1150081803578985824, guid: d5537617a635d81489a4eb91dbd5903a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 200
+      value: 276.7
       objectReference: {fileID: 0}
     - target: {fileID: 1150081803578985824, guid: d5537617a635d81489a4eb91dbd5903a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -119.3
+      value: 163.4
       objectReference: {fileID: 0}
     - target: {fileID: 1150081803578985824, guid: d5537617a635d81489a4eb91dbd5903a,
         type: 3}
@@ -989,12 +989,12 @@ PrefabInstance:
     - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 198.4
+      value: 269.1
       objectReference: {fileID: 0}
     - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -105.8
+      value: 163.2
       objectReference: {fileID: 0}
     - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
@@ -6944,59 +6944,59 @@ Transform:
   - {fileID: 705394516}
   - {fileID: 115562792}
   - {fileID: 269339447}
-  - {fileID: 2749727934075734915}
   - {fileID: 1046070129}
   - {fileID: 491586775}
   - {fileID: 1604208842}
   - {fileID: 1333616387}
   - {fileID: 1879167136}
-  - {fileID: 1830364217}
   - {fileID: 827906677}
+  - {fileID: 2749727934075734915}
   - {fileID: 88957730}
   - {fileID: 117871131}
   - {fileID: 7020372421303725824}
   - {fileID: 642451628}
   - {fileID: 1775352126}
+  - {fileID: 676411845}
   - {fileID: 1343098666}
+  - {fileID: 1830364217}
   - {fileID: 654757281}
   - {fileID: 1190121030}
-  - {fileID: 1076879533}
-  - {fileID: 2121140890}
-  - {fileID: 355838597}
-  - {fileID: 676411845}
   - {fileID: 1015905864}
+  - {fileID: 1076879533}
+  - {fileID: 355838597}
   - {fileID: 344484240}
   - {fileID: 1685939460}
-  - {fileID: 546238250}
   - {fileID: 1178255943}
+  - {fileID: 546238250}
   - {fileID: 1832370980}
   - {fileID: 1328210938}
   - {fileID: 680915659}
   - {fileID: 1189513200}
   - {fileID: 159742181}
   - {fileID: 2133923999}
+  - {fileID: 2121140890}
   - {fileID: 927752686}
-  - {fileID: 1720712080}
+  - {fileID: 495577881}
   - {fileID: 457920401}
   - {fileID: 757949784}
-  - {fileID: 495577881}
   - {fileID: 1299348899}
   - {fileID: 1842376896}
+  - {fileID: 1720712080}
   - {fileID: 900729235}
   - {fileID: 1952251190}
   - {fileID: 1081007123}
   - {fileID: 2089491420}
   - {fileID: 810529408}
   - {fileID: 1599542102}
-  - {fileID: 2021691254}
-  - {fileID: 1957931038}
   - {fileID: 1106580207}
   - {fileID: 1194998003}
-  - {fileID: 2134448228}
   - {fileID: 81235879}
+  - {fileID: 2021691254}
   - {fileID: 1085735155}
   - {fileID: 1411268972}
+  - {fileID: 1957931038}
   - {fileID: 300502748}
+  - {fileID: 2134448228}
   - {fileID: 723552852}
   - {fileID: 1450813025}
   - {fileID: 1676986416}
