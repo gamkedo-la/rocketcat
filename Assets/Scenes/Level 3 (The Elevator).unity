@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -6133,6 +6133,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 522811895}
     m_Modifications:
+    - target: {fileID: 3212511440863471762, guid: a2d129908d3db954f955738154329d7a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3311884237173308313, guid: a2d129908d3db954f955738154329d7a,
         type: 3}
       propertyPath: m_Name
@@ -6207,6 +6212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.x
       value: 12.218344
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977537911408701013, guid: a2d129908d3db954f955738154329d7a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2d129908d3db954f955738154329d7a, type: 3}
@@ -8250,6 +8260,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 522811895}
     m_Modifications:
+    - target: {fileID: 3212511440863471762, guid: a2d129908d3db954f955738154329d7a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3311884237173308313, guid: a2d129908d3db954f955738154329d7a,
         type: 3}
       propertyPath: m_Name
@@ -8314,6 +8329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977537911408701013, guid: a2d129908d3db954f955738154329d7a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2d129908d3db954f955738154329d7a, type: 3}
@@ -10811,6 +10831,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 522811895}
     m_Modifications:
+    - target: {fileID: 3212511440863471762, guid: a2d129908d3db954f955738154329d7a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3311884237173308313, guid: a2d129908d3db954f955738154329d7a,
         type: 3}
       propertyPath: m_Name
@@ -10875,6 +10900,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977537911408701013, guid: a2d129908d3db954f955738154329d7a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2d129908d3db954f955738154329d7a, type: 3}
@@ -14420,6 +14450,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 522811895}
     m_Modifications:
+    - target: {fileID: 3212511440863471762, guid: a2d129908d3db954f955738154329d7a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3311884237173308313, guid: a2d129908d3db954f955738154329d7a,
         type: 3}
       propertyPath: m_Name
@@ -14494,6 +14529,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.x
       value: 12.218344
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977537911408701013, guid: a2d129908d3db954f955738154329d7a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2d129908d3db954f955738154329d7a, type: 3}
