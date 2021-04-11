@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ForceField : MonoBehaviour
 {
-    private float percOrig = 0.98f;
-    private float fieldForce = 15.0f;
+    private float percOrig = 0.35f;
+    private float fieldForce = 30.0f;
 
 
     private void OnTriggerStay2D(Collider2D other)
