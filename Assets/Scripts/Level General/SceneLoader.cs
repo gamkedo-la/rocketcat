@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
 
-    private int numOfScenesBeforeLevelsStart = 3;
+    private int numOfScenesBeforeLevelsStart = 1;
 
     public void LoadNextScene()
     {
