@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1329881579628017070}
   - component: {fileID: 1329881579628017071}
   - component: {fileID: 2287416141399931938}
-  - component: {fileID: 6880466601368372984}
+  - component: {fileID: 8937206757031140531}
   m_Layer: 11
   m_Name: Leaf Platform
   m_TagString: Obstacle
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &6880466601368372984
+--- !u!114 &8937206757031140531
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,13 +138,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1329881579628017064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fc08f220efb4ed49bdebd0d0788b937, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e2bfbd883935f14d8b10ae4f18361d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isVertical: 1
-  distance: 7
+  distance: 20
   periodForHowLongLoop: 1
   phaseShift: 0
-  swayDistance: 8
-  swayTime: 1
-  swayShift: 0
