@@ -1320,6 +1320,73 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &809056863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 809056864}
+  - component: {fileID: 809056865}
+  m_Layer: 0
+  m_Name: Intro Camera Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &809056864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809056863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.4, y: 19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &809056865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809056863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4888e566d0a82429c2622255cb58f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 0
+  offsetY: 0
+  offsetZ: 0
+  rotOffsetX: 0
+  rotOffsetY: 0
+  rotOffsetZ: 0
+  speedX: 7.777
+  speedY: 2
+  speedZ: 0
+  magnitudeX: 0.25
+  magnitudeY: 1
+  magnitudeZ: 0
+  scalespeedX: 0
+  scalespeedY: 0
+  scalespeedZ: 0
+  scalemagnitudeX: 0
+  scalemagnitudeY: 0
+  scalemagnitudeZ: 0
+  rotspeedX: 0
+  rotspeedY: 0
+  rotspeedZ: 0
+  rotmagnitudeX: 0
+  rotmagnitudeY: 0
+  rotmagnitudeZ: 0
 --- !u!1001 &864717923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3374,7 +3441,7 @@ PrefabInstance:
     - target: {fileID: 3580285632915472089, guid: 44a534f86cf86f34cb1ab08fb238ef63,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3580285632915472089, guid: 44a534f86cf86f34cb1ab08fb238ef63,
         type: 3}
@@ -3570,6 +3637,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 4732911175582319502, guid: c0c5bafd8a9f65145a9650c22ef7f0d4,
+        type: 3}
+      propertyPath: introEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4732911175582319502, guid: c0c5bafd8a9f65145a9650c22ef7f0d4,
+        type: 3}
+      propertyPath: introCameraFOV
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4732911175582319502, guid: c0c5bafd8a9f65145a9650c22ef7f0d4,
+        type: 3}
+      propertyPath: introTransform
+      value: 
+      objectReference: {fileID: 809056864}
     - target: {fileID: 4732911175582319502, guid: c0c5bafd8a9f65145a9650c22ef7f0d4,
         type: 3}
       propertyPath: followTransform
