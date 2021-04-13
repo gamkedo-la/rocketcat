@@ -84,6 +84,11 @@ public class Cheats : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            FractalCoinCountUpdate.instance.UpdateCoinFractalCountCheat();
+        }
+
         if(Input.GetKeyDown(KeyCode.L))
         {
             for (int i = 0; i < 5; i++)

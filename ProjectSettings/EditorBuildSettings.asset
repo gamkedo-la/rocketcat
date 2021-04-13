@@ -78,8 +78,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 23 (Almost Home).unity
     guid: d76c3e5ea1da9b343aa61be2e5981861
   - enabled: 1
-    path: Assets/Scenes/Win Screen.unity
+    path: Assets/Scenes/Win Screen Good.unity
     guid: 34eb75a122464cd4f803bb0c48a84655
+  - enabled: 1
+    path: Assets/Scenes/Win Screen Better.unity
+    guid: c4c6d02f97b728c46bcd8c605f25b513
+  - enabled: 1
+    path: Assets/Scenes/Win Screen Best.unity
+    guid: 575c1fc5197941445a0e66d917a71c20
   - enabled: 1
     path: Assets/Scenes/Credits Menu.unity
     guid: 149d56c18b77aa645af0d02ffd6e2a0e

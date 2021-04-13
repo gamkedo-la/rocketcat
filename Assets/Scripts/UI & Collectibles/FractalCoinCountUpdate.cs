@@ -31,5 +31,10 @@ public class FractalCoinCountUpdate : MonoBehaviour
         displayText.text = fractalCoinCount.ToString();
     }
 
+    public void UpdateCoinFractalCountCheat()
+    {
+        fractalCoinCount += 100;
+        displayText.text = fractalCoinCount.ToString();
+    }
 
 }
