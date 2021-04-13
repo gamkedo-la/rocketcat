@@ -17,8 +17,11 @@ public class SpawnWithForce : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(ShootRepeatedly());
-        StartCoroutine(ShootReloadCrateRepeatedly());
+        if (prefabToSpawn!=null)
+            StartCoroutine(ShootRepeatedly());
+        
+        if (reloadCrateToSpawn!=null)
+            StartCoroutine(ShootReloadCrateRepeatedly());
     }
 
     // Update is called once per frame
@@ -31,6 +34,7 @@ public class SpawnWithForce : MonoBehaviour
             if(containedSpawned != null)
             {
                 newGO.transform.SetParent(containedSpawned);
+                newGO.transform.position = transform.position; // of the spawner
             }
             else
             {
@@ -38,6 +42,11 @@ public class SpawnWithForce : MonoBehaviour
             }
             Rigidbody2D rb = newGO.GetComponent<Rigidbody2D>();
             rb.AddForce(transform.up * Random.Range(minForce, maxForce));
+            if (Random.value>0.5f) {
+                rb.AddForce(transform.right * -1 * Random.Range(minForce, maxForce));
+            } else {
+                rb.AddForce(transform.right * Random.Range(minForce, maxForce));
+            }
         }
     }
 
@@ -50,6 +59,7 @@ public class SpawnWithForce : MonoBehaviour
             if (containedSpawned != null)
             {
                 newGO.transform.SetParent(containedSpawned);
+                newGO.transform.position = transform.position; // of the spawner
             }
             else
             {
@@ -57,6 +67,11 @@ public class SpawnWithForce : MonoBehaviour
             }
             Rigidbody2D rb = newGO.GetComponent<Rigidbody2D>();
             rb.AddForce(transform.up * Random.Range(minForce, maxForce));
+            if (Random.value>0.5f) {
+                rb.AddForce(transform.right * -1 * Random.Range(minForce, maxForce));
+            } else {
+                rb.AddForce(transform.right * Random.Range(minForce, maxForce));
+            }
         }
     }
 
