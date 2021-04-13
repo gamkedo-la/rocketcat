@@ -964,13 +964,13 @@ Transform:
   - {fileID: 1299920557}
   - {fileID: 561512542}
   - {fileID: 1795244032}
-  - {fileID: 1854800990}
   - {fileID: 1718048900}
-  - {fileID: 9991093}
   - {fileID: 872411646}
+  - {fileID: 9991093}
+  - {fileID: 1854800990}
   - {fileID: 220041663}
-  - {fileID: 365531997}
   - {fileID: 1300598499}
+  - {fileID: 365531997}
   - {fileID: 1063161450}
   - {fileID: 2026587389}
   m_Father: {fileID: 0}
@@ -19565,24 +19565,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 758564780, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 187.18515
-      objectReference: {fileID: 0}
-    - target: {fileID: 758564780, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -313
-      objectReference: {fileID: 0}
-    - target: {fileID: 4952355183954392412, guid: 01b95fc90e89dab4095d4d75cb58d70e,
-        type: 3}
-      propertyPath: m_text
-      value: There's Too Many of Them!
-      objectReference: {fileID: 0}
-    - target: {fileID: 4952355183954392412, guid: 01b95fc90e89dab4095d4d75cb58d70e,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6572692990884511216, guid: 01b95fc90e89dab4095d4d75cb58d70e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -19692,11 +19674,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 8787337659098895529, guid: 01b95fc90e89dab4095d4d75cb58d70e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 55.899902
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
