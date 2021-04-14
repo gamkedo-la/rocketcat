@@ -59,7 +59,7 @@ public class SpawnWithForce : MonoBehaviour
             if (containedSpawned != null)
             {
                 newGO.transform.SetParent(containedSpawned);
-                newGO.transform.position = transform.position; // of the spawner
+                newGO.transform.position = containedSpawned.transform.position; // of the spawner
             }
             else
             {

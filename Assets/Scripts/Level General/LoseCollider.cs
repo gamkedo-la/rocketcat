@@ -9,8 +9,11 @@ public class LoseCollider : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            EnemyCountUpdate.instance.UpdateCounter(true);
-            Destroy(other.gameObject);
+            // don't kill the boss! only regular baddies
+            if (!other.gameObject.name.Contains("Boss")) {
+                EnemyCountUpdate.instance.UpdateCounter(true);
+                Destroy(other.gameObject);
+            }
         }
 
         if (!other.gameObject.CompareTag("Player"))
