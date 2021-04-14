@@ -6,7 +6,7 @@ public class DeathLaser : MonoBehaviour
 {
     public ParticleSystem myLaser;
 
-    private float effectiveRange = 24.0f;
+    private float effectiveRange = 15.0f;
     private float effectiveAngle = 45.0f;
     // Start is called before the first frame update
     void Start()
