@@ -8,6 +8,13 @@ public class SceneLoader : MonoBehaviour
 
     private int numOfScenesBeforeLevelsStart = 1;
 
+    // ugly hack to avoid connecting to every button or using a singleton just for this
+    public static int publicNumOfScenesBeforeLevelsStart = 0;
+    private void Start() {
+        publicNumOfScenesBeforeLevelsStart = numOfScenesBeforeLevelsStart;
+    }
+
+
     public void LoadNextScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -48,5 +55,4 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(numOfScenesBeforeLevelsStart + levelNum);
     }
-
 }
