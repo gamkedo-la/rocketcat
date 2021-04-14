@@ -10,7 +10,7 @@ public class CameraFollowBoss : MonoBehaviour
     public Transform introTransform;
     public float introDuration = 5f;
     public float introCameraFOV = 45f;
-    private float introFinalCameraFOV = 90f;
+    //private float introFinalCameraFOV = 90f;
     private float startTime = 0f;
     private float originalFOV = 90f;
     private Camera cam;
