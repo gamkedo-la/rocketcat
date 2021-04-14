@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DeathLaser : MonoBehaviour
 {
+    private float effectiveRange = 24.0f;
+    private float effectiveAngle = 45.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,20 @@ public class DeathLaser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Vector3 playerPos = PlayerController.instance.transform.position;
+        float distance = Vector3.Distance(transform.position, playerPos);
+
+        if (distance < effectiveRange)
+        {
+            float angleOffset = Mathf.Atan2(playerPos.y - transform.position.y, playerPos.x - transform.position.x) * Mathf.Rad2Deg;
+
+            float tiltOffset = Mathf.Atan2(transform.forward.y, transform.forward.x) * Mathf.Rad2Deg;
+            float angDif = Mathf.Abs(angleOffset - tiltOffset);
+            //Debug.Log(angDif);
+            if(angDif < effectiveAngle)
+            {
+                //Debug.Log("die");
+            }
+        }
     }
 }
