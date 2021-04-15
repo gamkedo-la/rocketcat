@@ -1193,6 +1193,7 @@ MonoBehaviour:
   pauseMenuUI: {fileID: 1300609328655105674}
   cheatMenuUI: {fileID: 2411363326198443134}
   optionsMenuUI: {fileID: 3663951838865536843}
+  isPauseMuted: 0
 --- !u!114 &4088254967645017087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2277,7 +2278,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1300609329480531483}
         m_MethodName: IsMuted
         m_Mode: 1
         m_Arguments:

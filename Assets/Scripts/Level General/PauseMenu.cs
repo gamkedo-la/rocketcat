@@ -13,7 +13,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject cheatMenuUI;
     public GameObject optionsMenuUI;
-
+    public bool isPauseMuted = false;
 
     private void Awake()
     {
@@ -85,5 +85,11 @@ public class PauseMenu : MonoBehaviour
         optionsMenuUI.SetActive(false);
     }
 
+    public void IsMuted()
+    {
+        isPauseMuted = !isPauseMuted;
+
+        AudioListener.pause = isPauseMuted;
+    }
 
 }

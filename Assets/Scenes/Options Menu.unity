@@ -3960,6 +3960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 1c327d7546378c54b9cd372e7fc3751c, type: 2}
+  isPauseMuted: 0
 --- !u!114 &969454510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5528,18 +5529,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1318460773 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 824643239280516298, guid: 19c3242c019cbed429e1ffd813bd5436,
-    type: 3}
-  m_PrefabInstance: {fileID: 1591644849}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bf2658e626c9484a9985980e11f8d32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1322355115
 GameObject:
   m_ObjectHideFlags: 0
@@ -8086,7 +8075,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1318460773}
+      - m_Target: {fileID: 969454509}
         m_MethodName: IsMuted
         m_Mode: 1
         m_Arguments:

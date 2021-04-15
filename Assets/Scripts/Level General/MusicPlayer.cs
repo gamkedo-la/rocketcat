@@ -42,13 +42,6 @@ public class MusicPlayer : MonoBehaviour
             AudioListener.pause = isMuted;
         }
     }
-
-
-    public void IsMuted()
-    {
-        isMuted = !isMuted;
-
-        AudioListener.pause = isMuted;
-    }
+  
 
 }
