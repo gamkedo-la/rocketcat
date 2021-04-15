@@ -46,6 +46,9 @@ MonoBehaviour:
   containedSpawned: {fileID: 0}
   prefabToSpawn: {fileID: 1997565794434713512, guid: 243fd95fd6d876f439a5e90852232213,
     type: 3}
+  prefabToSpawn2: {fileID: 1225538678641186146, guid: 19e82aded10b8954faa877e066b7ec7f,
+    type: 3}
+  shotsPerPrefab: 10
   minSpawnDelay: 0.25
   maxSpawnDelay: 2
   minForce: 200
@@ -99,6 +102,9 @@ MonoBehaviour:
   containedSpawned: {fileID: 0}
   prefabToSpawn: {fileID: 1997565794434713512, guid: 243fd95fd6d876f439a5e90852232213,
     type: 3}
+  prefabToSpawn2: {fileID: 1225538678641186146, guid: 19e82aded10b8954faa877e066b7ec7f,
+    type: 3}
+  shotsPerPrefab: 10
   minSpawnDelay: 0.25
   maxSpawnDelay: 2
   minForce: 200
@@ -152,6 +158,9 @@ MonoBehaviour:
   containedSpawned: {fileID: 0}
   prefabToSpawn: {fileID: 923274109363214607, guid: b1ad35750739936468d7d01a7f2bd7a4,
     type: 3}
+  prefabToSpawn2: {fileID: 701125087183863740, guid: e454f515972f93e43ab38f0a6d645d87,
+    type: 3}
+  shotsPerPrefab: 10
   minSpawnDelay: 1
   maxSpawnDelay: 2
   minForce: 100
@@ -269,6 +278,9 @@ MonoBehaviour:
   containedSpawned: {fileID: 0}
   prefabToSpawn: {fileID: 923274109363214607, guid: b1ad35750739936468d7d01a7f2bd7a4,
     type: 3}
+  prefabToSpawn2: {fileID: 701125087183863740, guid: e454f515972f93e43ab38f0a6d645d87,
+    type: 3}
+  shotsPerPrefab: 10
   minSpawnDelay: 1
   maxSpawnDelay: 2
   minForce: 100
@@ -356,6 +368,7 @@ GameObject:
   - component: {fileID: 1020236421011224693}
   - component: {fileID: 1235444874}
   - component: {fileID: 970253434817869889}
+  - component: {fileID: 6852968123398421057}
   - component: {fileID: 8167771601591354595}
   m_Layer: 0
   m_Name: Finale Boss
@@ -485,6 +498,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyParentAlso: 0
+--- !u!114 &6852968123398421057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904514225610070218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a8d274acc9db442a67106a769e93a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpSpeed: 3
+  jumpSize: 15
+  secondsPerJump: 4
+  secondsBetweenJumps: 15
 --- !u!114 &8167771601591354595
 MonoBehaviour:
   m_ObjectHideFlags: 0

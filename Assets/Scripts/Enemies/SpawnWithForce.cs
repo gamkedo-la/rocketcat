@@ -6,6 +6,8 @@ public class SpawnWithForce : MonoBehaviour
 {
     public Transform containedSpawned;
     public GameObject prefabToSpawn;
+    public GameObject prefabToSpawn2;
+    public int shotsPerPrefab = 10;
     public float minSpawnDelay = .2f;
     public float maxSpawnDelay = 1.0f;
     public float minForce = 100f;
@@ -13,6 +15,8 @@ public class SpawnWithForce : MonoBehaviour
     public float minReloadSpawnDelay = 3.0f;
     public float maxReloadSpawnDelay = 7.0f;
     public GameObject reloadCrateToSpawn;
+
+    private int shotsFired = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +34,17 @@ public class SpawnWithForce : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
-            GameObject newGO = GameObject.Instantiate(prefabToSpawn);
+            
+            GameObject newGO;
+            
+            shotsFired++;
+            
+            if ((shotsFired/shotsPerPrefab)%2==0) { // alternate
+                newGO = GameObject.Instantiate(prefabToSpawn);
+            } else {
+                newGO = GameObject.Instantiate(prefabToSpawn2);
+            }
+            
             if(containedSpawned != null)
             {
                 newGO.transform.SetParent(containedSpawned);
