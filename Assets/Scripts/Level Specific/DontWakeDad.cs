@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class DontWakeDad : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   // private int numRockets = 8;
+   // private int numSecs = 3;
+   // public GameObject mouthCannon; 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+
+
+
+
 }

@@ -4579,7 +4579,7 @@ PrefabInstance:
     - target: {fileID: 7077982095383094467, guid: 52c14492a5f67184683b5a2bf2dac836,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14
+      value: 14.94
       objectReference: {fileID: 0}
     - target: {fileID: 7077982095383094467, guid: 52c14492a5f67184683b5a2bf2dac836,
         type: 3}
@@ -10586,6 +10586,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sleeping Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 140290521405756080, guid: 00f5fe86529f17e4184d4f146d2de61a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 140290521405756086, guid: 00f5fe86529f17e4184d4f146d2de61a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00f5fe86529f17e4184d4f146d2de61a, type: 3}

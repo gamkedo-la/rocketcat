@@ -8,6 +8,11 @@ public class Destroyable : MonoBehaviour
 
   public void DestroySelf()
     {
+        if (CompareTag("Egg"))
+        {
+            Destroy(gameObject);
+            return;
+        }
         Destroyable[] spawnlingsToDestroy = GetComponentsInChildren<Destroyable>();
         for(int i = 0; i < spawnlingsToDestroy.Length; i++)
         {
@@ -21,9 +26,8 @@ public class Destroyable : MonoBehaviour
         {
             Destroy(transform.parent.gameObject);
         }
+        
         EnemyCountUpdate.instance.RemoveFromCounterNextFrame();
     }
     
-
-
 }
