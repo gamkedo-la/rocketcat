@@ -35,6 +35,7 @@ public class Cheats : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Backslash))
         {
             cheatsEnabled = !cheatsEnabled;

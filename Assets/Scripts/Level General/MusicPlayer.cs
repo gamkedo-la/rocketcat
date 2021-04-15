@@ -5,6 +5,7 @@ using UnityEngine;
 public class MusicPlayer : MonoBehaviour
 {
     private static MusicPlayer instance;
+    private bool isMuted = false;
 
     private void Awake()
     {
@@ -30,6 +31,15 @@ public class MusicPlayer : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            isMuted = !isMuted;
+
+            AudioListener.pause = isMuted;
+        }
+    }
 
 
 }

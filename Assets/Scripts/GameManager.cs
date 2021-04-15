@@ -10,9 +10,6 @@ public class GameManager : MonoBehaviour
     int sceneToLoad;
     public Animator transition;
 
-    //bool used for muting/unmuting the game
-    private bool isMuted = false;
-
 
     private void Awake()
     {
@@ -23,14 +20,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         instance = this;
-    }
-
-
-    void Update()
-    {
-        //if the player presses the M key, the ToggleMute function will run (used for muting/unmuting)
-        if(Input.GetKeyDown(KeyCode.M))
-        ToggleMute();
     }
 
 
@@ -61,17 +50,5 @@ public class GameManager : MonoBehaviour
     {
         WaitForSound();
     }
-
-
-
-  
-    //Will flip the current bool value for isMuted and then will pause or unpause the audiolistener based on the isMuted value
-    public void ToggleMute()
-    {
-        isMuted = !isMuted;
-
-        AudioListener.pause = isMuted;
-    }
-
 
 }
