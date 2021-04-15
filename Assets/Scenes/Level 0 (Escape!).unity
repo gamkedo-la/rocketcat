@@ -597,6 +597,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19c3242c019cbed429e1ffd813bd5436, type: 3}
+--- !u!114 &191006712 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 824643239280516298, guid: 19c3242c019cbed429e1ffd813bd5436,
+    type: 3}
+  m_PrefabInstance: {fileID: 191006711}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf2658e626c9484a9985980e11f8d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &232225464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1469,6 +1481,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 5767654774794686588, guid: 87539f4f43107824884fc9e195e83679,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 191006712}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87539f4f43107824884fc9e195e83679, type: 3}
 --- !u!1001 &816692862

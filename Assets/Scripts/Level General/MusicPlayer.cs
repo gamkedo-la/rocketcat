@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class MusicPlayer : MonoBehaviour
 {
     private static MusicPlayer instance;
-    private bool isMuted = false;
+
+    public bool isMuted = false;
 
     private void Awake()
     {
@@ -41,5 +43,12 @@ public class MusicPlayer : MonoBehaviour
         }
     }
 
+
+    public void IsMuted()
+    {
+        isMuted = !isMuted;
+
+        AudioListener.pause = isMuted;
+    }
 
 }
