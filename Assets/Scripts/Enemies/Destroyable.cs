@@ -41,6 +41,11 @@ public class Destroyable : MonoBehaviour
             EnemyCountUpdate.instance.RemoveFromCounterNextFrame();
         } else {
             Debug.Log(gameObject.name+" HP: "+HP);
+            EnemyBossFinaleDamageFlash flasher = GetComponentInChildren<EnemyBossFinaleDamageFlash>();
+            if (flasher)
+                flasher.DamageFlash();
+            else
+                Debug.Log("nothing to flash red!");
         }
     }
 }

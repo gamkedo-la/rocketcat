@@ -27,6 +27,6 @@ public class EnemyBossFinaleDamageFlash : MonoBehaviour
     {
         GetComponent<SkinnedMeshRenderer>().material = bossHurt;
         yield return new WaitForSeconds(bossTimeSpentFlashing);
-        GetComponent<MeshRenderer>().material = bossMat;
+        GetComponent<SkinnedMeshRenderer>().material = bossMat;
     }
 }
