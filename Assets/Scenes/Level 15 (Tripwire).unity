@@ -4115,6 +4115,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1454091786}
     m_Modifications:
+    - target: {fileID: 3827297980120492727, guid: cc8a50611cf105e44886d8080c639f7f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827297980120492727, guid: cc8a50611cf105e44886d8080c639f7f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827297980120492727, guid: cc8a50611cf105e44886d8080c639f7f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.41
+      objectReference: {fileID: 0}
     - target: {fileID: 6894032142794787983, guid: cc8a50611cf105e44886d8080c639f7f,
         type: 3}
       propertyPath: m_LocalScale.y
@@ -9652,60 +9667,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1454091786}
     m_Modifications:
-    - target: {fileID: 5546466754090593381, guid: cc8a50611cf105e44886d8080c639f7f,
-        type: 3}
-      propertyPath: EmissionModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6894032142794787983, guid: cc8a50611cf105e44886d8080c639f7f,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 6894032142794787983, guid: cc8a50611cf105e44886d8080c639f7f,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6894032142794787983, guid: cc8a50611cf105e44886d8080c639f7f,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574782280496641960, guid: cc8a50611cf105e44886d8080c639f7f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8686843476079775051, guid: cc8a50611cf105e44886d8080c639f7f,
         type: 3}
       propertyPath: m_Name
       value: Spotlight
       objectReference: {fileID: 0}
-    - target: {fileID: 8686843476079775051, guid: cc8a50611cf105e44886d8080c639f7f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8686843476079775052, guid: cc8a50611cf105e44886d8080c639f7f,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8686843476079775052, guid: cc8a50611cf105e44886d8080c639f7f,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8686843476079775052, guid: cc8a50611cf105e44886d8080c639f7f,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8686843476079775052, guid: cc8a50611cf105e44886d8080c639f7f,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8686843476079775052, guid: cc8a50611cf105e44886d8080c639f7f,
         type: 3}
@@ -9757,6 +9727,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4462828779983532007, guid: cc8a50611cf105e44886d8080c639f7f, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc8a50611cf105e44886d8080c639f7f, type: 3}
