@@ -163,6 +163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newSpawn: {fileID: 7979093487360889283}
-  prefabToSpawn: {fileID: 0}
+  prefabToSpawn: {fileID: 1225538678641186146, guid: 19e82aded10b8954faa877e066b7ec7f,
+    type: 3}
   minSpawnDelay: 2
   maxSpawnDelay: 5
+  destroyTime: 10
