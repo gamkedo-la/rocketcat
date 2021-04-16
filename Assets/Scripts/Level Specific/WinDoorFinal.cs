@@ -35,13 +35,13 @@ public class WinDoorFinal : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && EnemyCountUpdate.instance.AllEnemiesAreDefeated())
         {
-            if (FractalCoinCountUpdate.fractalCoinCount >= 1000)
+            if (FractalCoinCountUpdate.fractalCoinCount > 1000)
             {
                 AudioSource.PlayClipAtPoint(doorOpened, Camera.main.transform.position, soundVolume);
                 Destroy(other.gameObject);
                 SceneManager.LoadScene("Win Screen Best");
             }
-            if(FractalCoinCountUpdate.fractalCoinCount >= 500 && FractalCoinCountUpdate.fractalCoinCount < 1000)
+            if(FractalCoinCountUpdate.fractalCoinCount >= 500 && FractalCoinCountUpdate.fractalCoinCount <= 1000)
             {
                 AudioSource.PlayClipAtPoint(doorOpened, Camera.main.transform.position, soundVolume);
                 Destroy(other.gameObject);
