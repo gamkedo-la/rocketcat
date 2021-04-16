@@ -9,12 +9,6 @@ public class DeathLaser : MonoBehaviour
     private float effectiveRange = 15.0f;
     private float effectiveAngle = 45.0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
