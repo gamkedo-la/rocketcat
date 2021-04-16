@@ -75,6 +75,10 @@ public class ctkWobble : MonoBehaviour {
 		scalestartingZ=transform.localScale.z;
 
 	}
+
+    void onEnable() { // called at start AND after being re-enabled
+        Start(); // so we don't jump when the effect is turned back on
+    }
 	
 	// Update is called once per frame
 	void Update () {
