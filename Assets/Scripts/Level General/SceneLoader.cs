@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
 
-    private int numOfScenesBeforeLevelsStart = 1;
+    private int numOfScenesBeforeLevelsStart = 2;
 
     // ugly hack to avoid connecting to every button or using a singleton just for this
     public static int publicNumOfScenesBeforeLevelsStart = 0;
