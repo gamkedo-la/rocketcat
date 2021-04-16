@@ -60,6 +60,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 15 (Tripwire).unity
     guid: 263332c04c865ef47b4c3f89070698a3
   - enabled: 1
+    path: Assets/Scenes/Level 16 (Sleeping Dragons).unity
+    guid: f314b7dd61d6ccb45a5a745a764c2bcb
+  - enabled: 1
     path: Assets/Scenes/Level 17 (May The Force Fields Be With You).unity
     guid: 7eb7ec56dd934bc45927d8636a110fd8
   - enabled: 1
@@ -68,6 +71,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 19 (Color Outside The Lines).unity
     guid: eaa3b21a2d8b6ab46ac5e1d5bf3f2aec
+  - enabled: 1
+    path: Assets/Scenes/Level 21 (The Long Way Home).unity
+    guid: 4345b5d204400944f9e53a5df27b7715
   - enabled: 1
     path: Assets/Scenes/Level 22 (Boss Battle).unity
     guid: f294b82332288f84fb2bd4a4e370cf2c
