@@ -49,13 +49,14 @@ MonoBehaviour:
   prefabToSpawn2: {fileID: 1225538678641186146, guid: 19e82aded10b8954faa877e066b7ec7f,
     type: 3}
   shotsPerPrefab: 10
-  minSpawnDelay: 0.25
-  maxSpawnDelay: 2
+  minSpawnDelay: 0.5
+  maxSpawnDelay: 4
   minForce: 200
   maxForce: 800
   minReloadSpawnDelay: 3
   maxReloadSpawnDelay: 7
-  reloadCrateToSpawn: {fileID: 0}
+  reloadCrateToSpawn: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+    type: 3}
 --- !u!1 &2022991569808684418
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,13 +106,14 @@ MonoBehaviour:
   prefabToSpawn2: {fileID: 1225538678641186146, guid: 19e82aded10b8954faa877e066b7ec7f,
     type: 3}
   shotsPerPrefab: 10
-  minSpawnDelay: 0.25
-  maxSpawnDelay: 2
+  minSpawnDelay: 0.5
+  maxSpawnDelay: 4
   minForce: 200
   maxForce: 800
   minReloadSpawnDelay: 3
   maxReloadSpawnDelay: 7
-  reloadCrateToSpawn: {fileID: 0}
+  reloadCrateToSpawn: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+    type: 3}
 --- !u!1 &2240087827491661810
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,16 +160,16 @@ MonoBehaviour:
   containedSpawned: {fileID: 0}
   prefabToSpawn: {fileID: 923274109363214607, guid: b1ad35750739936468d7d01a7f2bd7a4,
     type: 3}
-  prefabToSpawn2: {fileID: 701125087183863740, guid: e454f515972f93e43ab38f0a6d645d87,
+  prefabToSpawn2: {fileID: 8623470384722821152, guid: efc5ca89b3bb8a74e841a761e58f2989,
     type: 3}
   shotsPerPrefab: 10
-  minSpawnDelay: 1
+  minSpawnDelay: 0.5
   maxSpawnDelay: 2
-  minForce: 100
-  maxForce: 600
+  minForce: 500
+  maxForce: 500
   minReloadSpawnDelay: 5
   maxReloadSpawnDelay: 7
-  reloadCrateToSpawn: {fileID: 8285619749590963233, guid: e0f9b6b1f91b3dd47af912681cdd490b,
+  reloadCrateToSpawn: {fileID: 701125087183863740, guid: e454f515972f93e43ab38f0a6d645d87,
     type: 3}
 --- !u!111 &1161834359
 Animation:
@@ -278,7 +280,7 @@ MonoBehaviour:
   containedSpawned: {fileID: 0}
   prefabToSpawn: {fileID: 923274109363214607, guid: b1ad35750739936468d7d01a7f2bd7a4,
     type: 3}
-  prefabToSpawn2: {fileID: 701125087183863740, guid: e454f515972f93e43ab38f0a6d645d87,
+  prefabToSpawn2: {fileID: 8623470384722821152, guid: efc5ca89b3bb8a74e841a761e58f2989,
     type: 3}
   shotsPerPrefab: 10
   minSpawnDelay: 1
@@ -287,7 +289,8 @@ MonoBehaviour:
   maxForce: 600
   minReloadSpawnDelay: 3
   maxReloadSpawnDelay: 7
-  reloadCrateToSpawn: {fileID: 0}
+  reloadCrateToSpawn: {fileID: 701125087183863740, guid: e454f515972f93e43ab38f0a6d645d87,
+    type: 3}
 --- !u!1 &7892534950210986490
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,6 +503,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyParentAlso: 0
   HP: 1
+  spawnOnHit: {fileID: 0}
+  spawnOnDestroy: {fileID: 4810846397863368287, guid: 71f52dbd076001a4e93c49d56155ea61,
+    type: 3}
 --- !u!114 &6852968123398421057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,8 +518,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a8d274acc9db442a67106a769e93a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpSpeed: 3
-  jumpSize: 15
+  jumpSpeed: 4
+  jumpSize: 12
   secondsPerJump: 4
   secondsBetweenJumps: 15
 --- !u!114 &8167771601591354595
@@ -622,7 +628,7 @@ PrefabInstance:
     - target: {fileID: 4810846397863368287, guid: 71f52dbd076001a4e93c49d56155ea61,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f52dbd076001a4e93c49d56155ea61, type: 3}

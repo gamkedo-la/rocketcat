@@ -8,10 +8,16 @@ public class Destroyable : MonoBehaviour
 
     public int HP = 1;
 
+    public GameObject spawnOnHit;
+    public GameObject spawnOnDestroy;
+    
     public void DestroySelf() // called every time an explosion touches this
     {
         HP--;
         if (HP<1) {
+
+            if (spawnOnDestroy) Instantiate(spawnOnDestroy, transform.position, Quaternion.identity);
+
             // next three lines used in level 16 for destroyed eggs
             EggsDestroyed eggScript = gameObject.GetComponent<EggsDestroyed>();
             if (eggScript)
@@ -36,8 +42,11 @@ public class Destroyable : MonoBehaviour
             }
             
             EnemyCountUpdate.instance.RemoveFromCounterNextFrame();
-        } else {
+        
+        } else { // not dead yet
+        
             Debug.Log(gameObject.name+" HP: "+HP);
+            if (spawnOnHit) Instantiate(spawnOnHit, transform.position, Quaternion.identity);
             EnemyBossFinaleDamageFlash flasher = GetComponentInChildren<EnemyBossFinaleDamageFlash>();
             if (flasher)
                 flasher.DamageFlash();
