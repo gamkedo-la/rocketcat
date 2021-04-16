@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EggsDestroyed : MonoBehaviour
 {
-    public Transform eggSpawn;
     public static EggsDestroyed instance;
     public GameObject warperToSpawn;
 
@@ -12,13 +11,13 @@ public class EggsDestroyed : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MakeWarpers();
+        //MakeWarpers();
     }
 
 
     public void DestroyEggs()
     {
-        //MakeWarpers();
+        MakeWarpers();
         Destroy(gameObject);
     }
 
@@ -27,15 +26,15 @@ public class EggsDestroyed : MonoBehaviour
     {
         {
             GameObject newGO = GameObject.Instantiate(warperToSpawn);
-            if (eggSpawn != null)
+            if (newGO != null)
             {
-                newGO.transform.SetParent(eggSpawn);
-                newGO.transform.position = eggSpawn.transform.position;
+                newGO.transform.SetParent(null);
+                newGO.transform.position = transform.position;
                 EnemyCountUpdate.instance.EnemyIncrease();
             }
             else
             {
-                Debug.Log("Please set contained spawn");
+                Debug.Log("Object failed to spawn");
             }
         }
     }

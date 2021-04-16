@@ -13,15 +13,12 @@ public class Destroyable : MonoBehaviour
         HP--;
         if (HP<1) {
             // next three lines used in level 16 for destroyed eggs
-            GameObject foundObj = GameObject.FindGameObjectWithTag("Egg");
-            if (foundObj) { // can be blank!!!
-                EggsDestroyed eggScript = foundObj.GetComponent<EggsDestroyed>();
-                if (CompareTag("Egg"))
-                {
-                    eggScript.MakeWarpers();
-                    Destroy(gameObject);
-                    return;
-                }
+            EggsDestroyed eggScript = gameObject.GetComponent<EggsDestroyed>();
+            if (eggScript)
+            {
+                eggScript.MakeWarpers();
+                Destroy(gameObject);
+                return;
             }
             //spawnlings used in level 4 to fix bug with spawners
             Destroyable[] spawnlingsToDestroy = GetComponentsInChildren<Destroyable>();
