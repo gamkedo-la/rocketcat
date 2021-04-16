@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -5630,6 +5630,12 @@ PrefabInstance:
       propertyPath: HP
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 970253434817869889, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: spawnOnHit
+      value: 
+      objectReference: {fileID: 4810846397863368287, guid: 6ae66f0b7a6ea7c4689c1c5408112a2b,
+        type: 3}
     - target: {fileID: 1179797909466377829, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
         type: 3}
       propertyPath: m_RootOrder
@@ -5725,6 +5731,11 @@ PrefabInstance:
       propertyPath: bossHurt
       value: 
       objectReference: {fileID: 2100000, guid: 4e8e51dca45b2654c88f540018f1b911, type: 2}
+    - target: {fileID: 8167771601591354595, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: speedY
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8904514225610070218, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
         type: 3}
       propertyPath: m_Name
@@ -25575,7 +25586,7 @@ PrefabInstance:
     - target: {fileID: 3580285632915472085, guid: 44a534f86cf86f34cb1ab08fb238ef63,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3580285632915472089, guid: 44a534f86cf86f34cb1ab08fb238ef63,
         type: 3}

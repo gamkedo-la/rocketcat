@@ -503,6 +503,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyParentAlso: 0
   HP: 1
+  spawnOnHit: {fileID: 0}
+  spawnOnDestroy: {fileID: 4810846397863368287, guid: 71f52dbd076001a4e93c49d56155ea61,
+    type: 3}
 --- !u!114 &6852968123398421057
 MonoBehaviour:
   m_ObjectHideFlags: 0
