@@ -24,18 +24,12 @@ public class EggsDestroyed : MonoBehaviour
 
     public void MakeWarpers()
     {
+        for (int i = 0; i < 2; i++)
         {
             GameObject newGO = GameObject.Instantiate(warperToSpawn);
-            if (newGO != null)
-            {
-                newGO.transform.SetParent(null);
-                newGO.transform.position = transform.position;
-                EnemyCountUpdate.instance.EnemyIncrease();
-            }
-            else
-            {
-                Debug.Log("Object failed to spawn");
-            }
+            newGO.transform.SetParent(null);
+            newGO.transform.position = transform.position;
+            EnemyCountUpdate.instance.EnemyIncrease();
         }
     }
 }
