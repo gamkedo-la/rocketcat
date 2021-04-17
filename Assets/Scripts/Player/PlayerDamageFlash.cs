@@ -28,9 +28,9 @@ public class PlayerDamageFlash : MonoBehaviour
     IEnumerator StartDamageFlash()
     {
         invulnTime = true;
-        GetComponent<MeshRenderer>().material = playerHurt;
+        GetComponent<SkinnedMeshRenderer>().material = playerHurt;
         yield return new WaitForSeconds(timeSpentFlashing);
-        GetComponent<MeshRenderer>().material = playerMat;
+        GetComponent<SkinnedMeshRenderer>().material = playerMat;
         //Flashing time is half invulnerability time- this makes a more generous time window while preserving 
         //the right flashing time window
         yield return new WaitForSeconds(timeSpentFlashing);
