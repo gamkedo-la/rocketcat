@@ -6738,17 +6738,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 453819193}
     m_Modifications:
-    - target: {fileID: 970253434817869889, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
-        type: 3}
-      propertyPath: HP
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 970253434817869889, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
-        type: 3}
-      propertyPath: spawnOnHit
-      value: 
-      objectReference: {fileID: 4810846397863368287, guid: 6ae66f0b7a6ea7c4689c1c5408112a2b,
-        type: 3}
     - target: {fileID: 1179797909466377829, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
         type: 3}
       propertyPath: m_RootOrder
@@ -6824,41 +6813,11 @@ PrefabInstance:
       propertyPath: containedSpawned
       value: 
       objectReference: {fileID: 423927143}
-    - target: {fileID: 5446862712954330779, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
-        type: 3}
-      propertyPath: reloadCrateToSpawn
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6054511770940467371, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6793474652016969662, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
         type: 3}
       propertyPath: containedSpawned
       value: 
       objectReference: {fileID: 423927143}
-    - target: {fileID: 6862953693050455628, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
-        type: 3}
-      propertyPath: bossHurt
-      value: 
-      objectReference: {fileID: 2100000, guid: 4e8e51dca45b2654c88f540018f1b911, type: 2}
-    - target: {fileID: 8167771601591354595, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
-        type: 3}
-      propertyPath: speedX
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8167771601591354595, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
-        type: 3}
-      propertyPath: speedY
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8167771601591354595, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
-        type: 3}
-      propertyPath: magnitudeX
-      value: 40
-      objectReference: {fileID: 0}
     - target: {fileID: 8904514225610070218, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
         type: 3}
       propertyPath: m_Name
