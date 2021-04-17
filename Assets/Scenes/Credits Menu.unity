@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -230,7 +230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &685983005
 RectTransform:
   m_ObjectHideFlags: 0
@@ -364,7 +364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &687838148
 RectTransform:
   m_ObjectHideFlags: 0
@@ -779,7 +779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -942,8 +942,8 @@ Camera:
   m_GameObject: {fileID: 1288260780}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1121,8 +1121,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.55949, y: -203.62009}
-  m_SizeDelta: {x: 921.90393, y: 642.2877}
+  m_AnchoredPosition: {x: 0.4, y: 8.4}
+  m_SizeDelta: {x: 1847.1332, y: 1145.1072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1365689143
 MonoBehaviour:
@@ -1137,17 +1137,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8d545e5f48872744b81dbe188fc9157e, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 50
     m_Alignment: 0
@@ -1156,8 +1156,34 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Jeremiah Franczyk\nMcFunkyPants\nTCFunk\nGabriel Cornish\nMarcel\nCharlene
-    A. \nLuke Piazza \nBrandon Trumpold\nChris Deleon\nOneSeedFruit \n"
+  m_Text: "\u2022 Jeremiah Franczyk: Project lead, core gameplay, primary level designer,
+    player controller, rocket launcher mechanics, level functionality, visual direction,
+    enemy grunt model, camera code, sounds (rocket, mech walking, UI, warper), main
+    UI, layout arrows, rendering pipeline fixes, assorted bug fixes, level flasher
+    functionality, item logic, warper enemy, level backgrounds, checkpoints, shieldmaiden
+    deflection, obstacle logic (crushers, sawblades, warp gates, gravity wells, tractor
+    beams, portals, pop bumpers), win screens, warper eggs\n\u2022 Christer \"McFunkypants\"
+    Kaitila: Title menu backgrounds, fire trail effects, player motion trail, particle
+    improvements, lighting tweaks, applied game palette for consistency, volumetric
+    dust, grunt laser effect, pascal's triangle collectible art, tech platform texture,
+    environment decals (ladder, light, bolt, panel), boss fight fires, pug boss,
+    warp gate effect, background tint support, webGL build repair, death beam, final
+    boss intro cinematic, final boss implementation, final boss particles, level
+    24\n\u2022 Muhammed \"EyeForcz\" Durmusoglu: Flying mech model, warp monster
+    with animations, heart item art, saw blade art, final boss art, dash and walk
+    animations, additional boss attacks, player cat art, animations for flying mech
+    and heart item\n\u2022 Luke Piazza: Level design (12 and 19), additional design
+    contributions (stages 8, 10, 20), mute functionality, saw script\n\u2022 Gabriel
+    Cornish: Player rocket launcher, reload powerup model, scifi door model, check
+    point prefab, HUD UI adjustments\n\u2022 Tyler Funk: Mech model rig, IK constraints,
+    grunt animation, shield maiden art and rigging\n\u2022 Marcel van Dijk: Floating
+    bubble effect, glowing shader, alien rocket launcher, additional debug cheats,
+    color material\n\u2022 Charlene A.: Cheat code for unlimited rockets, mech alert
+    animation\n\u2022 Randy Tan Shaoxian: Invulnerability cheat, gravity cheat\n\u2022
+    Caitlyn Holley: 2D art for cat character, storyboard 2D art\n\u2022 Brandon:
+    Projectiles collide with player and obstacles, health working\n\u2022 Chris DeLeon:
+    Level name shows when moused over in menu, rocket UI image\n\u2022 Ryan Gaillard:
+    Pause key\n\nCreated by members of HomeTeamGameDev.com Apollo group!"
 --- !u!222 &1365689144
 CanvasRenderer:
   m_ObjectHideFlags: 0
