@@ -2437,8 +2437,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -71, y: 139}
-  m_SizeDelta: {x: 498.3225, y: 220.94391}
+  m_AnchoredPosition: {x: 714.5, y: 148.2}
+  m_SizeDelta: {x: 581.5477, y: 301.73785}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &2032721668
 SpriteRenderer:
@@ -2510,7 +2510,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.20392157}
     m_HighlightedColor: {r: 1, g: 0.21176471, b: 0.54901963, a: 1}
     m_PressedColor: {r: 0.61960787, g: 0, b: 0.3647059, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
