@@ -996,7 +996,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 31540c00c309763489e251685b49fd49, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 440822514, guid: 249641afedfa4ce4abe694020fb52f03, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 249641afedfa4ce4abe694020fb52f03, type: 3}
 --- !u!4 &432658837 stripped
 Transform:
@@ -4353,6 +4354,12 @@ PrefabInstance:
       propertyPath: bossHurt
       value: 
       objectReference: {fileID: 2100000, guid: 4e8e51dca45b2654c88f540018f1b911, type: 2}
+    - target: {fileID: 6835032204998469955, guid: 5edfb897c9e167c4291b08513928ddc2,
+        type: 3}
+      propertyPath: prefabToSpawn2
+      value: 
+      objectReference: {fileID: 1997565794434713512, guid: 243fd95fd6d876f439a5e90852232213,
+        type: 3}
     - target: {fileID: 6835032204998469955, guid: 5edfb897c9e167c4291b08513928ddc2,
         type: 3}
       propertyPath: containedSpawned
