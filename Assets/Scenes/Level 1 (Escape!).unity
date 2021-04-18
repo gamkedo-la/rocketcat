@@ -597,18 +597,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19c3242c019cbed429e1ffd813bd5436, type: 3}
---- !u!114 &191006712 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 824643239280516298, guid: 19c3242c019cbed429e1ffd813bd5436,
-    type: 3}
-  m_PrefabInstance: {fileID: 191006711}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bf2658e626c9484a9985980e11f8d32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &232225464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1481,11 +1469,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause Menu
       objectReference: {fileID: 0}
-    - target: {fileID: 5767654774794686588, guid: 87539f4f43107824884fc9e195e83679,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 191006712}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87539f4f43107824884fc9e195e83679, type: 3}
 --- !u!1001 &816692862
@@ -2180,7 +2163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &915360407
 Transform:
   m_ObjectHideFlags: 0
@@ -2845,6 +2828,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 758564781, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1173071286, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2852,6 +2839,11 @@ PrefabInstance:
     - target: {fileID: 1173071288, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660915510785363593, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952355183954392412, guid: 01b95fc90e89dab4095d4d75cb58d70e,
         type: 3}
@@ -2992,6 +2984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6967423371662091802, guid: 01b95fc90e89dab4095d4d75cb58d70e,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}

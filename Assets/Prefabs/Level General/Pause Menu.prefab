@@ -1207,6 +1207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 1c327d7546378c54b9cd372e7fc3751c, type: 2}
+  isPauseMuted: 0
 --- !u!1 &1519685821040104030
 GameObject:
   m_ObjectHideFlags: 0
@@ -2278,7 +2279,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1300609329480531483}
+      - m_Target: {fileID: 4088254967645017087}
         m_MethodName: IsMuted
         m_Mode: 1
         m_Arguments:
