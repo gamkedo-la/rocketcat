@@ -3282,6 +3282,7 @@ Transform:
   - {fileID: 2044495731}
   - {fileID: 2055923080}
   - {fileID: 553520035}
+  - {fileID: 2080007665}
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3731,6 +3732,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket Reload Powerup (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
       propertyPath: m_RootOrder
@@ -3739,12 +3745,12 @@ PrefabInstance:
     - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24
+      value: -6.37
       objectReference: {fileID: 0}
     - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -2.11
       objectReference: {fileID: 0}
     - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
@@ -5028,6 +5034,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket Reload Powerup (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
       propertyPath: m_RootOrder
@@ -5088,12 +5099,6 @@ PrefabInstance:
 --- !u!4 &1690013885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1690013884}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1690013886 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
     type: 3}
   m_PrefabInstance: {fileID: 1690013884}
   m_PrefabAsset: {fileID: 0}
@@ -6711,6 +6716,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket Reload Powerup (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
         type: 3}
       propertyPath: m_RootOrder
@@ -6852,6 +6862,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108303894997661948, guid: 067ff75529b2b154e96f23f9c5b1f834,
     type: 3}
   m_PrefabInstance: {fileID: 2069111526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2080007664
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1178877568}
+    m_Modifications:
+    - target: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_Name
+      value: Rocket Reload Powerup (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b9d8592faf9804c8f7be6df574d3f0, type: 3}
+--- !u!4 &2080007665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8030310191845451966, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2080007664}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2116946891 stripped
 Transform:
@@ -7009,7 +7094,38 @@ PrefabInstance:
         type: 3}
       propertyPath: reloadCrateToSpawn
       value: 
-      objectReference: {fileID: 1690013886}
+      objectReference: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
+    - target: {fileID: 1997861754502432798, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_Text
+      value: BOSS @@@@@@@@@@@@@@@@@@@@
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997861754502432798, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997861754502432798, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997861754502432798, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997861754502432798, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997861754502432798, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_FontData.m_AlignByGeometry
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2240087827491661810, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
         type: 3}
       propertyPath: m_IsActive
@@ -7035,6 +7151,12 @@ PrefabInstance:
       propertyPath: containedSpawned
       value: 
       objectReference: {fileID: 423927143}
+    - target: {fileID: 5446862712954330779, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: reloadCrateToSpawn
+      value: 
+      objectReference: {fileID: 8030310191845451955, guid: 96b9d8592faf9804c8f7be6df574d3f0,
+        type: 3}
     - target: {fileID: 5704932970286622474, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
         type: 3}
       propertyPath: m_UiScaleMode
@@ -7045,6 +7167,26 @@ PrefabInstance:
       propertyPath: containedSpawned
       value: 
       objectReference: {fileID: 423927143}
+    - target: {fileID: 7361496672168380419, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_Text
+      value: BOSS @@@@@@@@@@@@@@@@@@@@
+      objectReference: {fileID: 0}
+    - target: {fileID: 7361496672168380419, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7361496672168380419, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7361496672168380419, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8904514225610070218, guid: 5a24b3ac04dd39f47ba64c94d14374dc,
         type: 3}
       propertyPath: m_Name
@@ -32253,7 +32395,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 758564779, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 758564780, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
       propertyPath: m_SizeDelta.y
@@ -32262,6 +32404,10 @@ PrefabInstance:
     - target: {fileID: 758564780, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -340.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 758564781, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1474103806, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
       propertyPath: m_AnchoredPosition.x

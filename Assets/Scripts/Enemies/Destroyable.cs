@@ -53,7 +53,7 @@ public class Destroyable : MonoBehaviour
             if (healthbarText) {
                 string hearts = "BOSS ";
                 for (int n=0; n<HP; n++) {
-                    hearts = hearts + "♥";
+                    hearts = hearts + "@";
                 }
                 healthbarText.text = hearts;
                 Debug.Log("NEW BOSS HP TEXT:"+hearts);
