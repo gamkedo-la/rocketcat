@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
     public static PlayerController instance;
     public GameObject rocketLauncher;
     public GameObject alienRocketLauncher;
+
+    public GameObject rocketCatModel;
+    public GameObject rocketCatModelFlipped; 
    
     private Rigidbody2D rb;
     public Rigidbody2D Rb
@@ -118,10 +121,15 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey("d") || Input.GetKey("right"))
         {
             rb.velocity += new Vector2(hSpeed, 0.0f);
+            rocketCatModel.SetActive(true);
+            rocketCatModelFlipped.SetActive(false);
         }
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
+
             rb.velocity += new Vector2(-hSpeed, 0.0f);
+            rocketCatModel.SetActive(false);
+            rocketCatModelFlipped.SetActive(true);
         }
 
         if (rb.gravityScale == 0) 
