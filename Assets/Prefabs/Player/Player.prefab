@@ -19811,7 +19811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rocketCatModel: {fileID: 4792772028540266118}
   playerHurt: {fileID: 2100000, guid: 2a5c772c4e3fe4b418d622b2c9355518, type: 2}
-  invulnTime: 1
+  invulnTime: 0
 --- !u!1 &4798933407910576963
 GameObject:
   m_ObjectHideFlags: 0
@@ -25972,7 +25972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rocketCatModel: {fileID: 7373237343398566226}
   playerHurt: {fileID: 2100000, guid: 2a5c772c4e3fe4b418d622b2c9355518, type: 2}
-  invulnTime: 1
+  invulnTime: 0
 --- !u!1 &7395689237490712742
 GameObject:
   m_ObjectHideFlags: 0

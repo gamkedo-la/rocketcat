@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -15034,27 +15034,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 693191139}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2088098837 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4792772028540266118, guid: bfe8a4892f5e0ab40a7a634e3b22386c,
-    type: 3}
-  m_PrefabInstance: {fileID: 2851346441705455763}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2088098838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088098837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1293886ea9918bf44bf0b43daf2ae579, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rocketCatModel: {fileID: 2088098837}
-  playerHurt: {fileID: 2100000, guid: 2a5c772c4e3fe4b418d622b2c9355518, type: 2}
-  invulnTime: 1
 --- !u!1001 &2089007746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15923,7 +15902,7 @@ PrefabInstance:
     - target: {fileID: 3415518679822572479, guid: bfe8a4892f5e0ab40a7a634e3b22386c,
         type: 3}
       propertyPath: invulnTime
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4633620795944315222, guid: bfe8a4892f5e0ab40a7a634e3b22386c,
         type: 3}
