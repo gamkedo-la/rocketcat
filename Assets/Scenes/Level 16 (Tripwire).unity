@@ -7748,6 +7748,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -354.6
       objectReference: {fileID: 0}
+    - target: {fileID: 758564781, guid: 01b95fc90e89dab4095d4d75cb58d70e, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4952355183954392412, guid: 01b95fc90e89dab4095d4d75cb58d70e,
         type: 3}
       propertyPath: m_text
