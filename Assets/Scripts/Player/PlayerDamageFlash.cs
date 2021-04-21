@@ -7,16 +7,23 @@ public class PlayerDamageFlash : MonoBehaviour
     public static PlayerDamageFlash instance;
 
     Material playerMat;
-    public GameObject rocketCatModel;
+    public GameObject rocketCatModelRight;
+    public GameObject rocketCatModelLeft;
     [SerializeField] Material playerHurt;
     private float timeSpentFlashing = 0.5f;
     public bool invulnTime = false;
+
+    private SkinnedMeshRenderer catRight;
+    private SkinnedMeshRenderer catLeft;
+
 
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
-        playerMat = gameObject.GetComponent<Renderer>().material;
+        catRight = rocketCatModelRight.GetComponent<SkinnedMeshRenderer>();
+        catLeft = rocketCatModelLeft.GetComponent<SkinnedMeshRenderer>();
+        playerMat = rocketCatModelRight.GetComponent<Renderer>().material;
     }
 
     //called by Health script when RocketCat is harmed in the DealDamage function
@@ -28,9 +35,11 @@ public class PlayerDamageFlash : MonoBehaviour
     IEnumerator StartDamageFlash()
     {
         invulnTime = true;
-        GetComponent<SkinnedMeshRenderer>().material = playerHurt;
+        catLeft.material = playerHurt;
+        catRight.material = playerHurt;
         yield return new WaitForSeconds(timeSpentFlashing);
-        GetComponent<SkinnedMeshRenderer>().material = playerMat;
+        catLeft.material = playerMat;
+        catRight.material = playerMat;
         //Flashing time is half invulnerability time- this makes a more generous time window while preserving 
         //the right flashing time window
         yield return new WaitForSeconds(timeSpentFlashing);
