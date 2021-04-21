@@ -29,6 +29,10 @@ public class EnemyBossAI : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1.5f);
+            if(PlayerController.instance == null)
+            {
+                continue;
+            }
             Vector3 towards = (PlayerController.instance.transform.position - transform.position);
             float dist = towards.magnitude;
             if (dist < visionRange)
