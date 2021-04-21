@@ -9846,7 +9846,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.028774261, y: 0.010878801}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9874,6 +9874,7 @@ MonoBehaviour:
   deathDelay: 1
   explosionPrefab: {fileID: 6028776025102727169, guid: 48c2af8bf225e124dac27affb5c36c2c,
     type: 3}
+  waitTilRocketLive: 1
 --- !u!50 &3079226394390493571
 Rigidbody2D:
   serializedVersion: 4
